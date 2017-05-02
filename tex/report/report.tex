@@ -1,0 +1,30 @@
+\documentclass[]{report}
+
+
+% Title Page
+\title{Report}
+\author{Julian Nowainski}
+
+
+\begin{document}
+\maketitle
+
+\section*{Handschuh und Daten}
+Die Daten die mir der Handschuh liefert, setzen sich wie folgt zusammen:
+\begin{enumerate}
+\item Tactileglove: 64 Sensordaten ueber die Handflaeche verteilt
+\item Cyberglove: 18 Sensordaten zur Erkennung der Handpose
+\end{enumerate}
+Weiterhin haben wir uns jetzt noch dazu entschieden, die Position der Hand im Raum zu tracken und dafuer das Vicon System zu benutzen. \\
+Damit haetten wir fuer die Klassifikationsaufgabe sehr hohe Dimensionen: 82 vom Handschuh direkt plus die Vicon Daten. Da dies zu Problemen fuehren wird, muss ein geeignetes Preprocessing stattfinden
+
+\section*{Preprocessing}
+In diesem Abschnitt geht es darum, geeignete Preprocessing Verfahren zu diskutieren, darunter fallen die Aufbereitung der aufgenommenen Daten, feature extraction und die Fusion multimodaler Daten.
+
+\subsection*{Aufbereitung}
+Die Daten werden von unterschiedlichen Quellen, moeglichst zeitgleich aufgenommen. Dabei muessen die Daten mit timestamps versehen werden. Weiterhin hat jede Quelle eine eigene Abtastrate, so wird Vicon mit bis zu 200Hz aufnehmen koennen und Cyberglove/Tactileglove mit ca. 100Hz und 150Hz. Hier muessen die Daten linear interpoliert werden.
+
+\subsection*{Feature extraction}
+
+
+\end{document}          
