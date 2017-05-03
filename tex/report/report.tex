@@ -1,5 +1,7 @@
 \documentclass[]{report}
 
+\usepackage[utf8]{inputenc}
+
 
 % Title Page
 \title{Report}
@@ -12,19 +14,31 @@
 \section*{Handschuh und Daten}
 Die Daten die mir der Handschuh liefert, setzen sich wie folgt zusammen:
 \begin{enumerate}
-\item Tactileglove: 64 Sensordaten ueber die Handflaeche verteilt
+\item Tactileglove: 64 Sensordaten über die Handfläche verteilt
 \item Cyberglove: 18 Sensordaten zur Erkennung der Handpose
 \end{enumerate}
-Weiterhin haben wir uns jetzt noch dazu entschieden, die Position der Hand im Raum zu tracken und dafuer das Vicon System zu benutzen. \\
-Damit haetten wir fuer die Klassifikationsaufgabe sehr hohe Dimensionen: 82 vom Handschuh direkt plus die Vicon Daten. Da dies zu Problemen fuehren wird, muss ein geeignetes Preprocessing stattfinden
+Weiterhin haben wir uns jetzt noch dazu entschieden, die Position der Hand im Raum zu tracken und dafür das Vicon System zu benutzen. \\
+Damit hätten wir für die Klassifikationsaufgabe sehr hohe Dimensionen: 82 vom Handschuh direkt plus die Vicon Daten. Da dies zu Problemen führen wird, muss ein geeignetes Preprocessing stattfinden
 
 \section*{Preprocessing}
 In diesem Abschnitt geht es darum, geeignete Preprocessing Verfahren zu diskutieren, darunter fallen die Aufbereitung der aufgenommenen Daten, feature extraction und die Fusion multimodaler Daten.
 
 \subsection*{Aufbereitung}
-Die Daten werden von unterschiedlichen Quellen, moeglichst zeitgleich aufgenommen. Dabei muessen die Daten mit timestamps versehen werden. Weiterhin hat jede Quelle eine eigene Abtastrate, so wird Vicon mit bis zu 200Hz aufnehmen koennen und Cyberglove/Tactileglove mit ca. 100Hz und 150Hz. Hier muessen die Daten linear interpoliert werden.
+Die Daten werden von unterschiedlichen Quellen, möglichst zeitgleich aufgenommen. Dabei müssen die Daten mit timestamps versehen werden. Weiterhin hat jede Quelle eine eigene Abtastrate, so wird Vicon mit bis zu 200Hz aufnehmen können und Cyberglove/Tactileglove mit ca. 100Hz und 150Hz. Hier wäre lineares Interpolieren sinnvoll.
 
 \subsection*{Feature extraction}
+Für time-series existieren verschiedene Ansätze für Feature extraction:
+\begin{enumerate}
+\item simple statistical features
+\item frequency related features
+\item time-series analysis related features
+\end{enumerate}
+Die statistischen Features beziehen sich dabei auf Mittelwerte, Standardabweichungen, Schiefe sowie Max/Min Werte der jeweiligen Dimensionen. Interessant in diesem Kontext wäre zu wissen, ob diese simplen Features bei $>84$ Dimensionen ausreichend sind, um gute Ergebnisse zu liefern. Voraussetzung wäre, dass die multimodalen Daten miteinander verrechenbar sind \\ \\
+Der zweite Ansatz bezieht sich auf den Frequenzraum der Zeitserie. Dabei gibt es die populären Ansätze Discrete Wavelet Transform(DWT) und Discrete Fourier Transform(DFT). Die Idee bei der Auswahl der Feature ist, die Koeffizienten der Zeitserie in der Wavelet/Fourier Dekomposition auszuwählen, um die Dimension zu reduzieren. Es existieren auch noch weitere Ansätze, wo es um die Auswahl der besten Koeffizienten geht (energy preservation). \\
+Hier wäre die Frage, wie nützlich diese Verfahren, und die gewonnenen Features, für eine Klassifikation sind.\\\\
+Der dritte Ansatz bezieht sich auf die Zeitserie selber. Möglich wäre es, die Cross-correlation oder Cross-Covariance zwischen den einzelnen Zeitschritten zu bestimmen.\\
+Weiterhin gibt es auch noch die Möglichkeit, mittels autoregressive models (AR), moving average models(MA) oder der kombination (ARMA) zu arbeiten. Die Idee dahinter ist, dass wir unsere Zeitserie mit Parametern, einem Rauschmodell und dem Wissen der vorherigen Periode bestimmen. Diese Modelle eignen sich möglicherweise nur für kurze Zeitreihen, da sie nur approximieren.\\\\
+Andere Modelle wären: LASSO und elastic net, die sich jedoch
 
 
 \end{document}          
