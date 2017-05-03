@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.8.27)  3 MAY 2017 11:40
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.8.27)  3 MAY 2017 13:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -264,32 +264,43 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [1]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 36.
+(Font)              <7> on input line 41.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 36.
+(Font)              <5> on input line 41.
 
-Underfull \hbox (badness 10000) in paragraph at lines 36--42
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 36--42
+Underfull \hbox (badness 10000) in paragraph at lines 41--48
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 36--42
+Underfull \hbox (badness 10000) in paragraph at lines 41--48
 
  []
 
-[1] [2] (./report.aux) ) 
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--48
+
+ []
+
+
+Overfull \hbox (31.3339pt too wide) in paragraph at lines 50--58
+\OT1/cmr/m/n/10 Hier ist die Idee, gegebene Zeit-se-rien zu ver-gle-ichen und e
+ine op-ti-male []Ubereinstimmung
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--58
+
+ []
+
+[2] [3] (./report.aux) ) 
 Here is how much of TeX's memory you used:
- 455 strings out of 493304
- 4524 string characters out of 6139871
+ 456 strings out of 493304
+ 4532 string characters out of 6139871
  59008 words of memory out of 5000000
- 3975 multiletter control sequences out of 15000+600000
+ 3976 multiletter control sequences out of 15000+600000
  7587 words of font info for 27 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  23i,6n,17p,471b,181s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -298,10 +309,10 @@ nts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10
 .pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></
 usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on report.pdf (3 pages, 63266 bytes).
+Output written on report.pdf (4 pages, 67949 bytes).
 PDF statistics:
- 34 PDF objects out of 1000 (max. 8388607)
- 23 compressed objects within 1 object stream
+ 37 PDF objects out of 1000 (max. 8388607)
+ 25 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

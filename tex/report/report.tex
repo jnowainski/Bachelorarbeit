@@ -26,6 +26,11 @@ In diesem Abschnitt geht es darum, geeignete Preprocessing Verfahren zu diskutie
 \subsection*{Aufbereitung}
 Die Daten werden von unterschiedlichen Quellen, möglichst zeitgleich aufgenommen. Dabei müssen die Daten mit timestamps versehen werden. Weiterhin hat jede Quelle eine eigene Abtastrate, so wird Vicon mit bis zu 200Hz aufnehmen können und Cyberglove/Tactileglove mit ca. 100Hz und 150Hz. Hier wäre lineares Interpolieren sinnvoll.
 
+\subsection*{Fusion multimodaler Daten}
+Bei diesem Thema steht noch die Frage der Herangehensweise offen. Da wir unterschiedliche Daten aufnehmen, sprich Taktile-, Handposen- und Positionsdaten, müssen diese auf irgendeine Weise kombiniert werden. Es gibt Verfahren für die Fusion multimodaler Daten (Kalmann Filtern, Fuzzy logic), jedoch konnte ich nicht herausfinden, ob die Outputs dieser Verfahren geeignet dafür sind, sie für eine Zeitserien Klassifikation zu benutzen.\\
+Ein anderer Ansatz wäre, anstatt die Daten zu fusionieren, eine multivariate time-series zu klassifizieren. Das heißt, es gibt mehrere Zeitserien parallel (Also Tactile Zeitserie, Posendaten Zeitserie und Positionsdaten Zeitserie) und repräsentiert diese in Form einer Trend-basierten und Value-basierten Kombination (TVA). Auf dieser TVA kann eine feature extraction durchgeführt und diese klassifiziert werden.\\
+Allerdings bin ich mir hierbei noch unschlüssig, was sinnvoller und praktischer wäre, und wie genau man die vom Handschuh und der Vicon gegeben Daten fusionieren kann.
+
 \subsection*{Feature extraction}
 Für time-series existieren verschiedene Ansätze für Feature extraction:
 \begin{enumerate}
@@ -35,10 +40,20 @@ Für time-series existieren verschiedene Ansätze für Feature extraction:
 \end{enumerate}
 Die statistischen Features beziehen sich dabei auf Mittelwerte, Standardabweichungen, Schiefe sowie Max/Min Werte der jeweiligen Dimensionen. Interessant in diesem Kontext wäre zu wissen, ob diese simplen Features bei $>84$ Dimensionen ausreichend sind, um gute Ergebnisse zu liefern. Voraussetzung wäre, dass die multimodalen Daten miteinander verrechenbar sind \\ \\
 Der zweite Ansatz bezieht sich auf den Frequenzraum der Zeitserie. Dabei gibt es die populären Ansätze Discrete Wavelet Transform(DWT) und Discrete Fourier Transform(DFT). Die Idee bei der Auswahl der Feature ist, die Koeffizienten der Zeitserie in der Wavelet/Fourier Dekomposition auszuwählen, um die Dimension zu reduzieren. Es existieren auch noch weitere Ansätze, wo es um die Auswahl der besten Koeffizienten geht (energy preservation). \\
-Hier wäre die Frage, wie nützlich diese Verfahren, und die gewonnenen Features, für eine Klassifikation sind.\\\\
+Hier wäre die Frage, wie nützlich diese Verfahren und die gewonnenen Features für eine Klassifikation sind.\\\\
 Der dritte Ansatz bezieht sich auf die Zeitserie selber. Möglich wäre es, die Cross-correlation oder Cross-Covariance zwischen den einzelnen Zeitschritten zu bestimmen.\\
 Weiterhin gibt es auch noch die Möglichkeit, mittels autoregressive models (AR), moving average models(MA) oder der kombination (ARMA) zu arbeiten. Die Idee dahinter ist, dass wir unsere Zeitserie mit Parametern, einem Rauschmodell und dem Wissen der vorherigen Periode bestimmen. Diese Modelle eignen sich möglicherweise nur für kurze Zeitreihen, da sie nur approximieren.\\\\
-Andere Modelle wären: LASSO und elastic net, die sich jedoch
+Andere Modelle wären: LASSO, Elastic Net und PCA, wobei sich die ersten beiden jedoch auf eine Regression beziehen.
+Für PCA braucht man unabhängige Beobachtungen, was in einer Zeitserie nur schwer realisierbar ist.
 
+\section*{Classification}
+Da die vom Handschuh und den Versuchspersonen aufgenommenen Trainingsdaten label besitzen werden, wird die Klassifikationsaufgabe für die Zeitserie supervised-learning sein.\\
+Das wohl gängigste Modell hierfür ist das HMM, es basiert auf einem einfachen bayes Netz. \\
+Ein weiteres gefundenes Verfahren nennt sich Dynamic Time Warping (DTA). Hier ist die Idee, gegebene Zeitserien zu vergleichen und eine optimale Übereinstimmung zu finden, auch wenn die Zeitserien in ihrer Geschwindigkeit variieren.
+\\
+Eine andere Möglichkeit wäre, Zeitserien mittels neuronalen Netzwerken zu klassifizieren. Die Frage ist, welches Neuronale Netzwerk ausgewählt werden müsste. Unter den Rekurrenten Neuronalen Netzen gibt es z.B. das Echo state network, das zeitliche Muster reproduzieren kann.
+\\\\
+Als Fazit kann man behaupten, dass es für Zeitserien viele unterschiedliche Möglichkeiten der Klassifizierung gibt, die ebenso auf vielen unterschiedlichen Arten von Zeitserien funktionieren können. Hier muss noch mehr Recherche betrieben werden. Im Endeffekt müsste man auch mehrere Modelle ausprobieren und herausfinden, welches besser geeignet ist. \\
+Die Auswahl des Modells wird natürlich auch von der Art des preprocessing mitbestimmt.
 
 \end{document}          
