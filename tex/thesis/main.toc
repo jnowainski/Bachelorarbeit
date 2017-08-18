@@ -8,22 +8,23 @@
 \contentsline {section}{\numberline {1.2}Goals}{1}{section.6}
 \contentsline {chapter}{\numberline {2}Haptic Search Experiment}{3}{chapter.7}
 \contentsline {section}{\numberline {2.1}Haptic Search Experiment}{3}{section.8}
-\contentsline {section}{\numberline {2.2}Hardware}{3}{section.9}
-\contentsline {subsection}{\numberline {2.2.1}Modular Haptic Stimulus Board}{3}{subsection.10}
-\contentsline {subsection}{\numberline {2.2.2}Glove}{3}{subsection.11}
-\contentsline {subsection}{\numberline {2.2.3}Vicon}{3}{subsection.12}
-\contentsline {section}{\numberline {2.3}Setting}{3}{section.13}
-\contentsline {chapter}{\numberline {3}Data Generation and Analysis}{5}{chapter.14}
-\contentsline {section}{\numberline {3.1}Data Structure and Requirements}{5}{section.15}
-\contentsline {section}{\numberline {3.2}Recording}{5}{section.16}
-\contentsline {section}{\numberline {3.3}Postprocessing Vicon Data}{5}{section.17}
-\contentsline {section}{\numberline {3.4}Synchronizing Data and Generating Labels}{5}{section.18}
-\contentsline {subsection}{\numberline {3.4.1}Synchronizing Glove Data and Vicon Data}{5}{subsection.19}
-\contentsline {subsection}{\numberline {3.4.2}Generating Labels}{5}{subsection.20}
-\contentsline {section}{\numberline {3.5}Analyzing the Data}{5}{section.21}
-\contentsline {chapter}{\numberline {4}Model and Training}{7}{chapter.22}
-\contentsline {section}{\numberline {4.1}Model}{7}{section.23}
-\contentsline {section}{\numberline {4.2}Preprocessing}{7}{section.24}
-\contentsline {section}{\numberline {4.3}Training}{7}{section.25}
-\contentsline {chapter}{\numberline {5}Evaluation}{9}{chapter.26}
-\contentsline {chapter}{\numberline {6}Discussion}{11}{chapter.27}
+\contentsline {subsection}{\numberline {2.1.1}Experimental Setup}{3}{subsection.9}
+\contentsline {subsection}{\numberline {2.1.2}Execution}{3}{subsection.10}
+\contentsline {section}{\numberline {2.2}Hardware}{4}{section.11}
+\contentsline {subsection}{\numberline {2.2.1}Glove}{4}{subsection.12}
+\contentsline {subsection}{\numberline {2.2.2}Vicon}{4}{subsection.13}
+\contentsline {subsection}{\numberline {2.2.3}Setting}{4}{subsection.14}
+\contentsline {chapter}{\numberline {3}Data Generation and Analysis}{5}{chapter.15}
+\contentsline {section}{\numberline {3.1}Data Structure and Requirements}{5}{section.16}
+\contentsline {section}{\numberline {3.2}Recording}{5}{section.17}
+\contentsline {section}{\numberline {3.3}Postprocessing Vicon Data}{5}{section.18}
+\contentsline {section}{\numberline {3.4}Synchronizing Data and Generating Labels}{5}{section.19}
+\contentsline {subsection}{\numberline {3.4.1}Synchronizing Glove Data and Vicon Data}{5}{subsection.20}
+\contentsline {subsection}{\numberline {3.4.2}Generating Labels}{5}{subsection.21}
+\contentsline {section}{\numberline {3.5}Analyzing the Data}{5}{section.22}
+\contentsline {chapter}{\numberline {4}Model and Training}{7}{chapter.23}
+\contentsline {section}{\numberline {4.1}Model}{7}{section.24}
+\contentsline {section}{\numberline {4.2}Preprocessing}{7}{section.25}
+\contentsline {section}{\numberline {4.3}Training}{7}{section.26}
+\contentsline {chapter}{\numberline {5}Evaluation}{9}{chapter.27}
+\contentsline {chapter}{\numberline {6}Discussion}{11}{chapter.28}
