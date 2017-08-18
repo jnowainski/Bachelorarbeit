@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.8.27)  18 AUG 2017 16:05
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.8.27)  18 AUG 2017 18:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1787,13 +1787,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--19
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 21--26
+Underfull \hbox (badness 10000) in paragraph at lines 21--28
 
  []
 
-)
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--28
+
+ []
+
 1: section
-[3] [4]
+[3]) [4]
 \openout2 = `Chapters/3Data.aux'.
 
  (./Chapters/3Data.tex
@@ -1868,7 +1872,7 @@ f-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/p
 alatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr
 i8a.pfb>
-Output written on main.pdf (19 pages, 90598 bytes).
+Output written on main.pdf (19 pages, 91656 bytes).
 PDF statistics:
  263 PDF objects out of 1000 (max. 8388607)
  234 compressed objects within 3 object streams
