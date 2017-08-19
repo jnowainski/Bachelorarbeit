@@ -13,18 +13,18 @@
 \contentsline {section}{\numberline {2.2}Hardware}{4}{section.11}
 \contentsline {subsection}{\numberline {2.2.1}Glove}{4}{subsection.12}
 \contentsline {subsection}{\numberline {2.2.2}Vicon}{4}{subsection.13}
-\contentsline {subsection}{\numberline {2.2.3}Setting}{4}{subsection.14}
-\contentsline {chapter}{\numberline {3}Data Generation and Analysis}{5}{chapter.15}
-\contentsline {section}{\numberline {3.1}Data Structure and Requirements}{5}{section.16}
-\contentsline {section}{\numberline {3.2}Recording}{5}{section.17}
-\contentsline {section}{\numberline {3.3}Postprocessing Vicon Data}{5}{section.18}
-\contentsline {section}{\numberline {3.4}Synchronizing Data and Generating Labels}{5}{section.19}
-\contentsline {subsection}{\numberline {3.4.1}Synchronizing Glove Data and Vicon Data}{5}{subsection.20}
-\contentsline {subsection}{\numberline {3.4.2}Generating Labels}{5}{subsection.21}
-\contentsline {section}{\numberline {3.5}Analyzing the Data}{5}{section.22}
-\contentsline {chapter}{\numberline {4}Model and Training}{7}{chapter.23}
-\contentsline {section}{\numberline {4.1}Model}{7}{section.24}
-\contentsline {section}{\numberline {4.2}Preprocessing}{7}{section.25}
-\contentsline {section}{\numberline {4.3}Training}{7}{section.26}
-\contentsline {chapter}{\numberline {5}Evaluation}{9}{chapter.27}
-\contentsline {chapter}{\numberline {6}Discussion}{11}{chapter.28}
+\contentsline {subsection}{\numberline {2.2.3}Setting}{5}{subsection.14}
+\contentsline {chapter}{\numberline {3}Data Generation and Analysis}{7}{chapter.15}
+\contentsline {section}{\numberline {3.1}Data Structure and Requirements}{7}{section.16}
+\contentsline {section}{\numberline {3.2}Recording}{7}{section.17}
+\contentsline {section}{\numberline {3.3}Postprocessing Vicon Data}{7}{section.18}
+\contentsline {section}{\numberline {3.4}Synchronizing Data and Generating Labels}{7}{section.19}
+\contentsline {subsection}{\numberline {3.4.1}Synchronizing Glove Data and Vicon Data}{7}{subsection.20}
+\contentsline {subsection}{\numberline {3.4.2}Generating Labels}{7}{subsection.21}
+\contentsline {section}{\numberline {3.5}Analyzing the Data}{7}{section.22}
+\contentsline {chapter}{\numberline {4}Model and Training}{9}{chapter.23}
+\contentsline {section}{\numberline {4.1}Model}{9}{section.24}
+\contentsline {section}{\numberline {4.2}Preprocessing}{9}{section.25}
+\contentsline {section}{\numberline {4.3}Training}{9}{section.26}
+\contentsline {chapter}{\numberline {5}Evaluation}{11}{chapter.27}
+\contentsline {chapter}{\numberline {6}Discussion}{13}{chapter.28}

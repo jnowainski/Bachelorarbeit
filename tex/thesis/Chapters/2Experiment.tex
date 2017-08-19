@@ -25,8 +25,26 @@ For the procedure, each participant was given a description of the task \textcol
 The first task was to explore the target object on the small frame and remembering it just by its haptic features. When collected enough information about the target stimulus, the subject should proceed to the big frame and search for the learned target. The only goal in this part was to remember the approximate position of the target and not saying that it was found or pointing at it, so the recorded data would not contain pauses or pointing postures.\\
 It was not necessary to find every target shape in the big frame, just as many as one could. The time was limited to 30 seconds to guarantee that the focus lies only on the salient features. An acoustic signal by the examiner determined the start- and endpoint of the experiment.\\
 The second part of the experiment was to figure out if the subjects found the target object between the non-target objects, called distractors, and how well they could remember the approximate position on the frame. Again an acoustic signal determined start and end of the trial. For the second part, the subjects had just 10 seconds left to find the targets and point on them. The short period of time was set to prevent the subjects from exploring too much of the frame and focusing only on the smallest set of haptic features that were sufficient enough to differentiate between target and distractor.\\
+
+%----------------------------------------------------------------------------------------
 \section{Hardware}
+In this section the used hardware will be described as well as the overall setting that was used to record the data for the experiment.\\
+There will be first a brief description of the glove that was used to capture tactile relevant and hand posture data followed by a description of the Vicon system to capture position data in a three-dimensional environment. At the end the implementation of the hardware into the experimental setting is explained.
 
 \subsection{Glove}
+A detailed explanation of the underlying technical properties and its implementation into the glove can be found in the work of Bianchi \textcolor{red}{[Refernce to the journal paper]}.\\
+\\
+To record data for this experiment, a device was needed that would be able to capture the most relevant patterns underlying a haptic search task. These so called exploratory features (EPs) describe the behavior of the hand during the exploration \textcolor{red}{[refernce to EP paper]}. Furthermore a device for recording the tactile properties was needed.\\
+The multi-modal sensing glove combines both of these features. On the bottom side of the glove 64 tactile cells are mounted, covering hand palm and fingers. These fabric-based sensors record local pressures with a frequency of 150 Hz. The top side consists of 18 bending sensors, used to capture the joint angles representing the hand pose with a frequency of 50 Hz \textcolor{red}{[See fig. of glove]}.
+ 
 \subsection{Vicon}
+For capturing the position of the hand and the MHSB, the Vicon system was used. It records motion data with a frequency of 200 Hz, using retroreflective markers that are tracked by infrared cameras \textcolor{red}{[reference to vicon]}.\\
+Also included is a Basler camera, generating a top-down view for the experiment.
+
 \subsection{Setting}
+To record motion data from the subjects hand, 17 reflective markers has been placed on an extra glove that the participant wears atop of the multi-modal one. The markers were placed in a position \textcolor{red}{as seen in figure XYZ} to guarantee a good reconstruction of the finger and hand movements.\\
+The most time-consuming part was to find a setting of the Vicon cameras that would capture the reflective markers continuously, making sure to minimize the occurrence of gaps. The result \textcolor{red}{is seen in figure xyz}. There were 17 Vicon cameras placed in a semicircle around the MHSB. The Basler camera was placed directly above the frames. As an addition, there were 2 cameras placed on the left and right side to record also the side-view of the experiment.\\
+The glove was connected via USB and serial-port to a nearby computer. A second computer controlled the Vicon system. To simultanetly start the recording, a synchronising tool called MSS was used \textcolor{red}{[see chapter 3.2 recording]}.
+
+
+ 
