@@ -4,19 +4,46 @@
 
 \label{Data} % For referencing the chapter elsewhere, use \ref{Chapter1} 
 %----------------------------------------------------------------------------------------
+This chapter addresses the methods and efforts to tackle the task of data generation as well as labeling the huge amount of data that was recorded.\\
+It was the most time-consuming part of this work, since it involved a lot of postprocessing and data cleansing work that was necessary due to the multi-modality of the recording devices and capturing data with different frequencies with various data formats which also were partly unsynchronized. Furthermore methods are explained that were used to label the generated data mostly automatically, based on position data of the hand and the MHSB, as well as a representation of the distribution of the stimuli objects on the frames.
 
-\begin{text}
-Dieses Kapitel beinhaltet den größten Teil meiner Arbeit. Alles zum Nachbearbeiten der Daten kommt in dieses Kapitel. Frage zur Struktur, den Forderungen, das Aufnehmen mit MSS und ROS, posptrocessing von Vicon, Synchronisiserung der Vicon Daten mit ROS und das halb-automatische Generieren von labeln sowie eine erste Analyse der fertigen Daten.
-\end{text}
-
+%----------------------------------------------------------------------------------------
 \section{Data Structure and Requirements}
-
+The data in this experiment was recorded with multiple devices, including the Vicon system, the 2 parts of the glove as well as 3 cameras, generating side- and top-views. To be able to train a classifier with supervised learning, there were a number of requirements to the data:
+\begin{enumerate}
+\item Simultaneous data acquisition
+\begin{itemize}
+\item Capturing all devices at the same time will facilitate upcoming processing steps
+\end{itemize}
+\item Postprocessing raw data
+\begin{itemize}
+\item To be able to work with the data, raw data needs to be processed and all files need to be in the same format
+\end{itemize}
+\item Synchronizing the time-series
+\begin{itemize}
+\item Delays in the data acquisition and different device frequencies make this step necessary
+\end{itemize}
+\item Generating the labels
+\begin{itemize}
+\item For supervised learning, the whole dataset needs to be labeled
+\end{itemize}
+\end{enumerate}
+%----------------------------------------------------------------------------------------
 \section{Recording}
-
+To record the data of all devices preferably at the same time and with giving just one start signal, a tool called Multiple Start Synchronizer (MSS) was used. MSS sends a trigger signal to all registered devices which makes them start and stop capturing data.\\
+The Vicon and Basler camera data were captured directly within the Vicon Nexus program. For the glove, data was recorded as rosbag consisting of two topics for each part of the glove. Side-view camera images were captured directly as image files.\\
+\\
+Despite using MSS, there were still delays among the different devices that had to be synchronized separately. 
+%----------------------------------------------------------------------------------------
 \section{Postprocessing Vicon Data}
+The first step in the pipeline was to postprocess the Vicon data. In this procedure, a three-dimensional hand model with marker positions was fitted to an image of the subjects hand, \textcolor{red}{see figure xyz(fitting and reconstruct)}. This model was then used to reconstruct the hand movement during the experiment to approximate marker positions that occurred during gaps in the recording when no camera captured a marker \textcolor{red}{see right side of figure xyz}.\\
+\\
+The resulting file contains a time-series of the x-,y- and z-position of each marker. Furthermore a file with the joint-angles was generated.
+%----------------------------------------------------------------------------------------
+\section{Generating Labels}
 
-\section{Synchronizing Data and Generating Labels}
-\subsection{Synchronizing Glove Data and Vicon Data}
-\subsection{Generating Labels}
+\subsection{Synchronizing Glove and Vicon Data}
+\subsection{Representing Glove and Objects}
+\subsection{title}
 
 \section{Analyzing the Data}
