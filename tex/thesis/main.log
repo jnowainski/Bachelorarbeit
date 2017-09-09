@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.8)  9 SEP 2017 22:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.8)  9 SEP 2017 23:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1909,12 +1909,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 54--58
  []
 
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 63--81
+Underfull \hbox (badness 10000) in paragraph at lines 63--84
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 63--81
+Underfull \hbox (badness 10000) in paragraph at lines 63--84
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--84
 
  []
 
@@ -1972,7 +1977,7 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Here is how much of TeX's memory you used:
  31241 strings out of 494953
  621947 string characters out of 6180978
- 729065 words of memory out of 5000000
+ 731065 words of memory out of 5000000
  34136 multiletter control sequences out of 15000+600000
  39857 words of font info for 74 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -1991,7 +1996,7 @@ exmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
 w/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/u
 plri8a.pfb>
-Output written on main.pdf (23 pages, 172823 bytes).
+Output written on main.pdf (23 pages, 174207 bytes).
 PDF statistics:
  325 PDF objects out of 1000 (max. 8388607)
  284 compressed objects within 3 object streams
