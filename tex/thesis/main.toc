@@ -21,8 +21,8 @@
 \contentsline {section}{\numberline {3.4}Generating Labels}{8}{section.23}
 \contentsline {subsection}{\numberline {3.4.1}Synchronizing Glove and Vicon Data}{8}{subsection.27}
 \contentsline {subsection}{\numberline {3.4.2}Representing Glove and Objects}{9}{subsection.28}
-\contentsline {subsection}{\numberline {3.4.3}Finding Labels}{9}{subsection.29}
-\contentsline {section}{\numberline {3.5}Analyzing the Data}{9}{section.30}
+\contentsline {subsection}{\numberline {3.4.3}Finding Labels}{10}{subsection.29}
+\contentsline {section}{\numberline {3.5}Analyzing the Data}{10}{section.30}
 \contentsline {chapter}{\numberline {4}Model and Training}{11}{chapter.31}
 \contentsline {section}{\numberline {4.1}Model}{11}{section.32}
 \contentsline {section}{\numberline {4.2}Preprocessing}{11}{section.33}

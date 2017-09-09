@@ -3,6 +3,7 @@
 \chapter{Data Generation and Analysis} % Main chapter title
 
 \label{Data} % For referencing the chapter elsewhere, use \ref{Chapter1} 
+
 %----------------------------------------------------------------------------------------
 This chapter addresses the methods and efforts to tackle the task of data generation as well as labeling the huge amount of data that was recorded.\\
 It was the most time-consuming part of this work, since it involved a lot of postprocessing and data cleansing work that was necessary due to the multi-modality of the recording devices and capturing data with different frequencies with various data formats which also were partly unsynchronized. Furthermore methods are explained that were used to label the generated data mostly automatically, based on position data of the hand and the MHSB, as well as a representation of the distribution of the stimuli objects on the frames.
@@ -50,7 +51,7 @@ With 7 subjects participating in up to 5 trials each, and a time series containi
 \end{enumerate}
 
 \subsection{Synchronizing Glove and Vicon Data}
-A problem that occurred during the acquisition was the delay between starting the Vicon system and the glove recording. Although sending a trigger signal to both systems at the same time, the glove started capturing data approximately 3 to 5 seconds later. Additionally the beginning of the Vicon data had to be cut by 100 to 1000 frames for postprocessing reasons. Fitting the three-dimensional model was only successful when the markers of the first frames had a nearly perfect plane position. As a consequence, an offset had to be defined pointing to the beginning of the Vicon time series because the data only contains a timestamp describing the beginning of the recording. On the other hand the recorded rosbags from the glove came with a timestamp for each sample.\\
+A problem that occurred during the acquisition was the delay between starting the Vicon system and the glove recording. Although sending a trigger signal to both systems at the same time, the glove started capturing data approximately 3 to 5 seconds later. Additionally the beginning of the Vicon data had to be cut by 100 to 1000 frames for postprocessing reasons. Fitting the three-dimensional model was only successful if the markers of the first frames had a nearly perfect plane position. As a consequence, an offset had to be defined pointing to the beginning of the Vicon time series because the data only contains a timestamp describing the beginning of the recording. On the other hand the recorded rosbags from the glove came with a timestamp for each sample.\\
 Since the frequency of the tactile glove with 150 Hz is lower than the frequency of Vicon with 200 Hz, the trajectory data should be reduced to the length of the tactile glove.\\
 \\
 Consider we have two time series $V = \{v_{t} \mid t\in T_{V}\}$ and $G = \{g_{t} \mid t\in T_{G}\}$ describing the set for the Vicon data and glove data. The set of timestamps $T_{G}$ was given for the tactile data and consisting of unix time values. For $T_{V}$ the timestamps had to be calculated for each sample from the initial timestamp, the offset and the frequency. \\
@@ -59,8 +60,26 @@ $V' = \{v_{t} \mid \forall g_{t_{g}} \in G \exists v_{t_{v}} \in V : t_{v} \geq 
 \end{center}
 This new time series has now equal length to $G$ and each time value from $V'$ matches exactly one time value from the time series $G$.
 \subsection{Representing Glove and Objects}
-The core idea behind this program was to use the hands trajectories and approximated object positions to detect which object was covered by the hand during which time. Having the trajectory data given, the only thing that had to be done manually was the object distribution. For this, a representation of the board was generated in form of a matrix $B \in \mathbb{R}^{10 \times 10}$ for each trial. In this representation, $b_{11} \in \Omega=\{0,..,5\}$ would be the top left object and from there rows and columns were generated accordingly where $\Omega$ is the set of labels. To decrease the number of false-positives, only explored objects were considered in this representation.\\
-The next level was to represent this information in a coordinate system by generating polygons for each object in $ B $ to embody the MHSB. Since only the top corners of the boards were assembled with markers, the positions for respective corners of the polygons had to be calculated based on this.   $ \mu_{top\_left} $
+The core idea behind this program was to use the hands trajectories and approximated object positions to detect which object was covered by the hand during which time. Having the trajectory data given, the only thing that had to be done manually was the object distribution. For this, a representation of the board was generated in form of a matrix $B \in \mathbb{R}^{10 \times 10}$ for each trial. In this representation, $b_{11} \in \Omega=\{0,..,5\}$ would be the top left object and from there rows and columns were generated accordingly where $\Omega$ is the set of labels. To decrease the number of false-positives, only explored objects were considered in this representation.(\textcolor{red}{see fig. with rep next to picture of MHSB})\\
+The next level was to represent this information in a coordinate system by generating polygons for each object in $ B $ to embody the MHSB. Since only the top corners of the boards were assembled with markers, the positions for respective corners of the polygons had to be calculated based on this. First for each object $ b_{ij} \in B $ a polygon $ P_{ij} = \begin{pmatrix}a & b \\ c & d\end{pmatrix} $ was created where each element describes the x- and y-position of a corner. In the second step, this polygon was represented as its center position $ z = \begin{pmatrix}
+z_{x} \\ z_{y}
+\end{pmatrix}$. The result is a matrix $B' = \begin{pmatrix}
+z_{11} & \hdots & z_{1n} \\
+\vdots & \ddots & \vdots \\
+z_{n1} & \hdots & z_{nn}
+\end{pmatrix}$
+that represents every object in $ B $ through a position.\\
+The remaining problem was that we used the top left position of the bigger frame as a base to build our polygons using a step size corresponding to the edge length of the stimuli. As a result, the represented board was placed parallel to the x- and y-axis into the coordinate system. Because this did not match the real setting, the matrix $ B' $ had to be rotated. For this the actual angle $ \alpha $ between the vector $\vec{t} = \mu_{tr} - \mu_{tl}$, where $\mu_{tl}$ is the mean position of the top left corner and $\mu_{tr}$ the mean position of the top right corner,  and the x-axis had to be calculated to build a rotation matrix $ R_{\alpha} $. The angle $\alpha$ describes the angle with whom we need to rotate the representation so that the orientation of $ B' $ matches the one in the real setting. The final matrix for the stimuli representation is $ B''  = \begin{pmatrix}
+ R_{\alpha}z_{11} & \hdots &  R_{\alpha}z_{1n} \\
+\vdots & \ddots & \vdots \\
+ R_{\alpha}z_{n1} & \hdots &  R_{\alpha}z_{nn}
+\end{pmatrix}$.\\
+\\
+\\
+With $ B'' $ a matrix was now given that could be used for assigning objects, or in this case their labels, to hand positions. But in order to do this, a representation for the hand had to be thought of. For now, the hand consisted of 17 trajectories, one for each marker. \\
+A first approach was to use a convex hull $ H_{c} $ of the hand as seen in figure \textcolor{red}{(figure with shapes representing hand)} and check for each time step in $ V' $ if $ H_{c} $ contained points $ p \in B'' $. This idea was discarded quickly because the seize of the convex hull was to large, resulting in multiple possible objects $ p $ for each time step. Furthermore it was computationally costly since for every step the whole matrix $ B'' $ had to be checked for contained points. This led to an extension of $ B'' $ to save its elements in a k-d-tree.       
+ 
+  
 
 \subsection{Finding Labels}
 %----------------------------------------------------------------------------------------
