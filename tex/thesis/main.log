@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.8)  11 SEP 2017 00:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.8)  11 SEP 2017 01:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2012,6 +2012,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 88--93
 [10]
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
 put line 95.
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--118
+
+ []
+
 ) [11]
 \openout2 = `Chapters/4Training.aux'.
 
@@ -2085,7 +2090,7 @@ texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/u
 rw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/
 uplri8a.pfb>
-Output written on main.pdf (25 pages, 181910 bytes).
+Output written on main.pdf (25 pages, 182823 bytes).
 PDF statistics:
  337 PDF objects out of 1000 (max. 8388607)
  294 compressed objects within 3 object streams

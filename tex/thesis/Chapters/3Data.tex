@@ -112,6 +112,9 @@ For debugging purpose, the program also includes a simple visualization tool to 
 \end{algorithm}
 
 
+A small addition was made after the first few observations. As a result of using only the center of the polygon, small noise in the position led to false labels when the center appeared to be closer to a neighbor object. To fix this problem, and additional parameter $ \gamma $ was added describing an attraction variable. If the same label occurs consecutively, meaning an object is explored for some duration, $ \gamma $ increases. When then the label changes, but the old one is still near, the algorithm will stick to the previous one while decreasing $ \gamma $. This ensures to avoid gaps of false labels.\\
+\\
+After generating the label vectors for the trials, almost no additional work had to be done manually. However if the data was too noisy, few gaps had to filled by hand with the help of the visualization tool or good guessing.
 
 %----------------------------------------------------------------------------------------
 \section{Analyzing the Data}
