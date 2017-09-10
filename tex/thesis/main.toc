@@ -22,10 +22,10 @@
 \contentsline {subsection}{\numberline {3.4.1}Synchronizing Glove and Vicon Data}{8}{subsection.27}
 \contentsline {subsection}{\numberline {3.4.2}Representing Glove and Objects}{9}{subsection.28}
 \contentsline {subsection}{\numberline {3.4.3}Finding Labels}{10}{subsection.29}
-\contentsline {section}{\numberline {3.5}Analyzing the Data}{10}{section.30}
-\contentsline {chapter}{\numberline {4}Model and Training}{11}{chapter.31}
-\contentsline {section}{\numberline {4.1}Model}{11}{section.32}
-\contentsline {section}{\numberline {4.2}Preprocessing}{11}{section.33}
-\contentsline {section}{\numberline {4.3}Training}{11}{section.34}
-\contentsline {chapter}{\numberline {5}Evaluation}{13}{chapter.35}
-\contentsline {chapter}{\numberline {6}Discussion}{15}{chapter.36}
+\contentsline {section}{\numberline {3.5}Analyzing the Data}{11}{section.31}
+\contentsline {chapter}{\numberline {4}Model and Training}{13}{chapter.32}
+\contentsline {section}{\numberline {4.1}Model}{13}{section.33}
+\contentsline {section}{\numberline {4.2}Preprocessing}{13}{section.34}
+\contentsline {section}{\numberline {4.3}Training}{13}{section.35}
+\contentsline {chapter}{\numberline {5}Evaluation}{15}{chapter.36}
+\contentsline {chapter}{\numberline {6}Discussion}{17}{chapter.37}
