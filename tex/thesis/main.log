@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.8)  17 SEP 2017 16:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.22)  19 SEP 2017 10:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **main.tex
 (./main.tex
 LaTeX2e <2016/02/01>
-Babel <3.9q> and hyphenation patterns for 3 language(s) loaded.
+Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
 (./MastersDoctoralThesis.cls
 Document Class: MastersDoctoralThesis 2016/11/22 v1.5 LaTeXTemplates.com
 (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
@@ -219,8 +219,6 @@ File: babel.def 2016/02/24 3.9q Babel common definitions
 \babel@savecnt=\count117
 \U@D=\dimen134
 )
-\l@british = a dialect from \language\l@english 
-\l@UKenglish = a dialect from \language\l@english 
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
@@ -2069,12 +2067,12 @@ Package logreq Info: Writing requests to 'main.run.xml'.
  )
 (\end occurred when \iftrue on line 102 was incomplete) 
 Here is how much of TeX's memory you used:
- 32522 strings out of 494953
- 641012 string characters out of 6180978
- 756635 words of memory out of 5000000
- 35376 multiletter control sequences out of 15000+600000
+ 32519 strings out of 493029
+ 640981 string characters out of 6136234
+ 761476 words of memory out of 5000000
+ 35624 multiletter control sequences out of 15000+600000
  41463 words of font info for 76 fonts, out of 8000000 for 9000
- 14 hyphenation exceptions out of 8191
+ 1141 hyphenation exceptions out of 8191
  56i,19n,75p,10377b,1767s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texm
 f-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/p
@@ -2090,7 +2088,7 @@ texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/u
 rw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/
 uplri8a.pfb>
-Output written on main.pdf (25 pages, 183925 bytes).
+Output written on main.pdf (25 pages, 183926 bytes).
 PDF statistics:
  337 PDF objects out of 1000 (max. 8388607)
  294 compressed objects within 3 object streams
