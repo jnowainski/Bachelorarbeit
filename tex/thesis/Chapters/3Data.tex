@@ -118,3 +118,29 @@ After generating the label vectors for the trials, almost no additional work had
 
 %----------------------------------------------------------------------------------------
 \section{Analyzing the Data}
+For this experiment a total of seven subjects participated, each in up to five trials. After postprocessing the Vicon data, fitting a hand model and labeling, some problems were noticeable that led to an exclusion of trials from the final data set.\\
+One problem was the losing of markers during an experiment. While most of these scenarios were detected and the trial repeated, a few cases went unnoticed until the postprocessing step. It was not possible to reconstruct the hand model with less markers anymore.\\
+A second problem was to much noise that would act as ghost markers in later processing steps. The programs used were able to handle just a specific amount of noise, so that a few trials could not be labeled.\\
+\\
+The final data set consists of data from \textbf{29} out of \textbf{35} trials and includes \textbf{137123} data points. Also included are the non relevant labels that describe cases where the hand was not exploring an object or outside the MHSB. In the table below the number of trials and data points for each participant A to G are listed:   
+
+\begin{center}
+	\label{database}
+	\begin{tabular}{||c||c|c|c}
+		\hline
+		\multicolumn{3}{|c|}{Composition of the Dataset} \\
+		\hline
+		Participant & Trials & Data points \\
+		\hline\hline
+		A & 3 & 13867 \\
+		B & 3 & 13887 \\
+		C & 4 & 21230 \\
+		D & 5 & 25720 \\
+		E & 4 & 17895 \\
+		F & 5 & 20446 \\
+		G & 5 & 24078 \\
+		\hline
+	\end{tabular}
+\end{center} 
+
+An analysis of the sensor data revealed, that each participant had their own range of values, which most likely is correlated to their hand size and form. Smaller hands showed an slightly different area of activation for tactile data and also a significant different range for the joint angles. Due to this discovery, data from participants was treated separately rather than as one set. 
