@@ -4,7 +4,30 @@
 
 \label{Evaluation} % For referencing the chapter elsewhere, use \ref{Chapter1} 
 %----------------------------------------------------------------------------------------
+This chapter will present the evaluation and results of the goals that were set in chapter \ref{Introduction}: \textbf{Introduction }.\\
+At first, approaches will be explained to evaluate the goals and related work will be presented. After this, the methods are proposed containing the preprocessing steps and the selection of the training and validation sets with respect to the different approaches. In the last step, results are presented and discussed.
 
-\begin{text}
-Evaluation der Ergebnisse vom Training mit Visualisiserung
-\end{text}
+
+%----------------------------------------------------------------------------------------
+\section{Approaches}
+In this work there were three approaches to analyze the influence of object roles in the haptic search experiment. For all of them supervised machine learning was used resulting in three different classification problems: \\
+\begin{enumerate}
+	\item \textbf{Classifying data into object categories:} a model was build to classify the five stimuli used in the experiment. At first the model was trained only on the data of objects when they were targets, and second on the data when they were distractors. The performance was measured and compared. The goal was to see if the data would be separable at all and to find a fitting model for it.
+	
+	\item \textbf{Classifying a single object as either target or distractor:} based on the previous problem, same model was trained separately for each object to classify its data into a target role or a distractor role. 
+	
+	\item \textbf{Classifying whole data into roles:} in this problem, the model was trained on all data to classify targets and distractors in general. The goal was to see if regardless of the object, data can be separated into target or distractor class.       
+\end{enumerate}
+
+Combining the results of all these problems, an answer to the question whether humans explore same objects differently in a haptic search task depending on what the target is should be given. Furthermore an approach to explain the human efficiency could be made by the results. Instead of classifying all explored objects, they distinguish just between two classes, the target object they searched for and a distractor.      
+%----------------------------------------------------------------------------------------
+\section{Related Work}
+%----------------------------------------------------------------------------------------
+\section{Methods}
+\subsection{Preprocessing}
+\subsection{Training and Validation Sets}
+%----------------------------------------------------------------------------------------
+\section{Results and Discussion}
+\subsection{E1}
+\subsection{E2}
+\subsection{E3}
