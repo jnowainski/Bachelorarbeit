@@ -37,7 +37,7 @@ The Vicon and Basler camera data were captured directly within the Vicon Nexus p
 Despite using MSS, there were still delays among the different devices that had to be synchronized separately. 
 %----------------------------------------------------------------------------------------
 \section{Postprocessing Vicon Data}
-The first step in the pipeline was to postprocess the Vicon data. In this procedure, a three-dimensional hand model with marker positions was fitted to an image of the subjects hand, \textcolor{red}{see figure xyz(fitting and reconstruct)}. This model was then used to reconstruct the hand movement during the experiment to approximate marker positions that occurred during gaps in the recording when no camera captured a marker \textcolor{red}{see right side of figure xyz}.\\
+The first step in the pipeline was to postprocess the Vicon data. In this procedure, a three-dimensional hand model with marker positions was fitted to an image of the subjects hand, \textcolor{red}{see figure xyz(fitting and reconstruct)}. This model was then used to reconstruct the hand movement during the experiment with an autotracker tool to approximate marker positions that occurred during gaps in the recording when no camera captured a marker \cite{autotracker} \textcolor{red}{see right side of figure xyz}.\\
 \\
 The resulting file contains a time-series of the x-,y- and z-position of each marker. Furthermore a file with the joint-angles was generated.
 %----------------------------------------------------------------------------------------

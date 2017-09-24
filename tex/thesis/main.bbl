@@ -16,6 +16,238 @@
   {}
 \endgroup
 
+\entry{Schneider}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {A.~Schneider}{A.~S.}%
+     {J.~Sturm}{J.~S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Stachniss}{S.}%
+     {C.}{C.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{ASJSSC1}
+  \strng{fullhash}{ASJSSC1}
+  \field{sortinit}{A}
+  \field{pages}{243\bibrangedash 248}
+  \field{title}{Object Identification with Tactile Sensors using
+  Bag-of-Features}
+  \field{journaltitle}{Proceedings of International Conference on Intelligent
+  Robots and Systems (IROS)}
+  \field{year}{2009}
+\endentry
+
+\entry{Glove}{article}{}
+  \name{author}{6}{}{%
+    {{}%
+     {Bianchi}{B.}%
+     {Matteo}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Haschke}{H.}%
+     {Robert}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Büscher}{B.}%
+     {Gereon}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ciotti}{C.}%
+     {Simone}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Carbonaro}{C.}%
+     {Nicola}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Tognetti}{T.}%
+     {Alessandro}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {MDPI AG}%
+  }
+  \strng{namehash}{BM+1}
+  \strng{fullhash}{BMHRBGCSCNTA1}
+  \field{sortinit}{B}
+  \verb{doi}
+  \verb 10.3390/electronics5030042
+  \endverb
+  \field{number}{3}
+  \field{title}{{A Multi-Modal Sensing Glove for Human Manual-Interaction
+  Studies}}
+  \field{volume}{5}
+  \field{journaltitle}{Electronics}
+  \field{year}{2016}
+\endentry
+
+\entry{Faldella}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {E.~Faldella}{E.~F.}%
+     {D.~Passeri}{D.~P.}%
+     {}{}%
+     {B.~Fringuelli}{B.~F.}}%
+    {{}%
+     {Rosi}{R.}%
+     {L.}{L.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{EFBFDPRL1}
+  \strng{fullhash}{EFBFDPRL1}
+  \field{sortinit}{E}
+  \field{pages}{267\bibrangedash 269}
+  \field{title}{A Neural Approach to Robotic Haptic Recognition of 3-D Objects
+  Based on Kohonen SelfOrganizing Feature Map}
+  \field{journaltitle}{IEEE Transactions on Industrial Electronics, vol. 44}
+  \field{year}{1997}
+\endentry
+
+\entry{Vicon}{online}{}
+  \field{sortinit}{I}
+  \field{title}{Information available at:}
+  \verb{url}
+  \verb http://www.vicon.com/
+  \endverb
+  \warn{\item Invalid format of field 'date' \item Invalid format of field
+  'date'}
+\endentry
+
+\entry{autotracker}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {J.~Maycock}{J.~M.}%
+     {M.~Schröder M. Botsch H.~Ritter}{M.~S. M. B. H.~R.}%
+     {}{}%
+     {T.~Rohling}{T.~R.}}%
+  }
+  \strng{namehash}{JMTRMSMBHR1}
+  \strng{fullhash}{JMTRMSMBHR1}
+  \field{sortinit}{J}
+  \field{title}{Fully automatic optical motion tracking using an inverse
+  kinematics approach}
+  \field{journaltitle}{IEEE-RAS 15th International Conference on Humanoid
+  Robots (Humanoids)}
+  \field{year}{2015}
+\endentry
+
+\entry{Gorges}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {N.~Gorges}{N.~G.}%
+     {D.~Goger}{D.~G.}%
+     {}{}%
+     {S.~E.~Navarro}{S.~E.~N.}}%
+    {{}%
+     {Worn}{W.}%
+     {H.}{H.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{NGSENDGWH1}
+  \strng{fullhash}{NGSENDGWH1}
+  \field{sortinit}{N}
+  \field{pages}{2349\bibrangedash 2355}
+  \field{title}{Haptic Object Recognition using Passive Joints and Haptic Key
+  Features}
+  \field{journaltitle}{Proceedings of IEEE International Conference on Robotics
+  and Automation (ICRA)}
+  \field{year}{2010}
+\endentry
+
+\entry{EPs}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {R.~L.~Klatzky}{R.~L.~K.}%
+     {S.~J.~Lederman}{S.~J.~L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Reed}{R.}%
+     {C.~L.}{C.~L.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{RLKSJLRCL1}
+  \strng{fullhash}{RLKSJLRCL1}
+  \field{sortinit}{R}
+  \field{title}{There’s more to touch than meets the eye: the salience of
+  object attributes for haptics with and without vision}
+  \field{journaltitle}{Journal of Experimental Psychology}
+  \field{year}{1987}
+\endentry
+
+\entry{Navarro}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {S.~E.~Navarro}{S.~E.~N.}%
+     {H.~Wörn J.Schill T.~Asfour}{H.~W. J. T.~A.}%
+     {}{}%
+     {N.~Gorges}{N.~G.}}%
+    {{}%
+     {Dillmann}{D.}%
+     {R.}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{SENNGHWJTADR1}
+  \strng{fullhash}{SENNGHWJTADR1}
+  \field{sortinit}{S}
+  \field{title}{Haptic object recognition for multi-fingered robot hands}
+  \field{journaltitle}{Haptics Symposium (HAPTICS)}
+  \field{year}{2012}
+\endentry
+
+\entry{Bhattacharjee}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {T.~Bhattacharjee}{T.~B.}%
+     {C.~C.~Kemp}{C.~C.~K.}%
+     {}{}%
+     {J.~M.~Rehg}{J.~M.~R.}}%
+  }
+  \strng{namehash}{TBJMRCCK1}
+  \strng{fullhash}{TBJMRCCK1}
+  \field{sortinit}{T}
+  \field{title}{Haptic Classification and Recognition of Objects Using a
+  Tactile Sensing Forearm}
+  \field{journaltitle}{IEEE/RSJ International Conference on Intelligent Robots
+  and Systems}
+  \field{year}{2012}
+\endentry
+
+\entry{Pezzementi}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Z.~Pezzementi}{Z.~P.}%
+     {C.~Reyda}{C.~R.}%
+     {}{}%
+     {E.~Plaku}{E.~P.}}%
+    {{}%
+     {Hager}{H.}%
+     {G.~D.}{G.~D.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{ZPEPCRHGD1}
+  \strng{fullhash}{ZPEPCRHGD1}
+  \field{sortinit}{Z}
+  \field{pages}{473\bibrangedash 486}
+  \field{title}{Tactile Object Recognition from Appearance Information}
+  \field{journaltitle}{IEEE Transactions on Robotics, vol. 27}
+  \field{year}{2011}
+\endentry
+
 \lossort
 \endlossort
 

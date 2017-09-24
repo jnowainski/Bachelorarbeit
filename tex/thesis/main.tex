@@ -54,12 +54,16 @@ headsepline, % Uncomment to get a line under the header
 %Define algorythm specific stuff here
 \algdef{SE}{Begin}{End}{\textbf{begin}}{\textbf{end}}
 
+\usepackage[backend=bibtex]{biblatex}
+\bibliography{example.bib}
+%\bibliographystyle{plain}
+%\usepackage[backend=bibtex,style=authoryear,natbib=true]{biblatex} % Use the bibtex backend with the authoryear citation style (which resembles APA)
 
-\usepackage[backend=bibtex,style=authoryear,natbib=true]{biblatex} % Use the bibtex backend with the authoryear citation style (which resembles APA)
+%\addbibresource{example.bib} % The filename of the bibliography
 
-\addbibresource{example.bib} % The filename of the bibliography
+%\usepackage[autostyle=true]{csquotes} % Required to generate language-dependent quotes in the bibliography
 
-\usepackage[autostyle=true]{csquotes} % Required to generate language-dependent quotes in the bibliography
+
 
 %----------------------------------------------------------------------------------------
 %	MARGIN SETTINGS
@@ -264,7 +268,14 @@ It was found that from the data models could be build to distinguish between the
 %	BIBLIOGRAPHY
 %----------------------------------------------------------------------------------------
 
+
+%\addcontentsline{toc}{section}{References}
 \printbibliography[heading=bibintoc]
+
+%----------------------------------------------------------------------------------------
+%	REFERENCES
+%----------------------------------------------------------------------------------------
+
 
 %----------------------------------------------------------------------------------------
 
