@@ -27,11 +27,11 @@
 \contentsline {section}{\numberline {4.1}Approaches}{13}{section.33}
 \contentsline {section}{\numberline {4.2}Related Work}{13}{section.37}
 \contentsline {section}{\numberline {4.3}Methods}{14}{section.38}
-\contentsline {subsection}{\numberline {4.3.1}Preprocessing}{14}{subsection.39}
-\contentsline {subsection}{\numberline {4.3.2}Training and Validation Sets}{14}{subsection.40}
-\contentsline {section}{\numberline {4.4}Results and Discussion}{14}{section.41}
-\contentsline {subsection}{\numberline {4.4.1}E1}{14}{subsection.42}
-\contentsline {subsection}{\numberline {4.4.2}E2}{14}{subsection.43}
-\contentsline {subsection}{\numberline {4.4.3}E3}{14}{subsection.44}
-\contentsline {chapter}{\numberline {5}Conclusion}{15}{chapter.45}
-\contentsline {chapter}{Bibliography}{17}{appendix*.46}
+\contentsline {subsection}{\numberline {4.3.1}Preprocessing and Feature Extraction}{14}{subsection.39}
+\contentsline {subsection}{\numberline {4.3.2}Training and Validation Sets}{15}{subsection.40}
+\contentsline {section}{\numberline {4.4}Results and Discussion}{15}{section.41}
+\contentsline {subsection}{\numberline {4.4.1}E1}{15}{subsection.42}
+\contentsline {subsection}{\numberline {4.4.2}E2}{15}{subsection.43}
+\contentsline {subsection}{\numberline {4.4.3}E3}{15}{subsection.44}
+\contentsline {chapter}{\numberline {5}Conclusion}{17}{chapter.45}
+\contentsline {chapter}{Bibliography}{19}{appendix*.46}
