@@ -28,10 +28,10 @@
 \contentsline {section}{\numberline {4.2}Related Work}{13}{section.38}
 \contentsline {section}{\numberline {4.3}Methods}{14}{section.39}
 \contentsline {subsection}{\numberline {4.3.1}Preprocessing and Feature Extraction}{14}{subsection.40}
-\contentsline {subsection}{\numberline {4.3.2}Generating Training and Validation Set}{16}{subsection.42}
-\contentsline {section}{\numberline {4.4}Results and Discussion}{16}{section.43}
-\contentsline {subsection}{\numberline {4.4.1}E1}{16}{subsection.44}
-\contentsline {subsection}{\numberline {4.4.2}E2}{16}{subsection.45}
-\contentsline {subsection}{\numberline {4.4.3}E3}{16}{subsection.46}
-\contentsline {chapter}{\numberline {5}Conclusion}{17}{chapter.47}
-\contentsline {chapter}{Bibliography}{19}{appendix*.48}
+\contentsline {subsection}{\numberline {4.3.2}Training and Validation Methods}{16}{subsection.42}
+\contentsline {section}{\numberline {4.4}Results and Discussion}{16}{section.46}
+\contentsline {subsection}{\numberline {4.4.1}E1}{16}{subsection.47}
+\contentsline {subsection}{\numberline {4.4.2}E2}{16}{subsection.48}
+\contentsline {subsection}{\numberline {4.4.3}E3}{16}{subsection.49}
+\contentsline {chapter}{\numberline {5}Conclusion}{17}{chapter.50}
+\contentsline {chapter}{Bibliography}{19}{appendix*.51}

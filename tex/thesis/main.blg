@@ -511,7 +511,7 @@ Name 1 in "Z. Pezzementi, E. Plaku, C. Reyda, and G. D. Hager" has a comma at th
 while executing---line 2659 of file biblatex.bst
 You've used 11 entries,
             6047 wiz_defined-function locations,
-            1196 strings with 10141 characters,
+            1196 strings with 10142 characters,
 and the built_in function-call counts, 29651 in all, are:
 = -- 987
 > -- 1004

@@ -9,7 +9,7 @@ At first, approaches will be explained to evaluate the goals and related work wi
 
 
 %----------------------------------------------------------------------------------------
-\section{Approaches}
+\section{Approaches} \label{approaches}
 In this work there were three approaches to analyze the influence of object roles in the haptic search experiment. For all of them supervised machine learning was used resulting in three different classification problems: \\
 \begin{enumerate}
 	\item \textbf{Classifying data into object categories:} a model was build to classify the five stimuli used in the experiment. At first the model was trained only on the data of objects when they were targets, and second on the data when they were distractors. The performance was measured and compared. The goal was to see if the data would be separable at all and to find a fitting model for it.
@@ -35,7 +35,7 @@ In this section the pipeline is presented that was used for the classification p
 Tactile data was recorded from the glove with a frequency of 150Hz and joint angles at 50Hz. The classification problems were evaluated on both only the tactile data and the merged set with tactile data and joint angles. Therefore a preparation step was to sample the tactile data down to 50Hz with assigning every time value of the joint data series the corresponding tactile data vector. This will result in two time series $ T_{i} = \{x_{t} \mid t \in \{0,..,n\}\} $ and $ M_{i} = \{x_{t} \mid t \in \{0,..,m\}\} $, where $ i \in \{1,..,5\}$ describes the trial for object class $i$ and $ T,M $ refers to tactile only data or the merged set with joint angles. Each value represents a vector $x \in \mathbb{R}^{64}$ for tactile data or $ x \in \mathbb{R}^{64+18} $ for the joined set. Every component in the vector corresponds to a sensor of the 64 tactile cells or the 18 bending sensors.\\
 The first step in the pipeline was to apply a z-transformation for each sensor separately with $ x_{j}' = \frac{x_{j}-\bar{x}_{j}}{\sigma_{j}} $, where $ x_{j} $ denotes the j-th component of all samples in the time series vector and $ \bar{x}_{j},\sigma_{j} $ are the mean and standard deviation. Standardizing the data to zero mean and unit variance was necessary since the different tactile cells and bending sensors all have various ranges based on the participants hand, search strategy and some noise which would significantly influence distance based classifiers.\\
 Afterwards a time window was chosen to sample data from the time series at consistent intervals to reduce the amount of redundant data. The time series were recorded with 150Hz and 50Hz, resulting in very close or even similar neighboring data points. With the time window data points were picked that had a predefined time distance to the previously collected sample. In this work, a sampling rate of 10Hz proved itself reliable.\\
-The next step was to extract only relevant samples dependent on the classification problem. Since one time series represents the data of a whole trial, just these data points had to be extracted that belong to specific objects. This had to be done individually for every approach. Only the data points that included no information at all, e.g. when the hand was in the air or outside of the MHSB, were discarded for all approaches. 
+The next step was to extract only relevant samples dependent on the classification problem. Since one time series represents the data of a whole trial, just these data points had to be extracted that belong to specific objects, namely the ones to investigate. This had to be done individually for every approach. Only the data points that included no information at all, e.g. when the hand was in the air or outside of the MHSB, were discarded for all approaches. \\
 In the last step, the extracted data was concatenated and a low dimensional representation of the data was computed using principal component analysis (PCA). The resulting feature vector was then used for the classification experiments. 
 
 \begin{figure}[h]
@@ -45,10 +45,20 @@ In the last step, the extracted data was concatenated and a low dimensional repr
 	\label{pipeline}
 \end{figure}
 
-\subsection{Generating Training and Validation Set}
+\subsection{Training and Validation Methods}
+To train the feature vector for the classification problems listed in \ref{approaches}, four models were applied on the first task to measure the overall performance for object recognition and to find optimal parameters. It was trained on a k-nearest neighbor model (kNN), a multilayer perceptron (MLP), a support vector machine (SVM) and a random forest classifier. After choosing the winner model, the more specific problems were tackled with it. The results, hyperparameter and model selection is discussed in \ref{results}.\\
+\\
+A problem that occurred when recording a trial in a single run was that the whole exploration was saved in a sole data frame. This is why the extraction step in the pipeline was necessary to generate training sets suited for the classification experiment. For the different approaches the following data was extracted to build a training and validation set:
 
+\begin{enumerate}
+	\item \textbf{Classifying data into object categories:} In fact this experiment includes two sets of data. The first one was based on the data of only the target objects that had to be search for in every trial. The second one is the inverse version where only distractor objects were extracted for each trial. Both sets include data and labels of every object in this experiment, the only difference is the role they had in the scenarios. Comparing the performance of these sets on the models will show some insight in the information these data carries. 
+	
+	\item \textbf{Classifying a single object as either target or distractor:} Here the data sets were generated for every object per participant. For each stimuli and person a set was created that includes data of the object as target and as distractor. The data was labeled 1 for targets and 0 for distractor data. With the trained model it should be investigated if it is possible to distinguish the roles for same objects.   
+	
+	\item \textbf{Classifying whole data into roles:} For this experiment a set was created containing all data points for each person. Data that representing target objects was labeled as 1 and for data representing distractors as 0. This is an extension of the previous approach, but this time it should be investigated if there are any features that make a general classification of roles independently of specific objects possible.    
+\end{enumerate}  
 %----------------------------------------------------------------------------------------
-\section{Results and Discussion}
+\section{Results and Discussion} \label{results}
 \subsection{E1}
 \subsection{E2}
 \subsection{E3}
