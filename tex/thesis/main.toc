@@ -31,7 +31,7 @@
 \contentsline {subsection}{\numberline {4.3.2}Training and Validation Methods}{16}{subsection.43}
 \contentsline {section}{\numberline {4.4}Results and Discussion}{17}{section.48}
 \contentsline {subsection}{\numberline {4.4.1}Classifying Data into Object Categories}{17}{subsection.49}
-\contentsline {subsection}{\numberline {4.4.2}E2}{18}{subsection.52}
-\contentsline {subsection}{\numberline {4.4.3}E3}{18}{subsection.53}
-\contentsline {chapter}{\numberline {5}Conclusion}{21}{chapter.54}
-\contentsline {chapter}{Bibliography}{23}{appendix*.55}
+\contentsline {subsection}{\numberline {4.4.2}Classifying a single object as either target or distractor}{19}{subsection.53}
+\contentsline {subsection}{\numberline {4.4.3}Classifying whole data into roles}{19}{subsection.54}
+\contentsline {chapter}{\numberline {5}Conclusion}{21}{chapter.55}
+\contentsline {chapter}{Bibliography}{23}{appendix*.56}

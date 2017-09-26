@@ -87,30 +87,33 @@ For this first problem, four different classifiers were used to test the classif
 \end{align}  
 
 The results for the classifiers that were trained on the target objects only is shown in Figure \ref{tvt}. The score was calculated by averaging the accuracy scores of each participant. The blue bars show the result for the tactile data and the red bars for the merged set that includes joint angles. Also shown is the standard deviation. Figure \ref{dvd} shows the same experiment but this time trained on the distractor objects. For the feature vector 20 principle components yielded the best result as Figure \ref{PCA} shows. It also presents the effect of scaling the data which shows a significant increase of the accuracy.\\
-The results show that for the target data it is possible to classify the five stimuli based on their tactile pattern with an accuracy up to 70\% with the random forest classifier and up to 60\% with the other classifier. Adding the joint angles to the data set however resulted in an small accuracy loss rather than increase.\\
-Comparing these outcomes with the classifier that were trained on the distractor data set, one can see that the performance decreases strongly on latter experiment. Considering a random walk for five classes at 20\%, the models performed just     
-
-\begin{figure}
+The results show that for the target data it is possible to classify the five stimuli based on their tactile patterns with an accuracy up to 70\% with the random forest classifier and up to 60\% with the other classifier. Adding the joint angles to the data set however resulted in an small accuracy loss rather than increase.\\
+Comparing these outcomes with the classifier that were trained on the distractor data set, one can see that the performance decreases strongly on latter experiment. Considering a random walk for five classes at 20\%, the models performed just slightly better than it. Interesting is that this time the merged set with joint angles outperformed the solely tactile one in three cases.\\     
+The high variance in both results is based on the participants. The accuracy on some of their data was significantly worse than on other ones. Nonetheless a general trend could be seen for all participants which shows that the random forest classifier performed best in most cases. This model was chosen together with the 20 components for the feature vector for the following experiments.\\
+\\ 
+Overall this outcome shows that tactile patterns can be used to classify objects and that the model performs much better on the target data which was assumed. This brings up the hypotheses that rather than as individual objects, humans classify distractors as one class containing mostly object features that does't match the target they searched for. This would at least explain why the classifiers could not really separate the distractor objects. In the following experiments further investigation on this effect will be made. 
+\begin{figure}[H]\ContinuedFloat
 	\centering
 	\begin{minipage}{0.7\textwidth}
 		\centering
-		\includegraphics[width=\textwidth]{TvT}
+		\includegraphics[width=0.9\textwidth]{TvT}
 		\caption{Scores by classifiers trained on target data}
 		\label{tvt}
 	\end{minipage}
 	\begin{minipage}{0.7\textwidth}
 		\centering
-		\includegraphics[width=\textwidth]{DvD}
+		\includegraphics[width=0.9\textwidth]{DvD}
 		\caption{Scores by classifiers trained on distractor data}
 		\label{dvd}
 	\end{minipage}
-	\begin{minipage}{0.7\textwidth}
-		\centering
-		\includegraphics[width=\textwidth]{PCA}
-		\caption{Analyzing the effect of scaling data and the numbers of principle components}
-		\label{PCA}
-	\end{minipage}
 \end{figure}
 
-\subsection{E2}
-\subsection{E3}
+\begin{figure}[h]
+	\makebox[\textwidth][c]{\includegraphics[scale=0.6]{PCA}}
+	\caption{Analyzing the effect of scaling and the number of principle components}
+	\label{PCA}
+\end{figure}
+
+\subsection{Classifying a single object as either target or distractor}
+
+\subsection{Classifying whole data into roles}
