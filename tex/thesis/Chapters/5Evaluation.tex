@@ -48,7 +48,7 @@ In the last step, the extracted data was concatenated and a low dimensional repr
 \subsection{Training and Validation Methods}
 To train the feature vector for the classification problems listed in \ref{approaches}, four models were applied on the first task to measure the overall performance for object recognition and to find optimal parameters. It was trained on a k-nearest neighbor model (kNN), a multilayer perceptron (MLP), a support vector machine (SVM) and a random forest classifier. After choosing the winner model, the more specific problems were tackled with it. The results, hyperparameter and model selection is discussed in \ref{results}.\\
 \\
-A problem that occurred when recording a trial in a single run was that the whole exploration was saved in a sole data frame. This is why the extraction step in the pipeline was necessary to generate training sets suited for the classification experiment. For the different approaches the following data was extracted to build a training and validation set:
+A problem that occurred when recording a trial in a single run was that the whole exploration was saved in a sole data frame. This is why the extraction step in the pipeline was necessary to generate data sets suited for the classification experiment. For the different approaches the following data was extracted to build a training and validation set:
 
 \begin{enumerate}
 	\item \textbf{Classifying data into object categories:} In fact this experiment includes two sets of data. The first one was based on the data of only the target objects that had to be search for in every trial. The second one is the inverse version where only distractor objects were extracted for each trial. Both sets include data and labels of every object in this experiment, the only difference is the role they had in the scenarios. Comparing the performance of these sets on the models will show some insight in the information these data carries. 
@@ -57,8 +57,60 @@ A problem that occurred when recording a trial in a single run was that the whol
 	
 	\item \textbf{Classifying whole data into roles:} For this experiment a set was created containing all data points for each person. Data that representing target objects was labeled as 1 and for data representing distractors as 0. This is an extension of the previous approach, but this time it should be investigated if there are any features that make a general classification of roles independently of specific objects possible.    
 \end{enumerate}  
+
+Having generated training sets for the experiments, what was left over were suitable validation sets to test the models for generalization on unseen data. Due to the complex procedure of generating the training sets through cutting the time series for relevant objects and concatenating them back over multiple trials, some problems appeared when it came to splitting the sets for validation purpose.\\ Sampling random data points for the test set yielded almost no errors in the evaluation. Since this seemed unrealistic it was found that this was not a good way to generalize on unseen data points because even after using a time window for sampling the unprocessed data, neighboring samples were still close to each other. Also they came from exploring the same object, so this data was basically not really unseen.\\
+Another approach was to use cross-validation to make sure that blocks of data that was unseen were held out for validation. However, since the data was concatenated over multiple trials this led to unseen blocks that contained whole trials which resulted in high error rates. \\
+The solution was to zip the data for all trials as seen in Figure \ref{zip}. Splitting the sets of each trials into equally sized blocks and concatenating the sets blockwise resulted in an arrangement on which cross-validation could be applied. When dividing this set again into blocks and leaving one out, as it is done by cross-validation, each block would contain data from each trial. With this procedure the generalization could be tested. Splitting the trials in blocks of five and using a five-fold cross-validation on the resulting set was most suitable for the data in this work.
+
+\begin{figure}[h]
+	\makebox[\textwidth][c]{\includegraphics[scale=0.53]{Zip}}
+	\caption{Schematic explanation of the zipping procedure to generate train and validation sets}
+	\label{zip}
+\end{figure}
 %----------------------------------------------------------------------------------------
 \section{Results and Discussion} \label{results}
-\subsection{E1}
+\subsection{Classifying Data into Object Categories}
+For this first problem, four different classifiers were used to test the classification accuracy. In the table below the parameters resulting in the best performance for this task are listed:
+
+\begin{align}
+	\begin{tabular}{|c||c|}
+		\hline
+		Classifier & Parameters \\
+		\hline\hline
+		kNN & k neighbors = 5 \\
+		MLP & Hidden Layers = 2, Activation = relu, Solver = lbfgs  \\
+		SVM & Kernel = rbf \\
+		Random Forest & Number of trees = 15 \\
+		\hline
+	\end{tabular}
+	\label{classifiers}
+\end{align}  
+
+The results for the classifiers that were trained on the target objects only is shown in Figure \ref{tvt}. The score was calculated by averaging the accuracy scores of each participant. The blue bars show the result for the tactile data and the red bars for the merged set that includes joint angles. Also shown is the standard deviation. Figure \ref{dvd} shows the same experiment but this time trained on the distractor objects. For the feature vector 20 principle components yielded the best result as Figure \ref{PCA} shows. It also presents the effect of scaling the data which shows a significant increase of the accuracy.\\
+The results show that for the target data it is possible to classify the five stimuli based on their tactile pattern with an accuracy up to 70\% with the random forest classifier and up to 60\% with the other classifier. Adding the joint angles to the data set however resulted in an small accuracy loss rather than increase.\\
+Comparing these outcomes with the classifier that were trained on the distractor data set, one can see that the performance decreases strongly on latter experiment. Considering a random walk for five classes at 20\%, the models performed just     
+
+\begin{figure}
+	\centering
+	\begin{minipage}{0.7\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{TvT}
+		\caption{Scores by classifiers trained on target data}
+		\label{tvt}
+	\end{minipage}
+	\begin{minipage}{0.7\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{DvD}
+		\caption{Scores by classifiers trained on distractor data}
+		\label{dvd}
+	\end{minipage}
+	\begin{minipage}{0.7\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{PCA}
+		\caption{Analyzing the effect of scaling data and the numbers of principle components}
+		\label{PCA}
+	\end{minipage}
+\end{figure}
+
 \subsection{E2}
 \subsection{E3}
