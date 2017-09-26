@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.8)  26 SEP 2017 21:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.8)  26 SEP 2017 23:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2084,19 +2084,24 @@ Package pdftex.def Info: Figures/PCA.png used on input line 112.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [18 <./Figures/TvT.png> <./Figures/DvD.png>] [19 <./Figures/PCA.png>]
+[18 <./Figures/TvT.png> <./Figures/DvD.png>]
+<Figures/TnT.png, id=372, 462.528pt x 346.896pt>
+File: Figures/TnT.png Graphic file (type png)
+ <use Figures/TnT.png>
+Package pdftex.def Info: Figures/TnT.png used on input line 123.
+(pdftex.def)             Requested size: 277.51894pt x 208.13919pt.
+ [19 <./Figures/PCA.png>]) [20 <./Figures/TnT.png>]
 \openout2 = `Chapters/6Conclusion.aux'.
 
-
-(./Chapters/6Conclusion.tex [20
-
-
-
-]
+ (./Chapters/6Conclusion.tex
 Chapter 5.
 )
 1: section
-[21] [22
+[21
+
+
+
+] [22
 
 
 ]
@@ -2118,25 +2123,18 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 282.
 ))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 282.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 282.
-
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: 30DB5D20A24413E3F25FBB91A452CE94;5026
-(rerunfilecheck)             After:  EFBF4CB977FB387DAD393323665BA808;5193.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: B12D2ACD4127239A55F8A87D6EA4B77B;5193.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  )
 (\end occurred when \iftrue on line 106 was incomplete) 
 Here is how much of TeX's memory you used:
- 32226 strings out of 494953
- 635819 string characters out of 6180978
+ 32236 strings out of 494953
+ 635940 string characters out of 6180978
  737902 words of memory out of 5000000
- 35047 multiletter control sequences out of 15000+600000
+ 35055 multiletter control sequences out of 15000+600000
  46615 words of font info for 83 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  57i,19n,82p,10377b,1777s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2154,10 +2152,10 @@ texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
 w/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/u
 plr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (31 pages, 938157 bytes).
+Output written on main.pdf (31 pages, 958695 bytes).
 PDF statistics:
- 465 PDF objects out of 1000 (max. 8388607)
- 402 compressed objects within 5 object streams
- 98 named destinations out of 1000 (max. 500000)
- 303 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 471 PDF objects out of 1000 (max. 8388607)
+ 406 compressed objects within 5 object streams
+ 99 named destinations out of 1000 (max. 500000)
+ 308 words of extra memory for PDF output out of 10000 (max. 10000000)
 
