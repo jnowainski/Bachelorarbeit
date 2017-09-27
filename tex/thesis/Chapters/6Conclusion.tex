@@ -4,6 +4,11 @@
 
 \label{Conclusion} % For referencing the chapter elsewhere, use \ref{Chapter1} 
 %----------------------------------------------------------------------------------------
-\begin{text}
-Weiterführende Diskusion und Fazit über die Studie
-\end{text}
+In this work three classification problems were proposed to investigate the influence of target and distractor roles using haptic information obtained from a multimodal sensing glove in a haptic search experiment. The data was preprocessed and a low-dimensional representation of the features was calculated using principal component analysis. The developed models were able to classify stimuli into one of five shapes: box, sphere, pyramid, quarter and wave. Furthermore it could be seen that this model performed much better when it was trained for objects that were target rather than distractors. \\
+For the second investigation a random forest classifier was selected as winner model and performed a classification on the single objects and their roles. The results showed that the model can distinguish the role an object had in the scenario with high reliability. This proved on the one side that one can capture the differences with the multimodal glove and on the other hand brought up an assumption. This was that humans don't identify a distractor as an object itself, but rather as a class containing features that are not corresponding to the target. This is where it is assumed that efficiency comes from since just a small set of features are explored that are sufficient enough to tell the difference between the target and a distractor class but with no specific object knowledge. A further evidence was the result of the first experiment where it was barely possible to distinguish between the distractor objects.\\
+The last investigation should corroborate this theory by showing that the model can separate all distractor objects as one class from the targets.  As the outcome showed, it was possible to a certain degree to classify these classes. \\
+\\
+Further inspections could now be to investigate the exact differences in the features that declare the same object as target or distractor. Also the data could be improved by new experiments where the hand size of the participates will be taken into consideration since high variances were measured for the experiments. Having more homogeneous test conditions will most likely result in more similar data. \\
+A different direction to investigate in could be to test whether the model could find the target in an online setting faster than the human performing this experiment. \\
+\\
+The results of this work combined with the further inspections could serve as valuable guidelines for experiments that use robots with tactile sensing ability to perform haptic search tasks to make them more efficient.
