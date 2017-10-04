@@ -27,11 +27,12 @@
 \contentsline {section}{\numberline {4.1}Approaches}{13}{section.35}
 \contentsline {section}{\numberline {4.2}Related Work}{13}{section.39}
 \contentsline {section}{\numberline {4.3}Methods}{14}{section.40}
-\contentsline {subsection}{\numberline {4.3.1}Preprocessing and Feature Extraction}{14}{subsection.41}
-\contentsline {subsection}{\numberline {4.3.2}Training and Validation Methods}{16}{subsection.43}
-\contentsline {section}{\numberline {4.4}Results and Discussion}{17}{section.48}
-\contentsline {subsection}{\numberline {4.4.1}Classifying Data into Object Categories}{17}{subsection.49}
-\contentsline {subsection}{\numberline {4.4.2}Classifying a Single Object as Either Target or Distractor}{19}{subsection.53}
-\contentsline {subsection}{\numberline {4.4.3}Classifying whole Data into Roles}{20}{subsection.55}
-\contentsline {chapter}{\numberline {5}Conclusion}{21}{chapter.57}
-\contentsline {chapter}{Bibliography}{23}{appendix*.58}
+\contentsline {subsection}{\numberline {4.3.1}Notation}{14}{subsection.41}
+\contentsline {subsection}{\numberline {4.3.2}Preprocessing and Feature Extraction}{15}{subsection.42}
+\contentsline {subsection}{\numberline {4.3.3}Training and Validation Methods}{15}{subsection.44}
+\contentsline {section}{\numberline {4.4}Results and Discussion}{17}{section.49}
+\contentsline {subsection}{\numberline {4.4.1}Classifying Data into Object Categories}{17}{subsection.50}
+\contentsline {subsection}{\numberline {4.4.2}Classifying a Single Object as Either Target or Distractor}{19}{subsection.54}
+\contentsline {subsection}{\numberline {4.4.3}Classifying whole Data into Roles}{20}{subsection.56}
+\contentsline {chapter}{\numberline {5}Conclusion}{23}{chapter.58}
+\contentsline {chapter}{Bibliography}{25}{appendix*.59}
