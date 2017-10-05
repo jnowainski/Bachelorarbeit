@@ -509,45 +509,45 @@ Name 1 in "Z. Pezzementi, E. Plaku, C. Reyda, and G. D. Hager" has a comma at th
 while executing---line 2659 of file biblatex.bst
 Name 1 in "Z. Pezzementi, E. Plaku, C. Reyda, and G. D. Hager" has a comma at the end for entry Pezzementi
 while executing---line 2659 of file biblatex.bst
-You've used 11 entries,
+You've used 13 entries,
             6047 wiz_defined-function locations,
-            1196 strings with 10142 characters,
-and the built_in function-call counts, 29651 in all, are:
-= -- 987
-> -- 1004
-< -- 282
-+ -- 293
-- -- 383
-* -- 2214
-:= -- 1914
+            1209 strings with 10479 characters,
+and the built_in function-call counts, 35544 in all, are:
+= -- 1170
+> -- 1222
+< -- 338
++ -- 351
+- -- 471
+* -- 2697
+:= -- 2264
 add.period$ -- 0
-call.type$ -- 11
-change.case$ -- 94
+call.type$ -- 13
+change.case$ -- 113
 chr.to.int$ -- 36
-cite$ -- 20
-duplicate$ -- 3343
-empty$ -- 3231
-format.name$ -- 619
-if$ -- 6719
+cite$ -- 24
+duplicate$ -- 4014
+empty$ -- 3862
+format.name$ -- 757
+if$ -- 8063
 int.to.chr$ -- 0
-int.to.str$ -- 20
+int.to.str$ -- 24
 missing$ -- 0
-newline$ -- 242
-num.names$ -- 379
-pop$ -- 3292
+newline$ -- 290
+num.names$ -- 461
+pop$ -- 3930
 preamble$ -- 1
-purify$ -- 119
+purify$ -- 144
 quote$ -- 0
-skip$ -- 1751
+skip$ -- 2109
 stack$ -- 0
-substring$ -- 452
-swap$ -- 1079
-text.length$ -- 302
-text.prefix$ -- 10
+substring$ -- 504
+swap$ -- 1304
+text.length$ -- 360
+text.prefix$ -- 12
 top$ -- 1
-type$ -- 406
+type$ -- 482
 warning$ -- 0
-while$ -- 217
+while$ -- 251
 width$ -- 0
-write$ -- 230
+write$ -- 276
 (There were 243 error messages)
