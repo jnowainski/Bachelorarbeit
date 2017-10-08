@@ -28,7 +28,7 @@
 \contentsline {section}{\numberline {4.2}Related Work}{13}{section.41}
 \contentsline {section}{\numberline {4.3}Methods}{14}{section.42}
 \contentsline {subsection}{\numberline {4.3.1}Notation}{14}{subsection.43}
-\contentsline {subsection}{\numberline {4.3.2}Preprocessing and Feature Extraction}{15}{subsection.44}
+\contentsline {subsection}{\numberline {4.3.2}Preprocessing and Feature Extraction}{14}{subsection.44}
 \contentsline {subsection}{\numberline {4.3.3}Training and Validation Methods}{15}{subsection.46}
 \contentsline {section}{\numberline {4.4}Results and Discussion}{17}{section.51}
 \contentsline {subsection}{\numberline {4.4.1}Classifying Data into Object Categories}{17}{subsection.52}
