@@ -30,8 +30,8 @@
 \contentsline {subsection}{\numberline {4.3.1}Notation}{14}{subsection.43}
 \contentsline {subsection}{\numberline {4.3.2}Preprocessing and Feature Extraction}{14}{subsection.44}
 \contentsline {subsection}{\numberline {4.3.3}Training and Validation Methods}{15}{subsection.46}
-\contentsline {section}{\numberline {4.4}Results and Discussion}{17}{section.51}
-\contentsline {subsection}{\numberline {4.4.1}Classifying Data into Object Categories}{17}{subsection.52}
+\contentsline {section}{\numberline {4.4}Results and Discussion}{18}{section.52}
+\contentsline {subsection}{\numberline {4.4.1}Classifying Data into Object Categories}{18}{subsection.53}
 \contentsline {subsection}{\numberline {4.4.2}Classifying a Single Object as Either Target or Distractor}{19}{subsection.56}
 \contentsline {subsection}{\numberline {4.4.3}Classifying whole Data into Roles}{20}{subsection.58}
 \contentsline {chapter}{\numberline {5}Conclusion}{23}{chapter.60}

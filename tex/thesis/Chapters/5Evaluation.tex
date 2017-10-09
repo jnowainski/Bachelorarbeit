@@ -77,43 +77,49 @@ The solution was to zip the data for all trials as shown in Figure \ref{zip}. Sp
 	\caption{Schematic explanation of the zipping procedure to generate train and validation sets}
 	\label{zip}
 \end{figure}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{|c|c|}
+\hline
+Method & Specification \\
+\hline\hline
+PCA & 20 principal components \\
+Autoencoder & 2 layers, 20 features, Optimization=Adadelta, Loss=MSE\\
+Finger Values & Only finger sensors used (41 features) \\
+Sum Of Fingers & Sum of sensors for each finger (5 features) \\
+Max Of Fingers & Max value for each finger (5 features) \\
+\hline
+\end{tabular}
+\caption{Specifications for the used feature extraction methods}
+\label{FE}
+\end{table} 
 %----------------------------------------------------------------------------------------
 \section{Results and Discussion} \label{results}
 \subsection{Classifying Data into Object Categories}\label{e2}
-For this first problem, four different classifiers were used to test the classification accuracy. In the table below the parameters resulting in the best performance for this task are listed:
+For this experiment the MLP was first trained and evaluated on target data and then on the set containing distractor data. In both cases the training was done individually for each participant and the final score was then calculated by the average over all participants. Both variants were trained multiple times using different feature extraction methods. Each method was evaluated for the tactile data only, the merged set with joint angles concatenated with the tactile data and the joint angles alone.\\ 
+The results for the model that was trained on target objects only is shown in Figure \ref{tvt}. Figure \ref{dvd} shows the same experiment but this time trained on the distractor objects. Table \ref{FE} shows the used specifications for the different feature extraction methods. With the PCA the goal was to find a linear transformation for the data whereas the autoencoder with two encoding layers should find a non-linear representation. The other three methods used handcrafted features which were inspired by examining search strategies of participants and finding that most sensory activity can be reduced to the finger sensors. For the joint data no feature extaction method was used \\
+The outcome shows that a training on only the tactile modularity yielded best results on both, the target and distractor case. Also noticeable is that when using the merged modalities a significantly worse performance on the target data can be seen compared to the joint modality while on the distractor set the performance was almost identically between these two. In general, the model performed better on the distractor data which could be due to higher number of data points available. Even thought five different feature methods were tested, none showed considerable better results. Still, using only the finger sensors shows slightly better performance which is why the decision fell in favor of this method to be used further on.
 
-\begin{align}
-	\begin{tabular}{|c||c|}
-		\hline
-		Classifier & Parameters \\
-		\hline\hline
-		kNN & k neighbors = 5 \\
-		MLP & Hidden Layers = 2, Activation = relu, Solver = lbfgs  \\
-		SVM & Kernel = rbf \\
-		Random Forest & Number of trees = 15 \\
-		\hline
-	\end{tabular}
-	\label{classifiers}
-\end{align}  
+%For this first problem, four different classifiers were used to test the classification accuracy. In the table below the parameters resulting in the best performance for this task are listed:
+%The results for the classifiers that were trained on the target objects only is shown in Figure \ref{tvt}. The score was calculated by averaging the accuracy scores of each participant. The blue bars show the result for the tactile data and the red bars for the merged set that includes joint angles. Also shown is the standard deviation. Figure \ref{dvd} shows the same experiment but this time trained on the distractor objects. For the feature vector 20 principle components yielded the best result as Figure \ref{PCA} shows. It also presents the effect of scaling the data which shows a significant increase of the accuracy.\\
+%The results show that for the target data it is possible to classify the five stimuli based on their tactile patterns with an accuracy up to 70\% with the random forest classifier and up to 60\% with the other classifier. Adding the joint angles to the data set however resulted in an small accuracy loss rather than increase.\\
+%Comparing these outcomes with the classifier that were trained on the distractor data set, one can see that the performance decreases strongly on latter experiment. Considering a random walk for five classes at 20\%, the models performed just slightly better than it. Interesting is that this time the merged set with joint angles outperformed the solely tactile one in three cases.\\     
+%The high variance in both results is based on the participants. The accuracy on some of their data was significantly worse than on other ones. Nonetheless a general trend could be seen for all participants which shows that the random forest classifier performed best in most cases. This model was chosen together with the 20 components for the feature vector for the following experiments.\\ 
+%Overall this outcome shows that tactile patterns can be used to classify objects and that the model performs much better on the target data which was assumed. This brings up the hypotheses that rather than as individual objects, humans classify distractors as one class containing mostly object features that does't match the target they searched for. This would at least explain why the classifiers could not really separate the distractor objects. In the following experiments further investigation on this effect will be made. 
 
-The results for the classifiers that were trained on the target objects only is shown in Figure \ref{tvt}. The score was calculated by averaging the accuracy scores of each participant. The blue bars show the result for the tactile data and the red bars for the merged set that includes joint angles. Also shown is the standard deviation. Figure \ref{dvd} shows the same experiment but this time trained on the distractor objects. For the feature vector 20 principle components yielded the best result as Figure \ref{PCA} shows. It also presents the effect of scaling the data which shows a significant increase of the accuracy.\\
-The results show that for the target data it is possible to classify the five stimuli based on their tactile patterns with an accuracy up to 70\% with the random forest classifier and up to 60\% with the other classifier. Adding the joint angles to the data set however resulted in an small accuracy loss rather than increase.\\
-Comparing these outcomes with the classifier that were trained on the distractor data set, one can see that the performance decreases strongly on latter experiment. Considering a random walk for five classes at 20\%, the models performed just slightly better than it. Interesting is that this time the merged set with joint angles outperformed the solely tactile one in three cases.\\     
-The high variance in both results is based on the participants. The accuracy on some of their data was significantly worse than on other ones. Nonetheless a general trend could be seen for all participants which shows that the random forest classifier performed best in most cases. This model was chosen together with the 20 components for the feature vector for the following experiments.\\
-\\ 
-Overall this outcome shows that tactile patterns can be used to classify objects and that the model performs much better on the target data which was assumed. This brings up the hypotheses that rather than as individual objects, humans classify distractors as one class containing mostly object features that does't match the target they searched for. This would at least explain why the classifiers could not really separate the distractor objects. In the following experiments further investigation on this effect will be made. 
-\begin{figure}[H]\ContinuedFloat
+\begin{figure}[H]
 	\centering
-	\begin{minipage}{0.7\textwidth}
+	\begin{minipage}{0.9\textwidth}
 		\centering
 		\includegraphics[width=0.9\textwidth]{TvT}
-		\caption{Scores by classifiers trained on target data}
+		\caption{Scores of the MLP trained on target data}
 		\label{tvt}
 	\end{minipage}
-	\begin{minipage}{0.7\textwidth}
+	\begin{minipage}{0.9\textwidth}
 		\centering
 		\includegraphics[width=0.9\textwidth]{DvD}
-		\caption{Scores by classifiers trained on distractor data}
+		\caption{Scores of the MLP trained on distractor data}
 		\label{dvd}
 	\end{minipage}
 \end{figure}
