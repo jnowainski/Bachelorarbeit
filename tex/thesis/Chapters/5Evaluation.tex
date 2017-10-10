@@ -85,7 +85,7 @@ The solution was to zip the data for all trials as shown in Figure \ref{zip}. Sp
 Method & Specification \\
 \hline\hline
 PCA & 20 principal components \\
-Autoencoder & 2 layers, 20 features, Optimization=Adadelta, Loss=MSE\\
+Autoencoder & 2 encoding layers (1 hidden), 20 features, Optimization=Adadelta, Loss=MSE\\
 Finger Values & Only finger sensors used (41 features) \\
 Sum Of Fingers & Sum of sensors for each finger (5 features) \\
 Max Of Fingers & Max value for each finger (5 features) \\
@@ -117,7 +117,7 @@ Even thought five different feature methods were tested, none showed considerabl
 \end{figure}
 
 An investigation of the reconstruction loss for the autoencoder and PCA method (Figure \ref{ae_pca_loss}) revealed, that not only the performance of the respective model is similar, but also their reconstructional behavior. This means the aspect of linearity or non-linearity does not have any influence on the feature set. Furthermore it can be seen, that there is a high variance for different participants in the loss function.\\
-For the following experiments
+For the following experiments the choice for the feature extraction method fell in favor for taking only the finger sensors since they showed the most stable results.
 %For this first problem, four different classifiers were used to test the classification accuracy. In the table below the parameters resulting in the best performance for this task are listed:
 %The results for the classifiers that were trained on the target objects only is shown in Figure \ref{tvt}. The score was calculated by averaging the accuracy scores of each participant. The blue bars show the result for the tactile data and the red bars for the merged set that includes joint angles. Also shown is the standard deviation. Figure \ref{dvd} shows the same experiment but this time trained on the distractor objects. For the feature vector 20 principle components yielded the best result as Figure \ref{PCA} shows. It also presents the effect of scaling the data which shows a significant increase of the accuracy.\\
 %The results show that for the target data it is possible to classify the five stimuli based on their tactile patterns with an accuracy up to 70\% with the random forest classifier and up to 60\% with the other classifier. Adding the joint angles to the data set however resulted in an small accuracy loss rather than increase.\\
