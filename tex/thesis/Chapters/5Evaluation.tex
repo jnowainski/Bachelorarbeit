@@ -99,8 +99,25 @@ Max Of Fingers & Max value for each finger (5 features) \\
 \subsection{Classifying Data into Object Categories}\label{e2}
 For this experiment the MLP was first trained and evaluated on target data and then on the set containing distractor data. In both cases the training was done individually for each participant and the final score was then calculated by the average over all participants. Both variants were trained multiple times using different feature extraction methods. Each method was evaluated for the tactile data only, the merged set with joint angles concatenated with the tactile data and the joint angles alone.\\ 
 The results for the model that was trained on target objects only is shown in Figure \ref{tvt}. Figure \ref{dvd} shows the same experiment but this time trained on the distractor objects. Table \ref{FE} shows the used specifications for the different feature extraction methods. With the PCA the goal was to find a linear transformation for the data whereas the autoencoder with two encoding layers should find a non-linear representation. The other three methods used handcrafted features which were inspired by examining search strategies of participants and finding that most sensory activity can be reduced to the finger sensors. For the joint data no feature extaction method was used \\
-The outcome shows that a training on only the tactile modularity yielded best results on both, the target and distractor case. Also noticeable is that when using the merged modalities a significantly worse performance on the target data can be seen compared to the joint modality while on the distractor set the performance was almost identically between these two. In general, the model performed better on the distractor data which could be due to higher number of data points available. Even thought five different feature methods were tested, none showed considerable better results. Still, using only the finger sensors shows slightly better performance which is why the decision fell in favor of this method to be used further on.
+The outcome shows that a training on only the tactile modularity yielded best results on both, the target and distractor case. Also noticeable is that when using the merged modalities a significantly worse performance on the target data can be seen compared to the joint modality while on the distractor set the performance was almost identically between these two. In general, the model performed better on the distractor data which could be due to higher number of data points available.\\
+Even thought five different feature methods were tested, none showed considerable better results. 
 
+\begin{figure}[H]
+	\centering
+	\begin{minipage}{0.495\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{Autoencoder_loss}
+	\end{minipage}
+	\begin{minipage}{0.495\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{pca_loss}
+	\end{minipage}
+	\caption{Reconstruction loss calculated with MSE for each participant. On the left side for the autoencoder and on the right side for the PCA method}
+	\label{ae_pca_loss}
+\end{figure}
+
+An investigation of the reconstruction loss for the autoencoder and PCA method (Figure \ref{ae_pca_loss}) revealed, that not only the performance of the respective model is similar, but also their reconstructional behavior. This means the aspect of linearity or non-linearity does not have any influence on the feature set. Furthermore it can be seen, that there is a high variance for different participants in the loss function.\\
+For the following experiments
 %For this first problem, four different classifiers were used to test the classification accuracy. In the table below the parameters resulting in the best performance for this task are listed:
 %The results for the classifiers that were trained on the target objects only is shown in Figure \ref{tvt}. The score was calculated by averaging the accuracy scores of each participant. The blue bars show the result for the tactile data and the red bars for the merged set that includes joint angles. Also shown is the standard deviation. Figure \ref{dvd} shows the same experiment but this time trained on the distractor objects. For the feature vector 20 principle components yielded the best result as Figure \ref{PCA} shows. It also presents the effect of scaling the data which shows a significant increase of the accuracy.\\
 %The results show that for the target data it is possible to classify the five stimuli based on their tactile patterns with an accuracy up to 70\% with the random forest classifier and up to 60\% with the other classifier. Adding the joint angles to the data set however resulted in an small accuracy loss rather than increase.\\
@@ -122,12 +139,6 @@ The outcome shows that a training on only the tactile modularity yielded best re
 		\caption{Scores of the MLP trained on distractor data}
 		\label{dvd}
 	\end{minipage}
-\end{figure}
-
-\begin{figure}[h]
-	\makebox[\textwidth][c]{\includegraphics[scale=0.6]{PCA}}
-	\caption{Analyzing the effect of scaling and the number of principle components}
-	\label{PCA}
 \end{figure}
 
 \subsection{Classifying a Single Object as Either Target or Distractor}
