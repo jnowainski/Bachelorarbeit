@@ -94,6 +94,23 @@ Max Of Fingers & Max value for each finger (5 features) \\
 \caption{Specifications for the used feature extraction methods}
 \label{FE}
 \end{table} 
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|c||c|c|c|c|c|}
+		\hline
+		 & Box & Sphere & Pyramid & Quarter & Wave \\
+		\hline\hline
+		Box & 72 (101) & 23 (7) & 6 (9) & 21 (13) & 21 (17) \\
+		Sphere & 15 (9)& 70 (84) & 25 (13) & 19 (10) & 6 (5)\\
+		Pyramid & 15 (7)& 15  (12)& 26 (65)& 5 (11)& 7 (8)\\
+		Quarter & 37 (15)& 39 (16)& 15 (17)& 98 (183)& 6 (8)\\
+		Wave & 27 (16)& 42 (15)& 0 (12)& 10 (9)& 55 (91)\\
+		\hline
+	\end{tabular}
+	\caption{Confusion matrix for the target data set and in brackets for the distractor data set}
+	\label{Confusion}
+\end{table} 
 %----------------------------------------------------------------------------------------
 \section{Results and Discussion} \label{results}
 \subsection{Classifying Data into Object Categories}\label{e2}
@@ -126,20 +143,18 @@ For the following experiments the choice for the feature extraction method fell 
 %Overall this outcome shows that tactile patterns can be used to classify objects and that the model performs much better on the target data which was assumed. This brings up the hypotheses that rather than as individual objects, humans classify distractors as one class containing mostly object features that does't match the target they searched for. This would at least explain why the classifiers could not really separate the distractor objects. In the following experiments further investigation on this effect will be made. 
 
 \begin{figure}[H]
-	\centering
-	\begin{minipage}{0.9\textwidth}
 		\centering
 		\includegraphics[width=0.9\textwidth]{TvT}
 		\caption{Scores of the MLP trained on target data with various feature extraction methods}
 		\label{tvt}
-	\end{minipage}
-	\begin{minipage}{0.9\textwidth}
+\end{figure}
+\begin{figure}[H]
 		\centering
 		\includegraphics[width=0.9\textwidth]{DvD}
 		\caption{Scores of the MLP trained on distractor data with various feature extraction methods}
 		\label{dvd}
-	\end{minipage}
 \end{figure}
+
 
 \subsection{Classifying a Single Object as Either Target or Distractor}
 This problem is an extension to the previous discussed one. It was found a compelling difference exist in the data regarding the role of an object. For further examinations this problem aimed at finding out whether a classifier can find the role of an object based on the generated tactile data from the exploration. To limit this problem to one model, only the random forest classifier was used as it was chosen in \ref{e2} to be the best performing model. \\
