@@ -35,4 +35,5 @@
 \contentsline {subsection}{\numberline {4.4.2}Classifying a Single Object as Either Target or Distractor}{20}{subsection.58}
 \contentsline {subsection}{\numberline {4.4.3}Classifying whole Data into Roles}{21}{subsection.60}
 \contentsline {chapter}{\numberline {5}Conclusion}{23}{chapter.62}
-\contentsline {chapter}{Bibliography}{25}{appendix*.63}
+\contentsline {chapter}{\numberline {A}Experimental Instructions}{25}{appendix.63}
+\contentsline {chapter}{Bibliography}{27}{appendix*.65}

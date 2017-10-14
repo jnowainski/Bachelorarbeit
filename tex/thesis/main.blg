@@ -7,6 +7,7 @@ A level-1 auxiliary file: Chapters/2Experiment.aux
 A level-1 auxiliary file: Chapters/3Data.aux
 A level-1 auxiliary file: Chapters/5Evaluation.aux
 A level-1 auxiliary file: Chapters/6Conclusion.aux
+A level-1 auxiliary file: Appendices/AppendixA.aux
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -511,7 +512,7 @@ Name 1 in "Z. Pezzementi, E. Plaku, C. Reyda, and G. D. Hager" has a comma at th
 while executing---line 2659 of file biblatex.bst
 You've used 13 entries,
             6047 wiz_defined-function locations,
-            1209 strings with 10479 characters,
+            1210 strings with 10503 characters,
 and the built_in function-call counts, 35544 in all, are:
 = -- 1170
 > -- 1222
