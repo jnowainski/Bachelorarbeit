@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.8)  13 OCT 2017 18:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.8)  14 OCT 2017 13:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2059,7 +2059,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 70--91
 
  []
 
-[9]
+[9] [10]
 Underfull \hbox (badness 10000) in paragraph at lines 95--100
 
  []
@@ -2069,7 +2069,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 95--100
 
  []
 
-[10]
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
 put line 102.
 
@@ -2129,40 +2128,40 @@ Overfull \hbox (70.7732pt too wide) in paragraph at lines 83--94
  []
 
 [17 <./Figures/Zip.png>]
-<Figures/Autoencoder_loss.png, id=383, 462.528pt x 346.896pt>
+<Figures/Autoencoder_loss.png, id=384, 462.528pt x 346.896pt>
 File: Figures/Autoencoder_loss.png Graphic file (type png)
 
 <use Figures/Autoencoder_loss.png>
 Package pdftex.def Info: Figures/Autoencoder_loss.png used on input line 126.
 (pdftex.def)             Requested size: 199.99242pt x 149.9934pt.
 
-<Figures/pca_loss.png, id=384, 462.528pt x 364.9635pt>
+<Figures/pca_loss.png, id=385, 462.528pt x 364.9635pt>
 File: Figures/pca_loss.png Graphic file (type png)
 
 <use Figures/pca_loss.png>
 Package pdftex.def Info: Figures/pca_loss.png used on input line 130.
 (pdftex.def)             Requested size: 199.99242pt x 157.80556pt.
  [18]
-<Figures/TvT.png, id=393, 542.7477pt x 346.896pt>
+<Figures/TvT.png, id=394, 542.7477pt x 346.896pt>
 File: Figures/TvT.png Graphic file (type png)
  <use Figures/TvT.png>
 Package pdftex.def Info: Figures/TvT.png used on input line 147.
 (pdftex.def)             Requested size: 363.6237pt x 232.4191pt.
 
-<Figures/DvD.png, id=394, 546.3612pt x 346.896pt>
+<Figures/DvD.png, id=395, 546.3612pt x 346.896pt>
 File: Figures/DvD.png Graphic file (type png)
  <use Figures/DvD.png>
 Package pdftex.def Info: Figures/DvD.png used on input line 153.
 (pdftex.def)             Requested size: 363.6237pt x 230.87878pt.
 
 [19 <./Figures/Autoencoder_loss.png> <./Figures/pca_loss.png> <./Figures/TvT.pn
-g>] <Figures/TnT.png, id=406, 462.528pt x 346.896pt>
+g>] <Figures/TnT.png, id=407, 462.528pt x 346.896pt>
 File: Figures/TnT.png Graphic file (type png)
  <use Figures/TnT.png>
 Package pdftex.def Info: Figures/TnT.png used on input line 165.
 (pdftex.def)             Requested size: 277.51894pt x 208.13919pt.
 
-[20 <./Figures/DvD.png>] <Figures/TvD.png, id=415, 462.528pt x 346.896pt>
+[20 <./Figures/DvD.png>] <Figures/TvD.png, id=416, 462.528pt x 346.896pt>
 File: Figures/TvD.png Graphic file (type png)
 
 <use Figures/TvD.png>
@@ -2225,7 +2224,7 @@ Here is how much of TeX's memory you used:
  35094 multiletter control sequences out of 15000+600000
  46615 words of font info for 83 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 56i,19n,81p,10377b,1833s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,20n,82p,10377b,1833s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texm
 f-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
@@ -2242,10 +2241,10 @@ s/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/p
 alatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr
 8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr
 /share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (33 pages, 22728186 bytes).
+Output written on main.pdf (33 pages, 22729711 bytes).
 PDF statistics:
- 524 PDF objects out of 1000 (max. 8388607)
- 445 compressed objects within 5 object streams
+ 525 PDF objects out of 1000 (max. 8388607)
+ 446 compressed objects within 5 object streams
  109 named destinations out of 1000 (max. 500000)
  346 words of extra memory for PDF output out of 10000 (max. 10000000)
 
