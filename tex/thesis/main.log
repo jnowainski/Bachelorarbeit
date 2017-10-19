@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.8)  19 OCT 2017 21:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.8)  19 OCT 2017 22:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2091,15 +2091,15 @@ Package hyperref Warning: Suppressing link with empty target on input line 137.
 --------------------
  Declaration of Authorship
 --------------------
-LaTeX Font Info:    Try loading font information for OMS+ppl on input line 165.
+LaTeX Font Info:    Try loading font information for OMS+ppl on input line 166.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsppl.fd
 File: omsppl.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 165.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 166.
 
-Underfull \hbox (badness 10000) in paragraph at lines 170--171
+Underfull \hbox (badness 10000) in paragraph at lines 171--172
 
  []
 
@@ -2111,7 +2111,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 170--171
  Abstract
 --------------------
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 191.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 192.
 1: section
 [5
 
@@ -2119,7 +2119,7 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10.95> not available
 
 ]
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 207.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 208.
  (./main.toc)
 \tf@toc=\write6
 \openout6 = `main.toc'.
@@ -2386,12 +2386,12 @@ Package pdftex.def Info: Figures/TvD.png used on input line 176.
 ]
 Chapter 5.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 7--253
+Underfull \hbox (badness 10000) in paragraph at lines 7--254
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7--253
+Underfull \hbox (badness 10000) in paragraph at lines 7--254
 
  []
 
@@ -2446,30 +2446,30 @@ File: Appendices/instructions_ger.pdf Graphic file (type pdf)
 
 <use Appendices/instructions_ger.pdf, page 1>
 Package pdftex.def Info: Appendices/instructions_ger.pdf, page1 used on input l
-ine 264.
+ine 265.
 (pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
  [25 <./Appendices/instructions_ger.pdf>] [26
 
 
 ]
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 274.
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 275.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
-Overfull \hbox (24.31194pt too wide) in paragraph at lines 274--274
+Overfull \hbox (24.31194pt too wide) in paragraph at lines 275--275
 []\T1/ppl/m/n/10.95 Matteo Bianchi et al. ``A Multi-Modal Sens-ing Glove for Hu
 -man Manual-Interaction
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 283.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 284.
 1: section
 [27]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 283.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 284.
  (./main.aux (./Chapters/1Introduction.aux) (./Chapters/2Experiment.aux)
 (./Chapters/3Data.aux) (./Chapters/5Evaluation.aux) (./Chapters/6Conclusion.aux
 ) (./Appendices/AppendixA.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 283.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 283.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 284.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 284.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 64A952E92C15116D5403090D3B3901A9;5465.
 Package logreq Info: Writing requests to 'main.run.xml'.
@@ -2480,7 +2480,7 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Here is how much of TeX's memory you used:
  33138 strings out of 494953
  651539 string characters out of 6180978
- 751651 words of memory out of 5000000
+ 751733 words of memory out of 5000000
  35897 multiletter control sequences out of 15000+600000
  46615 words of font info for 83 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -2503,7 +2503,7 @@ e/utopia/putr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr
 /share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (35 pages, 15446567 bytes).
+Output written on main.pdf (35 pages, 15447250 bytes).
 PDF statistics:
  556 PDF objects out of 1000 (max. 8388607)
  469 compressed objects within 5 object streams

@@ -2,3 +2,20 @@
 \defcounter {refsection}{0}\relax 
 \select@language {english}
 \addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces MHSB: on the right side for learning, on the left for search task. The marked regions show the target instances.\relax }}{3}{figure.caption.11}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Stimuli objects used in the MHSB. From left: Wave, Sphere, Quarter, Box, Pyramid\relax }}{3}{figure.caption.11}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Glove with 17 retroreflective markers for tracking the hand movement with Vicon\relax }}{5}{figure.caption.17}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Experimental setting with MHSB, glove and Vicon cameras\relax }}{5}{figure.caption.17}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Fitting a hand model (left) and using it in the autotracker to fill gaps (right)\relax }}{8}{figure.caption.26}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Schematic representation of the complete pipeline\relax }}{16}{figure.caption.46}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Schematic explanation of the zipping procedure to generate train and validation sets\relax }}{17}{figure.caption.51}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Reconstruction loss calculated with MSE for each participant. On the left side for the autoencoder and on the right side for the PCA method\relax }}{19}{figure.caption.56}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Scores of the MLP trained on target data with various feature extraction methods\relax }}{19}{figure.caption.57}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Scores of the MLP trained on distractor data with various feature extraction methods\relax }}{20}{figure.caption.58}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Mean scores of MLP trained on data of one object as target and distractor to classify the roles. Only tactile data was used together with the finger sensors as features.\relax }}{21}{figure.caption.60}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Scores of the random forest classifier for the two class classification problem to separate target and distractor data\relax }}{21}{figure.caption.62}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
