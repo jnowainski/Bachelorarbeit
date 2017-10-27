@@ -170,10 +170,21 @@ These information proves that the glove can capture the crucial features that de
 \end{figure}
 
 \subsection{Classifying whole Data into Roles}
-The aim of the last experiment is to find out if all of these assumed features that indicate for a distractor or target object can be separated as just those classes. This would be an additional evidence for the hypotheses that humans classify distractor objects in merely one class rather than the classes of the individual objects themselves as they do for targets. Figure \ref{tvd} shows the results for this experiment. Despite the fact that the distractor objects could not really be separated from each other as \ref{e2} showed, they surely can be discriminated from the target class to at least some degree. The scores of the participants show performance better than random walk, up to 68\%. This outcome reinforces the assumption. Again the merged data set doesn't show significant better scores.
+%The aim of the last experiment is to find out if all of these assumed features that indicate for a distractor or target object can be separated as just those classes. This would be an additional evidence for the hypotheses that humans classify distractor objects in merely one class rather than the classes of the individual objects themselves as they do for targets. Figure \ref{tvd} shows the results for this experiment. Despite the fact that the distractor objects could not really be separated from each other as \ref{e2} showed, they surely can be discriminated from the target class to at least some degree. The scores of the participants show performance better than random walk, up to 68\%. This outcome reinforces the assumption. Again the merged data set doesn't show significant better scores.
+The aim of the last experiment is to find out if it is not only possible to distinguish the roles of one object class, but to see if this will work throughout classes of stimuli objects. For this approach a single object was learned as either target or distractor and tested on a set containing a different unseen object with the same role. Also included in the training and testing was the remaining data with the opposite role of the trained and tested objects. The model should then distinguish between target and distractor data for an unseen object. This will give some insight in the features that are specific for a role and if they are correlated. 
 
 \begin{figure}[H]
-	\makebox[\textwidth][c]{\includegraphics[scale=0.6]{TvD}}
-	\caption{Scores of the random forest classifier for the two class classification problem to separate target and distractor data}
-	\label{tvd}
+	\begin{minipage}[t]{0.49\textwidth}
+		\includegraphics[width=0.965\linewidth]{e3_box}
+	\end{minipage}
+	\hspace{\fill}
+	\begin{minipage}[t]{0.49\textwidth}
+		\includegraphics[width=\linewidth]{e3_sphere}
+	\end{minipage}
+	\caption{On the left side a MLP was trained on the Box stimuli, once as target and distractor and tested on the remaining objects with the respectively roles. The right side shows the same procedure for the Sphere stimuli.}
+	\label{e3}
 \end{figure}
+
+Figure \ref{e3} shows two cases of this approach. Again, a MLP was trained on solely the tactile modality using the finger sensors as features. The training was done for each subject separately and the scores were averaged. On the left side the Box stimuli was trained once as target and once as distractor and it was tested for one of the remaining stimuli each if it can distinguish between the roles. On the right side the same was done for the Sphere stimuli.\\
+The outcome shows that for a model trained only on the Box stimuli, the Pyramid object can be classified with the highest certainty for the target and distractor case. This reinforces the assumption above since this object is the only stimuli besides the Box that has remarkable edges. But still the difference between the objects is small as it is also for the case where the model was trained on the Sphere stimuli. The second case displays even smaller differences. This could be because the Sphere object differs greatly from the other ones which means there are few to none similar features with the other objects.\\
+All in all the results don't proof the assumption that there are role specific features since the scores are in a modest range and more testing would be mandatory. However, the scores are better than random which means that the MLP learns some regularity in the data to be able to achieve such scores. 
