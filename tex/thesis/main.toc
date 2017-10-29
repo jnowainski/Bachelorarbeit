@@ -1,8 +1,8 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \defcounter {refsection}{0}\relax 
 \select@language {english}
-\contentsline {chapter}{Declaration of Authorship}{iii}{section*.1}
-\contentsline {chapter}{Abstract}{v}{section*.2}
+\contentsline {chapter}{Declaration of Authorship}{i}{section*.1}
+\contentsline {chapter}{Abstract}{ii}{section*.2}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.4}
 \contentsline {section}{\numberline {1.1}Motivation}{1}{section.5}
 \contentsline {section}{\numberline {1.2}Goals}{1}{section.6}
@@ -14,26 +14,26 @@
 \contentsline {subsection}{\numberline {2.2.1}Glove}{4}{subsection.13}
 \contentsline {subsection}{\numberline {2.2.2}Vicon}{5}{subsection.14}
 \contentsline {subsection}{\numberline {2.2.3}Setting}{5}{subsection.15}
-\contentsline {chapter}{\numberline {3}Data Generation and Analysis}{7}{chapter.17}
-\contentsline {section}{\numberline {3.1}Data Structure and Requirements}{7}{section.18}
-\contentsline {section}{\numberline {3.2}Recording}{7}{section.23}
-\contentsline {section}{\numberline {3.3}Postprocessing Vicon Data}{8}{section.24}
-\contentsline {section}{\numberline {3.4}Generating Labels}{8}{section.26}
-\contentsline {subsection}{\numberline {3.4.1}Synchronizing Glove and Vicon Data}{9}{subsection.30}
-\contentsline {subsection}{\numberline {3.4.2}Representing Glove and Objects}{9}{subsection.31}
-\contentsline {subsection}{\numberline {3.4.3}Finding Labels}{11}{subsection.32}
-\contentsline {section}{\numberline {3.5}Analyzing the Data}{12}{section.34}
-\contentsline {chapter}{\numberline {4}Evaluation}{13}{chapter.36}
-\contentsline {section}{\numberline {4.1}Approaches}{13}{section.37}
-\contentsline {section}{\numberline {4.2}Related Work}{13}{section.41}
-\contentsline {section}{\numberline {4.3}Methods}{14}{section.42}
-\contentsline {subsection}{\numberline {4.3.1}Notation}{14}{subsection.43}
-\contentsline {subsection}{\numberline {4.3.2}Preprocessing and Feature Extraction}{15}{subsection.44}
-\contentsline {subsection}{\numberline {4.3.3}Training and Validation Methods}{15}{subsection.46}
-\contentsline {section}{\numberline {4.4}Results and Discussion}{18}{section.53}
-\contentsline {subsection}{\numberline {4.4.1}Classifying Data into Object Categories}{18}{subsection.54}
-\contentsline {subsection}{\numberline {4.4.2}Classifying a Single Object as Either Target or Distractor}{20}{subsection.58}
-\contentsline {subsection}{\numberline {4.4.3}Classifying unseen Objects into Roles}{21}{subsection.60}
-\contentsline {chapter}{\numberline {5}Conclusion}{23}{chapter.62}
-\contentsline {chapter}{\numberline {A}Experimental Instructions}{25}{appendix.63}
-\contentsline {chapter}{Bibliography}{27}{appendix*.65}
+\contentsline {chapter}{\numberline {3}Data Generation and Analysis}{6}{chapter.17}
+\contentsline {section}{\numberline {3.1}Data Structure and Requirements}{6}{section.18}
+\contentsline {section}{\numberline {3.2}Recording}{6}{section.23}
+\contentsline {section}{\numberline {3.3}Postprocessing Vicon Data}{7}{section.24}
+\contentsline {section}{\numberline {3.4}Generating Labels}{7}{section.26}
+\contentsline {subsection}{\numberline {3.4.1}Synchronizing Glove and Vicon Data}{8}{subsection.30}
+\contentsline {subsection}{\numberline {3.4.2}Representing Glove and Objects}{8}{subsection.31}
+\contentsline {subsection}{\numberline {3.4.3}Finding Labels}{10}{subsection.32}
+\contentsline {section}{\numberline {3.5}Analyzing the Data}{11}{section.35}
+\contentsline {chapter}{\numberline {4}Evaluation}{13}{chapter.37}
+\contentsline {section}{\numberline {4.1}Approaches}{13}{section.38}
+\contentsline {section}{\numberline {4.2}Related Work}{13}{section.42}
+\contentsline {section}{\numberline {4.3}Methods}{14}{section.43}
+\contentsline {subsection}{\numberline {4.3.1}Notation}{14}{subsection.44}
+\contentsline {subsection}{\numberline {4.3.2}Preprocessing and Feature Extraction}{15}{subsection.45}
+\contentsline {subsection}{\numberline {4.3.3}Training and Validation Methods}{15}{subsection.47}
+\contentsline {section}{\numberline {4.4}Results and Discussion}{18}{section.54}
+\contentsline {subsection}{\numberline {4.4.1}Classifying Data into Object Categories}{18}{subsection.55}
+\contentsline {subsection}{\numberline {4.4.2}Classifying a Single Object as Either Target or Distractor}{20}{subsection.59}
+\contentsline {subsection}{\numberline {4.4.3}Classifying unseen Objects into Roles}{21}{subsection.61}
+\contentsline {chapter}{\numberline {5}Conclusion}{23}{chapter.63}
+\contentsline {chapter}{\numberline {A}Experimental Instructions}{24}{appendix.64}
+\contentsline {chapter}{Bibliography}{25}{appendix*.66}
