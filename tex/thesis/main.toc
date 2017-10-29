@@ -28,12 +28,12 @@
 \contentsline {section}{\numberline {4.2}Related Work}{13}{section.41}
 \contentsline {section}{\numberline {4.3}Methods}{14}{section.42}
 \contentsline {subsection}{\numberline {4.3.1}Notation}{14}{subsection.43}
-\contentsline {subsection}{\numberline {4.3.2}Preprocessing and Feature Extraction}{14}{subsection.44}
+\contentsline {subsection}{\numberline {4.3.2}Preprocessing and Feature Extraction}{15}{subsection.44}
 \contentsline {subsection}{\numberline {4.3.3}Training and Validation Methods}{15}{subsection.46}
 \contentsline {section}{\numberline {4.4}Results and Discussion}{18}{section.53}
 \contentsline {subsection}{\numberline {4.4.1}Classifying Data into Object Categories}{18}{subsection.54}
 \contentsline {subsection}{\numberline {4.4.2}Classifying a Single Object as Either Target or Distractor}{20}{subsection.58}
-\contentsline {subsection}{\numberline {4.4.3}Classifying whole Data into Roles}{21}{subsection.60}
+\contentsline {subsection}{\numberline {4.4.3}Classifying unseen Objects into Roles}{21}{subsection.60}
 \contentsline {chapter}{\numberline {5}Conclusion}{23}{chapter.62}
 \contentsline {chapter}{\numberline {A}Experimental Instructions}{25}{appendix.63}
 \contentsline {chapter}{Bibliography}{27}{appendix*.65}
