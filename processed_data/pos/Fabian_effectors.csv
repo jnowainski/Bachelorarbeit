@@ -1,0 +1,20 @@
+# hand marker positions (Effector)
+# /vol/milab/share/data/models/dave.model
+# pos.x; pos.y; pos.z; VertexIndex; MarkerIndex; MarkerName; JointName
+1.95833 3.93449 -1.95006 0 0 LeftHand0 LeftHand 
+-1.08035 5.53678 -1.88176 0 1 LeftHand1 LeftHand 
+0.0396969 2.36684 -2.43854 0 2 LeftHand2 LeftHand 
+0.316766 2.04674 -1.12291 0 3 LeftHandIndex10 LeftHandIndex1 
+0.546976 1.63947 -0.758283 0 4 LeftHandIndex20 LeftHandIndex2 
+0.360805 1.12096 -0.703265 0 5 LeftHandIndex30 LeftHandIndex3 
+0.0850591 3.912 -1.34753 0 6 LeftHandMiddle10 LeftHandMiddle1 
+0.0555002 2.58748 -0.976125 0 7 LeftHandMiddle30 LeftHandMiddle3 
+0.0708647 0.302086 -0.999578 0 8 LeftHandMiddle31 LeftHandMiddle3 
+-0.571665 1.79557 -0.64633 0 9 LeftHandPinky10 LeftHandPinky1 
+-0.407981 1.10324 -0.775842 0 10 LeftHandPinky20 LeftHandPinky2 
+0.15966 1.52137 -0.668503 0 11 LeftHandPinky30 LeftHandPinky3 
+-0.741078 2.30664 -0.43582 0 12 LeftHandRing10 LeftHandRing1 
+-0.302226 1.4531 -0.982209 0 13 LeftHandRing20 LeftHandRing2 
+-0.144766 0.82798 -0.872348 0 14 LeftHandRing30 LeftHandRing3 
+-0.333059 1.32496 -1.05816 0 15 LeftHandThumb20 LeftHandThumb2 
+-0.0597764 1.45379 -0.831601 0 16 LeftHandThumb30 LeftHandThumb3 
