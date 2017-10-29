@@ -32,8 +32,8 @@
 \contentsline {subsection}{\numberline {4.3.3}Training and Validation Methods}{15}{subsection.47}
 \contentsline {section}{\numberline {4.4}Results and Discussion}{18}{section.54}
 \contentsline {subsection}{\numberline {4.4.1}Classifying Data into Object Categories}{18}{subsection.55}
-\contentsline {subsection}{\numberline {4.4.2}Classifying a Single Object as Either Target or Distractor}{20}{subsection.59}
-\contentsline {subsection}{\numberline {4.4.3}Classifying unseen Objects into Roles}{21}{subsection.61}
-\contentsline {chapter}{\numberline {5}Conclusion}{23}{chapter.63}
-\contentsline {chapter}{\numberline {A}Experimental Instructions}{24}{appendix.64}
-\contentsline {chapter}{Bibliography}{25}{appendix*.66}
+\contentsline {subsection}{\numberline {4.4.2}Classifying a Single Object as Either Target or Distractor}{20}{subsection.60}
+\contentsline {subsection}{\numberline {4.4.3}Classifying unseen Objects into Roles}{21}{subsection.62}
+\contentsline {chapter}{\numberline {5}Conclusion}{23}{chapter.64}
+\contentsline {chapter}{\numberline {A}Experimental Instructions}{24}{appendix.65}
+\contentsline {chapter}{Bibliography}{25}{appendix*.67}

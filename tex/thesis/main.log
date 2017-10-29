@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.8.23)  29 OCT 2017 19:32
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.8.23)  29 OCT 2017 23:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2117,7 +2117,7 @@ File: Figures/Zip.png Graphic file (type png)
 Package pdftex.def Info: Figures/Zip.png used on input line 76.
 (pdftex.def)             Requested size: 404.84055pt x 135.65616pt.
 
-Overfull \hbox (70.7732pt too wide) in paragraph at lines 83--94
+Overfull \hbox (17.9728pt too wide) in paragraph at lines 83--94
  [][] 
  []
 
@@ -2127,48 +2127,60 @@ File: Figures/Autoencoder_loss.png Graphic file (type png)
 
 <use Figures/Autoencoder_loss.png>
 Package pdftex.def Info: Figures/Autoencoder_loss.png used on input line 126.
-(pdftex.def)             Requested size: 199.99242pt x 149.9934pt.
+(pdftex.def)             Requested size: 200.3993pt x 150.3004pt.
 
 <Figures/pca_loss.png, id=377, 462.528pt x 364.9635pt>
 File: Figures/pca_loss.png Graphic file (type png)
 
 <use Figures/pca_loss.png>
 Package pdftex.def Info: Figures/pca_loss.png used on input line 130.
-(pdftex.def)             Requested size: 199.99242pt x 157.80556pt.
+(pdftex.def)             Requested size: 200.3993pt x 158.12856pt.
  [18]
-<Figures/TvT.png, id=386, 542.7477pt x 346.896pt>
+<Figures/TvT_c.png, id=388, 462.528pt x 346.896pt>
+File: Figures/TvT_c.png Graphic file (type png)
+ <use Figures/TvT_c.png>
+Package pdftex.def Info: Figures/TvT_c.png used on input line 144.
+(pdftex.def)             Requested size: 199.99242pt x 149.9934pt.
+
+<Figures/DvD_c.png, id=389, 462.528pt x 346.896pt>
+File: Figures/DvD_c.png Graphic file (type png)
+ <use Figures/DvD_c.png>
+Package pdftex.def Info: Figures/DvD_c.png used on input line 148.
+(pdftex.def)             Requested size: 199.99242pt x 149.9934pt.
+
+<Figures/TvT.png, id=390, 542.7477pt x 346.896pt>
 File: Figures/TvT.png Graphic file (type png)
  <use Figures/TvT.png>
-Package pdftex.def Info: Figures/TvT.png used on input line 147.
+Package pdftex.def Info: Figures/TvT.png used on input line 162.
 (pdftex.def)             Requested size: 363.6237pt x 232.4191pt.
 
-<Figures/DvD.png, id=387, 546.3612pt x 346.896pt>
+<Figures/DvD.png, id=391, 546.3612pt x 346.896pt>
 File: Figures/DvD.png Graphic file (type png)
  <use Figures/DvD.png>
-Package pdftex.def Info: Figures/DvD.png used on input line 153.
+Package pdftex.def Info: Figures/DvD.png used on input line 168.
 (pdftex.def)             Requested size: 363.6237pt x 230.87878pt.
 
-[19 <./Figures/Autoencoder_loss.png> <./Figures/pca_loss.png> <./Figures/TvT.pn
-g>] <Figures/TnT.png, id=398, 462.528pt x 346.896pt>
+[19 <./Figures/Autoencoder_loss.png> <./Figures/pca_loss.png> <./Figures/TvT_c.
+png> <./Figures/DvD_c.png>] [20 <./Figures/TvT.png> <./Figures/DvD.png>]
+<Figures/TnT.png, id=410, 462.528pt x 346.896pt>
 File: Figures/TnT.png Graphic file (type png)
  <use Figures/TnT.png>
-Package pdftex.def Info: Figures/TnT.png used on input line 167.
+Package pdftex.def Info: Figures/TnT.png used on input line 182.
 (pdftex.def)             Requested size: 277.51894pt x 208.13919pt.
 
-[20 <./Figures/DvD.png>] <Figures/e3_box.png, id=405, 465.4188pt x 367.8543pt>
+<Figures/e3_box.png, id=411, 465.4188pt x 367.8543pt>
 File: Figures/e3_box.png Graphic file (type png)
-
-<use Figures/e3_box.png>
-Package pdftex.def Info: Figures/e3_box.png used on input line 178.
+ <use Figures/e3_box.png>
+Package pdftex.def Info: Figures/e3_box.png used on input line 193.
 (pdftex.def)             Requested size: 191.04655pt x 151.00084pt.
 
-<Figures/e3_sphere.png, id=406, 462.528pt x 346.896pt>
+<Figures/e3_sphere.png, id=412, 462.528pt x 346.896pt>
 File: Figures/e3_sphere.png Graphic file (type png)
 
 <use Figures/e3_sphere.png>
-Package pdftex.def Info: Figures/e3_sphere.png used on input line 182.
+Package pdftex.def Info: Figures/e3_sphere.png used on input line 197.
 (pdftex.def)             Requested size: 197.97646pt x 148.48483pt.
-) [21 <./Figures/TnT.png> <./Figures/e3_box.png> <./Figures/e3_sphere.png>] [22
+) [21 <./Figures/TnT.png>] [22 <./Figures/e3_box.png> <./Figures/e3_sphere.png>
 ]
 \openout2 = `Chapters/6Conclusion.aux'.
 
@@ -2194,7 +2206,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--254
 
  (./Appendices/AppendixA.tex
 Appendix A.
-<Appendices/instructions_ger.pdf, id=425, 597.50829pt x 845.0471pt>
+<Appendices/instructions_ger.pdf, id=431, 597.50829pt x 845.0471pt>
 File: Appendices/instructions_ger.pdf Graphic file (type pdf)
 
 <use Appendices/instructions_ger.pdf>
@@ -2205,7 +2217,7 @@ File: Appendices/instructions_ger.pdf Graphic file (type pdf)
 Package pdftex.def Info: Appendices/instructions_ger.pdf used on input line 4.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 
-<Appendices/instructions_ger.pdf, id=428, page=1, 597.50829pt x 845.0471pt>
+<Appendices/instructions_ger.pdf, id=434, page=1, 597.50829pt x 845.0471pt>
 File: Appendices/instructions_ger.pdf Graphic file (type pdf)
 
 <use Appendices/instructions_ger.pdf, page 1>
@@ -2264,16 +2276,16 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 284.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 284.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 284.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 777048A47AC097AC3D5D3B74725707FA;5485.
+(rerunfilecheck)             Checksum: 5A31986BCCD7A53C9F3ED793C120AE67;5485.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31341 strings out of 493304
- 622567 string characters out of 6139871
+ 31354 strings out of 493304
+ 622800 string characters out of 6139871
  744477 words of memory out of 5000000
- 34229 multiletter control sequences out of 15000+600000
+ 34239 multiletter control sequences out of 15000+600000
  46615 words of font info for 83 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  56i,20n,82p,10402b,1823s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2294,10 +2306,10 @@ nts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw
 /palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/up
 lr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (29 pages, 15392644 bytes).
+Output written on main.pdf (29 pages, 15424210 bytes).
 PDF statistics:
- 533 PDF objects out of 1000 (max. 8388607)
- 449 compressed objects within 5 object streams
- 108 named destinations out of 1000 (max. 500000)
- 384 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 541 PDF objects out of 1000 (max. 8388607)
+ 453 compressed objects within 5 object streams
+ 109 named destinations out of 1000 (max. 500000)
+ 394 words of extra memory for PDF output out of 10000 (max. 10000000)
 

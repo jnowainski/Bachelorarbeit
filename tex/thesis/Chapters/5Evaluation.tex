@@ -85,7 +85,7 @@ The solution was to zip the data for all trials as shown in Figure \ref{zip}. Sp
 Method & Specification \\
 \hline\hline
 PCA & 20 principal components \\
-Autoencoder & 2 encoding layers (1 hidden), 20 features, Optimization=Adadelta, Loss=MSE\\
+Autoencoder & 2 encoding layers, 20 features, Optimization=Adadelta, Loss=MSE\\
 Finger Values & Only finger sensors used (41 features) \\
 Sum Of Fingers & Sum of sensors for each finger (5 features) \\
 Max Of Fingers & Max value for each finger (5 features) \\
@@ -119,13 +119,13 @@ The results for the model that was trained on target objects only is shown in Fi
 The outcome shows that a training on only the tactile modality yielded best results on both, the target and distractor case. Also noticeable is that when using the merged modalities a significantly worse performance on the target data can be seen compared to the joint modality while on the distractor set the performance was almost identically between these two. In general, the model performed better on the distractor data which could be due to higher number of data points available.\\
 Table \ref{Confusion} shows the confusion matrix for both data sets of this experiment. It appears that the pyramid stimuli has the highest number of confusions relatively for both data sets. Interesting is, that the sphere has the most confusions with the quarter and wave stimuli, which are the only objects besides the sphere that have also rounded features. This brings up the assumption that similar objects are more difficult to separate based on their tactile pattern. 
 
-\begin{figure}[H]
+\begin{figure}
 	\centering
-	\begin{minipage}{0.495\textwidth}
+	\begin{minipage}{0.496\textwidth}
 		\centering
 		\includegraphics[width=\textwidth]{Autoencoder_loss}
 	\end{minipage}
-	\begin{minipage}{0.495\textwidth}
+	\begin{minipage}{0.496\textwidth}
 		\centering
 		\includegraphics[width=\textwidth]{pca_loss}
 	\end{minipage}
@@ -134,7 +134,22 @@ Table \ref{Confusion} shows the confusion matrix for both data sets of this expe
 \end{figure}
 Even thought five different feature methods were tested, none showed considerable better results.\\
 An investigation of the reconstruction loss for the autoencoder and PCA method (Figure \ref{ae_pca_loss}) revealed, that not only the performance of the respective model is similar, but also their loss behavior. It seems that the aspect of linearity or non-linearity in dimensionality reduction does not have significant influence on the reconstruction ability and model performance. Furthermore it can be seen, that there is a high variance for different participants in the loss function.\\
-For the following experiments the choice for the feature extraction method fell in favor for taking only the finger sensors since they showed the most stable results. Also for further investigations the evaluation will be reduced to the tactile modality as there could no improvement be seen for the merged modality or only the joint angles.
+For the following experiments the choice for the feature extraction method fell in favor for taking only the finger sensors since they showed the most stable results. Also for further investigations the evaluation will be reduced to the tactile modality as there could no improvement be seen for the merged modality or only the joint angles.\\
+To evaluate the classifier choice, the chosen modality and features were also tested on other common classifier: a k-nearest-neighbor (KNN) classifier with $ k=10 $ and a support vector machine (SVM) using the radial basis function kernel. Figure \ref{classifier} shows the outcome. For the target data and the tactile modality it can be seen, that the MLP outperforms both other classifier. Furthermore it shows the least variance throughout the participants. Other modalities tend to have significant higher variance, especially when using only the joint data from the glove. For the distractor case, the MLP on the tactile data outperforms all other results by a large margin. This outcome verifies the decision to take a MLP classifier. 
+
+\begin{figure}
+	\centering
+	\begin{minipage}{0.495\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{TvT_c}
+	\end{minipage}
+	\begin{minipage}{0.495\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{DvD_c}
+	\end{minipage}
+	\caption{Scores and variances of KNN, MLP and SVM classifier using three different modalities and the finger sensors as feature vector. On the left side for the target data and on the right side for the distractor data.}
+	\label{classifier}
+\end{figure}
 %For this first problem, four different classifiers were used to test the classification accuracy. In the table below the parameters resulting in the best performance for this task are listed:
 %The results for the classifiers that were trained on the target objects only is shown in Figure \ref{tvt}. The score was calculated by averaging the accuracy scores of each participant. The blue bars show the result for the tactile data and the red bars for the merged set that includes joint angles. Also shown is the standard deviation. Figure \ref{dvd} shows the same experiment but this time trained on the distractor objects. For the feature vector 20 principle components yielded the best result as Figure \ref{PCA} shows. It also presents the effect of scaling the data which shows a significant increase of the accuracy.\\
 %The results show that for the target data it is possible to classify the five stimuli based on their tactile patterns with an accuracy up to 70\% with the random forest classifier and up to 60\% with the other classifier. Adding the joint angles to the data set however resulted in an small accuracy loss rather than increase.\\
@@ -173,7 +188,7 @@ These information proves that the glove can capture the crucial features that de
 %The aim of the last experiment is to find out if all of these assumed features that indicate for a distractor or target object can be separated as just those classes. This would be an additional evidence for the hypotheses that humans classify distractor objects in merely one class rather than the classes of the individual objects themselves as they do for targets. Figure \ref{tvd} shows the results for this experiment. Despite the fact that the distractor objects could not really be separated from each other as \ref{e2} showed, they surely can be discriminated from the target class to at least some degree. The scores of the participants show performance better than random walk, up to 68\%. This outcome reinforces the assumption. Again the merged data set doesn't show significant better scores.
 The aim of the last experiment is to find out if it is not only possible to distinguish the roles of one object class, but to see if this will work throughout classes of stimuli objects. For this approach a single object was learned as either target or distractor and tested on a set containing a different unseen object with the same role. Also included in the training and testing was the remaining data with the opposite role of the trained and tested objects. The model should then distinguish between target and distractor data for an unseen object. This will give some insight in the features that are specific for a role and if they are correlated. 
 
-\begin{figure}[H]
+\begin{figure}
 	\begin{minipage}[t]{0.49\textwidth}
 		\includegraphics[width=0.965\linewidth]{e3_box}
 	\end{minipage}
