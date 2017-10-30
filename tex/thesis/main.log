@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.8.23)  30 OCT 2017 10:32
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.8.23)  30 OCT 2017 14:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1894,7 +1894,7 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10.95> not available
 
 ]
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 208.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 209.
  (./main.toc)
 \tf@toc=\write6
 \openout6 = `main.toc'.
@@ -2248,34 +2248,34 @@ File: Appendices/instructions_ger.pdf Graphic file (type pdf)
 
 <use Appendices/instructions_ger.pdf, page 1>
 Package pdftex.def Info: Appendices/instructions_ger.pdf, page1 used on input l
-ine 265.
+ine 266.
 (pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
  [25
 
 
 
  <./Appendices/instructions_ger.pdf>]
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 275.
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 276.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
-Overfull \hbox (24.31194pt too wide) in paragraph at lines 275--275
+Overfull \hbox (24.31194pt too wide) in paragraph at lines 276--276
 []\T1/ppl/m/n/10.95 Matteo Bianchi et al. ``A Multi-Modal Sens-ing Glove for Hu
 -man Manual-Interaction
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 284.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 285.
 1: section
 [26
 
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 284.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 285.
  (./main.aux (./Chapters/1Introduction.aux) (./Chapters/2Experiment.aux)
 (./Chapters/3Data.aux) (./Chapters/5Evaluation.aux) (./Chapters/6Conclusion.aux
 ) (./Appendices/AppendixA.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 284.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 284.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 285.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 285.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 5A31986BCCD7A53C9F3ED793C120AE67;5485.
 Package logreq Info: Writing requests to 'main.run.xml'.
@@ -2307,7 +2307,7 @@ nts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw
 /palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/up
 lr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (30 pages, 15425652 bytes).
+Output written on main.pdf (30 pages, 15425510 bytes).
 PDF statistics:
  545 PDF objects out of 1000 (max. 8388607)
  456 compressed objects within 5 object streams
