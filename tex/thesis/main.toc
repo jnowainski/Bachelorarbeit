@@ -25,15 +25,15 @@
 \contentsline {section}{\numberline {3.5}Analyzing the Data}{11}{section.35}
 \contentsline {chapter}{\numberline {4}Evaluation}{13}{chapter.37}
 \contentsline {section}{\numberline {4.1}Approaches}{13}{section.38}
-\contentsline {section}{\numberline {4.2}Related Work}{13}{section.42}
+\contentsline {section}{\numberline {4.2}Related Work}{14}{section.42}
 \contentsline {section}{\numberline {4.3}Methods}{14}{section.43}
 \contentsline {subsection}{\numberline {4.3.1}Notation}{14}{subsection.44}
 \contentsline {subsection}{\numberline {4.3.2}Preprocessing and Feature Extraction}{15}{subsection.45}
 \contentsline {subsection}{\numberline {4.3.3}Training and Validation Methods}{15}{subsection.47}
 \contentsline {section}{\numberline {4.4}Results and Discussion}{18}{section.54}
 \contentsline {subsection}{\numberline {4.4.1}Classifying Data into Object Categories}{18}{subsection.55}
-\contentsline {subsection}{\numberline {4.4.2}Classifying a Single Object as Either Target or Distractor}{20}{subsection.60}
-\contentsline {subsection}{\numberline {4.4.3}Classifying unseen Objects into Roles}{21}{subsection.62}
-\contentsline {chapter}{\numberline {5}Conclusion}{23}{chapter.64}
-\contentsline {chapter}{\numberline {A}Experimental Instructions}{25}{appendix.65}
-\contentsline {chapter}{Bibliography}{26}{appendix*.67}
+\contentsline {subsection}{\numberline {4.4.2}Classifying a Single Object as Either Target or Distractor}{21}{subsection.60}
+\contentsline {subsection}{\numberline {4.4.3}Classifying unseen Objects into Roles}{22}{subsection.62}
+\contentsline {chapter}{\numberline {5}Conclusion}{24}{chapter.64}
+\contentsline {chapter}{\numberline {A}Experimental Instructions}{26}{appendix.65}
+\contentsline {chapter}{Bibliography}{27}{appendix*.67}

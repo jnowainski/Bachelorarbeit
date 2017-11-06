@@ -5,33 +5,34 @@
 \label{Data} % For referencing the chapter elsewhere, use \ref{Chapter1} 
 
 %----------------------------------------------------------------------------------------
-This chapter addresses the methods and efforts to tackle the task of data generation as well as labeling the huge amount of data that was recorded.\\
-It was the most time-consuming part of this work, since it involved a lot of postprocessing and data cleansing work that was necessary due to the multi-modality of the recording devices and capturing data with different frequencies with various data formats which also were partly unsynchronized. Furthermore methods are explained that were used to label the generated data mostly automatically, based on position data of the hand and the MHSB, as well as a representation of the distribution of the stimuli objects on the frames.
+This chapter will address the methods and efforts to tackle the task of data generation as well as labeling the huge amount of data that was recorded.\\
+It was the most time-consuming part of this work, since it involved a lot of postprocessing and data cleansing work that had been necessary due to the multi-modality of the recording devices and capturing data with different frequencies with various data formats which also were partly unsynchronized. Furthermore, methods that were used to label the generated data mostly automatically, based on position data of the hand and the MHSB, as well as a representation of the distribution of the stimuli objects on the frames, will be explained.
 
 %----------------------------------------------------------------------------------------
 \section{Data Structure and Requirements}
-The data in this experiment was recorded with multiple devices, including the Vicon system, the 2 parts of the glove as well as 3 cameras, generating side- and top-views. To be able to train a classifier with supervised learning, there were a number of requirements to the data:
+The data in this experiment was recorded with multiple devices, including the Vicon system, the 2 parts of the glove as well as 3 cameras, generating side- and top-views. In order to train a classifier with supervised learning, following requirements were made for the data:
+%To be able to train a classifier with supervised learning, there were a number of requirements to the data:
 \begin{enumerate}
 \item Simultaneous data acquisition
 \begin{itemize}
-\item Capturing all devices at the same time will facilitate upcoming processing steps
+\item Capturing all devices at the same time will facilitate upcoming processing steps.
 \end{itemize}
 \item Postprocessing raw data
 \begin{itemize}
-\item To be able to work with the data, raw data needs to be processed and all files need to be in the same format
+\item To be able to work with the data, raw data needs to be processed and all files need to be in the same format.
 \end{itemize}
 \item Synchronizing the time-series
 \begin{itemize}
-\item Delays in the data acquisition and different device frequencies make this step necessary
+\item Delays in the data acquisition and different device frequencies make this step necessary.
 \end{itemize}
 \item Generating the labels
 \begin{itemize}
-\item For supervised learning, the whole dataset needs to be labeled
+\item For supervised learning, the whole dataset needs to be labeled.
 \end{itemize}
 \end{enumerate}
 %----------------------------------------------------------------------------------------
 \section{Recording} \label{recording}
-To record the data of all devices preferably at the same time and with giving just one start signal, a tool called Multiple Start Synchronizer (MSS) was used. MSS sends a trigger signal to all registered devices which makes them start and stop capturing data.\\
+To aid recording the data of all devices at the same time and with only one start signal, a tool called Multiple Start Synchronizer (MSS) was used. MSS sends a trigger signal to all registered devices which makes them start and stop capturing data.\\
 The Vicon and Basler camera data were captured directly within the Vicon Nexus program. For the glove, data was recorded as rosbag consisting of two topics for each part of the glove. Side-view camera images were captured directly as image files.\\
 \\
 Despite using MSS, there were still delays among the different devices that had to be synchronized separately. 
@@ -44,30 +45,30 @@ The resulting file contains a time-series of the x-,y- and z-position of each ma
 \begin{figure}[h]
 	%\includegraphics[scale]{Pipeline2}
 	\makebox[\textwidth][c]{\includegraphics[scale=0.22]{reconstruction}}
-	\caption{Fitting a hand model (left) and using it in the autotracker to fill gaps (right)}
+	\caption{Fitting a hand model (left) and using it in the autotracker to fill gaps (right).}
 	\label{autotracker}
 \end{figure}
 %----------------------------------------------------------------------------------------
 \section{Generating Labels}
 This section will describe the methodology that was used to generate labels for the recorded data. The challenge was to write a program, that will do most of the work automatically and handle the huge amount of data generated by this experiment.\\
-With 7 subjects participating in up to 5 trials each, and a time series containing between 5000 and 7000 data points for each trial, a manual labeling of the data would be too time-consuming. Also having to cope with unsynchronized data due to delays between the modalities would make this task hard to tackle without proper preprocessing. The solution was a program that used the trajectories of the Vicon data to extract objects that were explored during the search experiment and to label them appropriately. The exact procedure is described in the subsections below. It can be summarized to three mandatory steps:
+With 7 subjects participating in up to 5 trials each, and time series containing between 5000 and 7000 data points for each trial, a manual labeling of the data would be too time-consuming. Also having to cope with unsynchronized data due to delays between the modalities would make this task hard to tackle without proper preprocessing. The solution was a program that used the trajectories of the Vicon data to extract objects that were explored during the search experiment and to label them appropriately. The exact procedure is described in the subsections below. It can be summarized to three mandatory steps:
 \begin{enumerate}
-	\item Synchronizing data from Vicon and glove to allocate positions to tactile data
-	\item Building a representation of the experimental setting to recreate it in sense of the hand trajectories and object distribution
-	\item Generating labels by replaying these trajectories and constructing a vector containing the explored objects at each timestep
+	\item Synchronizing data from Vicon and glove to allocate positions to tactile data.
+	\item Building a representation of the experimental setting to recreate it in sense of the hand trajectories and object distribution.
+	\item Generating labels by replaying these trajectories and constructing a vector containing the explored objects at each timestep.
 \end{enumerate}
 
 \subsection{Synchronizing Glove and Vicon Data}
-A problem that occurred during the acquisition was the delay between starting the Vicon system and the glove recording. Although sending a trigger signal to both systems at the same time, the glove started capturing data approximately 3 to 5 seconds later. Additionally the beginning of the Vicon data had to be cut by 100 to 1000 frames for postprocessing reasons. Fitting the three-dimensional model was only successful if the markers of the first frames had a nearly perfect plane position. As a consequence, an offset had to be defined pointing to the beginning of the Vicon time series because the data only contains a timestamp describing the beginning of the recording. On the other hand the recorded rosbags from the glove came with a timestamp for each sample.\\
-Since the frequency of the tactile glove with 150 Hz is lower than the frequency of Vicon with 200 Hz, the trajectory data should be reduced to the length of the tactile glove.\\
+A problem that occurred during the acquisition was the delay between starting the Vicon system and the glove recording. Although it was sending a trigger signal to both systems at the same time, the glove started capturing data approximately 3 to 5 seconds later. Additionally the beginning of the Vicon data had to be cut by 100 to 1000 frames for postprocessing reasons. Fitting the three-dimensional model was only successful if the markers of the first frames had been in a nearly perfect plane position. Consequently, an offset had to be defined pointing to the beginning of the Vicon time series because the data only contains a timestamp describing the beginning of the recording. On the other hand, the recorded rosbags from the glove had a timestamp for each sample.\\
+Since the frequency of the tactile glove with 150 Hz was lower than the frequency of Vicon with 200 Hz, the trajectory data had been reduced to the length of the tactile glove.\\
 \\
-Consider the two time series $V = \{v_{t} \mid t\in T_{V}\}$ and $G = \{g_{t} \mid t\in T_{G}\}$ describing the set for the Vicon data and glove data. The set of timestamps $T_{G}$ was given for the tactile data and consisting of unix time values. For $T_{V}$ the timestamps had to be calculated for each sample from the initial timestamp, the offset and the frequency. \\
+Considering the two time series $V = \{v_{t} \mid t\in T_{V}\}$ and $G = \{g_{t} \mid t\in T_{G}\}$ that would describe the set for the Vicon data and glove data. The set of timestamps $T_{G}$ was given for the tactile data and consisted of unix time values. For $T_{V}$ the timestamps had to be calculated for each sample from the initial timestamp, the offset and the frequency. \\
 To synchronize, a new time series $V' \subset V$ was defined with \begin{center}
-$V' = \{v_{t} \mid \forall g_{t_{g}} \in G \exists v_{t_{v}} \in V : t_{v} \geq t_{g} \wedge t_{v} < t_{g+1}, t_{v} \in T_{V}, t_{g} \in T_{G} \}$
+$V' = \{v_{t} \mid \forall g_{t_{g}} \in G \exists v_{t_{v}} \in V : (t_{v} \geq t_{g}) \wedge (t_{v} < t_{g+1}), t_{v} \in T_{V}, t_{g} \in T_{G} \}$
 \end{center}
-This new time series has now equal length to $G$ and each time value from $V'$ matches exactly one time value from the time series $G$.
+This new time series has now equal length to $G$. Each time value from $V'$ matched exactly one time value from the time series $G$.
 \subsection{Representing Glove and Objects}
-The core idea behind this program was to use the hands trajectories and approximated object positions to detect which object was covered by the hand during which time. Having the trajectory data given, the only thing that had to be done manually was the object distribution. For this, a representation of the board was generated in form of a matrix $B \in \mathbb{R}^{10 \times 10}$ for each trial. In this representation, $b_{11} \in \Omega=\{0,..,5\}$ would be the top left object and from there rows and columns were generated accordingly where $\Omega$ is the set of labels. To decrease the number of false-positives, only explored objects were considered in this representation.\\
+The core idea behind this program was to use the trajectories of the hand and approximated object positions in order to detect which object was covered by the hand during which time. By having trajectory data acquired, the only thing that had to be done manually was the object distribution. For this, a representation of the board was generated in form of a matrix $B \in \mathbb{R}^{10 \times 10}$ for each trial. In this representation, $b_{11} \in \Omega=\{0,..,5\}$ would be the top left object and from there rows and columns were generated accordingly where $\Omega$ is the set of labels. To decrease the number of false-positives, only explored objects were considered in this representation.\\
 The next level was to represent this information in a coordinate system by generating polygons for each object in $ B $ to embody the MHSB. Since only the top corners of the boards were assembled with markers, the positions for respective corners of the polygons had to be calculated based on this. First for each object $ b_{ij} \in B $ a polygon $ P_{ij} = \begin{pmatrix}a & b \\ c & d\end{pmatrix} $ was created where each element describes the x- and y-position of a corner. In the second step, this polygon was represented as its center position $ z = \begin{pmatrix}
 z_{x} \\ z_{y}
 \end{pmatrix}$. The result is a matrix $B' = \begin{pmatrix}
@@ -118,18 +119,18 @@ For debugging purpose, the program also includes a simple visualization tool to 
 \begin{figure}[h]
 	%\includegraphics[scale]{Pipeline2}
 	\makebox[\textwidth][c]{\includegraphics[width=\textwidth]{auto_label}}
-	\caption{Auto-labeling visualization tool with the hand representation (blue polygon), the target object (blue square) and the search stimuli represented as their polygon center (green dots) and their respective labels}
+	\caption{Auto-labeling visualization tool with the hand representation (blue polygon), the target object (blue square) and the search stimuli represented as their polygon center (green dots) and their respective labels.}
 	\label{auto_label}
 \end{figure}
 
 A small addition was made after the first few observations. As a result of using only the center of the polygon, small noise in the position led to false labels when the center appeared to be closer to a neighbor object. To fix this problem, and additional parameter $ \gamma $ was added describing an attraction variable. If the same label occurs consecutively, meaning an object is explored for some duration, $ \gamma $ increases. When then the label changes, but the old one is still near, the algorithm will stick to the previous one while decreasing $ \gamma $. This ensures to avoid gaps of false labels.\\
 \\
-After generating the label vectors for the trials, almost no additional work had to be done manually. However if the data was too noisy, few gaps had to filled by hand with the help of the visualization tool or good guessing.
+After generating the label vectors for the trials, almost no additional work had to be done manually. However if the data was too noisy, few gaps had to be filled by hand with the help of the visualization tool or good guessing.
 
 %----------------------------------------------------------------------------------------
 \section{Analyzing the Data}
 For this experiment a total of seven subjects participated, each in up to five trials. After postprocessing the Vicon data, fitting a hand model and labeling, some problems were noticeable that led to an exclusion of trials from the final data set.\\
-One problem was the losing of markers during an experiment. While most of these scenarios were detected and the trial repeated, a few cases went unnoticed until the postprocessing step. It was not possible to reconstruct the hand model with less markers anymore.\\
+One problem was the loss of markers during an experiment. While most of these scenarios were detected and the trial was repeated, a few cases went unnoticed until the postprocessing step. It was not possible to reconstruct the hand model with less markers anymore.\\
 A second problem was to much noise that would act as ghost markers in later processing steps. The programs used were able to handle just a specific amount of noise, so that a few trials could not be labeled.\\
 \\
 The final data set consists of data from \textbf{29} out of \textbf{35} trials and includes \textbf{137123} data points. Also included are the non relevant labels that describe cases where the hand was not exploring an object or outside the MHSB. In the table below the number of trials and data points for each participant A to G are listed:   
