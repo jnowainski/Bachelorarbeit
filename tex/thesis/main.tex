@@ -55,12 +55,13 @@ headsepline, % Uncomment to get a line under the header
 %Define algorythm specific stuff here
 \algdef{SE}{Begin}{End}{\textbf{begin}}{\textbf{end}}
 
-\usepackage[backend=bibtex]{biblatex}
-\bibliography{example.bib}
-%\bibliographystyle{plain}
-%\usepackage[backend=bibtex,style=authoryear,natbib=true]{biblatex} % Use the bibtex backend with the authoryear citation style (which resembles APA)
+%\usepackage[backend=bibtex,style=authoryear]{biblatex}
 
-%\addbibresource{example.bib} % The filename of the bibliography
+%\bibliography{example.bib}
+
+\usepackage[backend=bibtex,style=ieee,natbib=true]{biblatex} % Use the bibtex backend with the authoryear citation style (which resembles APA)
+
+\addbibresource{example.bib} % The filename of the bibliography
 
 %\usepackage[autostyle=true]{csquotes} % Required to generate language-dependent quotes in the bibliography
 
@@ -128,7 +129,9 @@ headsepline, % Uncomment to get a line under the header
 \begin{minipage}[t]{0.4\textwidth}
 \begin{flushleft} \large
 \emph{Author:}\\
-\href{}{\authorname} % Author name - remove the \href bracket to remove the link
+\href{}{\authorname}\\ % Author name - remove the \href bracket to remove the link
+\emph{Study Program:}\\
+\href{}{Cognitive Computer Science}
 \end{flushleft}
 \end{minipage}
 \begin{minipage}[t]{0.4\textwidth}
@@ -273,7 +276,8 @@ It was found that from the data models could be build to classify the objects th
 
 
 %\addcontentsline{toc}{section}{References}
-\printbibliography[heading=bibintoc]
+%\printbibliography[heading=bibintoc]
+\printbibliography
 
 %----------------------------------------------------------------------------------------
 %	REFERENCES

@@ -16,28 +16,82 @@
   {}
 \endgroup
 
-\entry{Schneider}{article}{}
-  \name{author}{2}{}{%
+\entry{HapticShape}{article}{}
+  \name{author}{3}{}{%
     {{}%
-     {A.~Schneider}{A.~S.}%
-     {J.~Sturm}{J.~S.}%
+     {Plaisier}{P.}%
+     {M.}{M.}%
      {}{}%
      {}{}}%
     {{}%
-     {Stachniss}{S.}%
-     {C.}{C.}%
+     {Tiest}{T.}%
+     {W.~Bergmann}{W.~B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kappers}{K.}%
+     {A.}{A.}%
      {}{}%
      {}{}}%
   }
-  \strng{namehash}{ASJSSC1}
-  \strng{fullhash}{ASJSSC1}
-  \field{sortinit}{A}
-  \field{pages}{243\bibrangedash 248}
-  \field{title}{Object Identification with Tactile Sensors using
-  Bag-of-Features}
-  \field{journaltitle}{Proceedings of International Conference on Intelligent
-  Robots and Systems (IROS)}
+  \strng{namehash}{PMTWBKA1}
+  \strng{fullhash}{PMTWBKA1}
+  \field{title}{Salient features in 3-D haptic shape perception}
+  \field{journaltitle}{Attention, Perception and Psychophysics}
   \field{year}{2009}
+\endentry
+
+\entry{treisman_gormican_1988}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Treisman}{T.}%
+     {Anne}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gormican}{G.}%
+     {Stephen}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{TAGS1}
+  \strng{fullhash}{TAGS1}
+  \verb{doi}
+  \verb 10.1037//0033-295x.95.1.15
+  \endverb
+  \field{number}{1}
+  \field{pages}{15–48}
+  \field{title}{Feature analysis in early vision: Evidence from search
+  asymmetries.}
+  \field{volume}{95}
+  \field{journaltitle}{Psychological Review}
+  \field{year}{1988}
+\endentry
+
+\entry{EPs}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Klatzky}{K.}%
+     {R.~L.}{R.~L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lederman}{L.}%
+     {S.~J.}{S.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Reed}{R.}%
+     {C.~L.}{C.~L.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{KRLLSJRCL1}
+  \strng{fullhash}{KRLLSJRCL1}
+  \field{title}{There’s more to touch than meets the eye: the salience of
+  object attributes for haptics with and without vision}
+  \field{journaltitle}{Journal of Experimental Psychology}
+  \field{year}{1987}
 \endentry
 
 \entry{Glove}{article}{}
@@ -76,9 +130,8 @@
   \list{publisher}{1}{%
     {MDPI AG}%
   }
-  \strng{namehash}{BM+1}
+  \strng{namehash}{BMHRBG+1}
   \strng{fullhash}{BMHRBGCSCNTA1}
-  \field{sortinit}{B}
   \verb{doi}
   \verb 10.3390/electronics5030042
   \endverb
@@ -90,50 +143,44 @@
   \field{year}{2016}
 \endentry
 
-\entry{Faldella}{article}{}
-  \name{author}{2}{}{%
-    {{}%
-     {E.~Faldella}{E.~F.}%
-     {D.~Passeri}{D.~P.}%
-     {}{}%
-     {B.~Fringuelli}{B.~F.}}%
-    {{}%
-     {Rosi}{R.}%
-     {L.}{L.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{EFBFDPRL1}
-  \strng{fullhash}{EFBFDPRL1}
-  \field{sortinit}{E}
-  \field{pages}{267\bibrangedash 269}
-  \field{title}{A Neural Approach to Robotic Haptic Recognition of 3-D Objects
-  Based on Kohonen Self-Organizing Feature Map}
-  \field{journaltitle}{IEEE Transactions on Industrial Electronics, vol. 44}
-  \field{year}{1997}
-\endentry
-
 \entry{Vicon}{online}{}
-  \field{sortinit}{I}
-  \field{title}{Information available at:}
+  \field{title}{Vicon Motion Capture Systems}
   \verb{url}
   \verb http://www.vicon.com/
   \endverb
-  \warn{\item Invalid format of field 'date' \item Invalid format of field
-  'date'}
+  \field{year}{2017}
 \endentry
 
 \entry{autotracker}{article}{}
-  \name{author}{1}{}{%
+  \name{author}{5}{}{%
     {{}%
-     {J.~Maycock}{J.~M.}%
-     {M.~Schröder M. Botsch H.~Ritter}{M.~S. M. B. H.~R.}%
+     {Maycock}{M.}%
+     {J.}{J.}%
      {}{}%
-     {T.~Rohling}{T.~R.}}%
+     {}{}}%
+    {{}%
+     {Rohling}{R.}%
+     {T.}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Schroder}{S.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Botsch}{B.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ritter}{R.}%
+     {H.}{H.}%
+     {}{}%
+     {}{}}%
   }
-  \strng{namehash}{JMTRMSMBHR1}
-  \strng{fullhash}{JMTRMSMBHR1}
-  \field{sortinit}{J}
+  \strng{namehash}{MJRTSM+1}
+  \strng{fullhash}{MJRTSMBMRH1}
   \field{title}{Fully automatic optical motion tracking using an inverse
   kinematics approach}
   \field{journaltitle}{IEEE-RAS 15th International Conference on Humanoid
@@ -141,43 +188,162 @@
   \field{year}{2015}
 \endentry
 
-\entry{HapticShape}{article}{}
-  \name{author}{2}{}{%
+\entry{Schneider}{article}{}
+  \name{author}{3}{}{%
     {{}%
-     {M.~Plaisier}{M.~P.}%
-     {W.~Bergmann~Tiest}{W.~B.~T.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Kappers}{K.}%
+     {Schneider}{S.}%
      {A.}{A.}%
      {}{}%
      {}{}}%
+    {{}%
+     {Sturm}{S.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Stachniss}{S.}%
+     {C.}{C.}%
+     {}{}%
+     {}{}}%
   }
-  \strng{namehash}{MPWBTKA1}
-  \strng{fullhash}{MPWBTKA1}
-  \field{sortinit}{M}
-  \field{title}{Salient features in 3-D haptic shape perception}
-  \field{journaltitle}{Attention, Perception and Psychophysics}
+  \strng{namehash}{SASJSC1}
+  \strng{fullhash}{SASJSC1}
+  \field{pages}{243\bibrangedash 248}
+  \field{title}{Object Identification with Tactile Sensors using
+  Bag-of-Features}
+  \field{journaltitle}{Proceedings of International Conference on Intelligent
+  Robots and Systems (IROS)}
   \field{year}{2009}
 \endentry
 
-\entry{Gorges}{article}{}
-  \name{author}{2}{}{%
+\entry{Navarro}{article}{}
+  \name{author}{6}{}{%
     {{}%
-     {N.~Gorges}{N.~G.}%
-     {D.~Goger}{D.~G.}%
+     {Navarro}{N.}%
+     {S.~E.}{S.~E.}%
      {}{}%
-     {S.~E.~Navarro}{S.~E.~N.}}%
+     {}{}}%
+    {{}%
+     {Gorges}{G.}%
+     {N.}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wörn}{W.}%
+     {H.}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {J.Schill}{J.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Asfour}{A.}%
+     {T.}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Dillmann}{D.}%
+     {R.}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{NSEGNWH+1}
+  \strng{fullhash}{NSEGNWHJATDR1}
+  \field{title}{Haptic object recognition for multi-fingered robot hands}
+  \field{journaltitle}{Haptics Symposium (HAPTICS)}
+  \field{year}{2012}
+\endentry
+
+\entry{Faldella}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Faldella}{F.}%
+     {E.}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Fringuelli}{F.}%
+     {B.}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Passeri}{P.}%
+     {D.}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Rosi}{R.}%
+     {L.}{L.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{FEFBPD+1}
+  \strng{fullhash}{FEFBPDRL1}
+  \field{pages}{267\bibrangedash 269}
+  \field{title}{A Neural Approach to Robotic Haptic Recognition of 3-D Objects
+  Based on Kohonen Self-Organizing Feature Map}
+  \field{journaltitle}{IEEE Transactions on Industrial Electronics, vol. 44}
+  \field{year}{1997}
+\endentry
+
+\entry{Pezzementi}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Pezzementi}{P.}%
+     {Z.}{Z.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Plaku}{P.}%
+     {E.}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Reyda}{R.}%
+     {C.}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hager}{H.}%
+     {G.~D.}{G.~D.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{PZPERC+1}
+  \strng{fullhash}{PZPERCHGD1}
+  \field{pages}{473\bibrangedash 486}
+  \field{title}{Tactile Object Recognition from Appearance Information}
+  \field{journaltitle}{IEEE Transactions on Robotics, vol. 27}
+  \field{year}{2011}
+\endentry
+
+\entry{Gorges}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Gorges}{G.}%
+     {N.}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Navarro}{N.}%
+     {S.~E.}{S.~E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Goger}{G.}%
+     {D.}{D.}%
+     {}{}%
+     {}{}}%
     {{}%
      {Worn}{W.}%
      {H.}{H.}%
      {}{}%
      {}{}}%
   }
-  \strng{namehash}{NGSENDGWH1}
-  \strng{fullhash}{NGSENDGWH1}
-  \field{sortinit}{N}
+  \strng{namehash}{GNNSEGD+1}
+  \strng{fullhash}{GNNSEGDWH1}
   \field{pages}{2349\bibrangedash 2355}
   \field{title}{Haptic Object Recognition using Passive Joints and Haptic Key
   Features}
@@ -186,115 +352,31 @@
   \field{year}{2010}
 \endentry
 
-\entry{EPs}{article}{}
-  \name{author}{2}{}{%
-    {{}%
-     {R.~L.~Klatzky}{R.~L.~K.}%
-     {S.~J.~Lederman}{S.~J.~L.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Reed}{R.}%
-     {C.~L.}{C.~L.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{RLKSJLRCL1}
-  \strng{fullhash}{RLKSJLRCL1}
-  \field{sortinit}{R}
-  \field{title}{There’s more to touch than meets the eye: the salience of
-  object attributes for haptics with and without vision}
-  \field{journaltitle}{Journal of Experimental Psychology}
-  \field{year}{1987}
-\endentry
-
-\entry{Navarro}{article}{}
-  \name{author}{2}{}{%
-    {{}%
-     {S.~E.~Navarro}{S.~E.~N.}%
-     {H.~Wörn J.Schill T.~Asfour}{H.~W. J. T.~A.}%
-     {}{}%
-     {N.~Gorges}{N.~G.}}%
-    {{}%
-     {Dillmann}{D.}%
-     {R.}{R.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{SENNGHWJTADR1}
-  \strng{fullhash}{SENNGHWJTADR1}
-  \field{sortinit}{S}
-  \field{title}{Haptic object recognition for multi-fingered robot hands}
-  \field{journaltitle}{Haptics Symposium (HAPTICS)}
-  \field{year}{2012}
-\endentry
-
 \entry{Bhattacharjee}{article}{}
-  \name{author}{1}{}{%
+  \name{author}{3}{}{%
     {{}%
-     {T.~Bhattacharjee}{T.~B.}%
-     {C.~C.~Kemp}{C.~C.~K.}%
+     {Bhattacharjee}{B.}%
+     {T.}{T.}%
      {}{}%
-     {J.~M.~Rehg}{J.~M.~R.}}%
+     {}{}}%
+    {{}%
+     {Rehg}{R.}%
+     {J.~M.}{J.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kemp}{K.}%
+     {C.~C.}{C.~C.}%
+     {}{}%
+     {}{}}%
   }
-  \strng{namehash}{TBJMRCCK1}
-  \strng{fullhash}{TBJMRCCK1}
-  \field{sortinit}{T}
+  \strng{namehash}{BTRJMKCC1}
+  \strng{fullhash}{BTRJMKCC1}
   \field{title}{Haptic Classification and Recognition of Objects Using a
   Tactile Sensing Forearm}
   \field{journaltitle}{IEEE/RSJ International Conference on Intelligent Robots
   and Systems}
   \field{year}{2012}
-\endentry
-
-\entry{treisman_gormican_1988}{article}{}
-  \name{author}{2}{}{%
-    {{}%
-     {Treisman}{T.}%
-     {Anne}{A.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Gormican}{G.}%
-     {Stephen}{S.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{TAGS1}
-  \strng{fullhash}{TAGS1}
-  \field{sortinit}{T}
-  \verb{doi}
-  \verb 10.1037//0033-295x.95.1.15
-  \endverb
-  \field{number}{1}
-  \field{pages}{15–48}
-  \field{title}{Feature analysis in early vision: Evidence from search
-  asymmetries.}
-  \field{volume}{95}
-  \field{journaltitle}{Psychological Review}
-  \field{year}{1988}
-\endentry
-
-\entry{Pezzementi}{article}{}
-  \name{author}{2}{}{%
-    {{}%
-     {Z.~Pezzementi}{Z.~P.}%
-     {C.~Reyda}{C.~R.}%
-     {}{}%
-     {E.~Plaku}{E.~P.}}%
-    {{}%
-     {Hager}{H.}%
-     {G.~D.}{G.~D.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{ZPEPCRHGD1}
-  \strng{fullhash}{ZPEPCRHGD1}
-  \field{sortinit}{Z}
-  \field{pages}{473\bibrangedash 486}
-  \field{title}{Tactile Object Recognition from Appearance Information}
-  \field{journaltitle}{IEEE Transactions on Robotics, vol. 27}
-  \field{year}{2011}
 \endentry
 
 \lossort

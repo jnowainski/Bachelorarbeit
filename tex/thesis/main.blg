@@ -22,533 +22,87 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: main-blx.bib
 Database file #2: example.bib
 Biblatex version: 3.3
-Name 1 in "R. L. Klatzky, S. J. Lederman, and C. L. Reed" has a comma at the end for entry EPs
+Name 3 in "E. Faldella and B. Fringuelli and D. Passeri, and L. Rosi" has a comma at the end for entry Faldella
 while executing---line 2513 of file biblatex.bst
-Name 1 in "R. L. Klatzky, S. J. Lederman, and C. L. Reed" has a comma at the end for entry EPs
+Name 3 in "E. Faldella and B. Fringuelli and D. Passeri, and L. Rosi" has a comma at the end for entry Faldella
 while executing---line 2513 of file biblatex.bst
-Name 1 in "R. L. Klatzky, S. J. Lederman, and C. L. Reed" has a comma at the end for entry EPs
+Name 3 in "E. Faldella and B. Fringuelli and D. Passeri, and L. Rosi" has a comma at the end for entry Faldella
 while executing---line 2513 of file biblatex.bst
-Name 1 in "R. L. Klatzky, S. J. Lederman, and C. L. Reed" has a comma at the end for entry EPs
+Name 3 in "E. Faldella and B. Fringuelli and D. Passeri, and L. Rosi" has a comma at the end for entry Faldella
 while executing---line 2513 of file biblatex.bst
-Too many commas in name 1 of "J. Maycock, T. Rohling, M. Schröder, M. Botsch, H. Ritter" for entry autotracker
-while executing---line 2513 of file biblatex.bst
-Too many commas in name 1 of "J. Maycock, T. Rohling, M. Schröder, M. Botsch, H. Ritter" for entry autotracker
-while executing---line 2513 of file biblatex.bst
-Too many commas in name 1 of "J. Maycock, T. Rohling, M. Schröder, M. Botsch, H. Ritter" for entry autotracker
-while executing---line 2513 of file biblatex.bst
-Too many commas in name 1 of "J. Maycock, T. Rohling, M. Schröder, M. Botsch, H. Ritter" for entry autotracker
-while executing---line 2513 of file biblatex.bst
-Too many commas in name 1 of "J. Maycock, T. Rohling, M. Schröder, M. Botsch, H. Ritter" for entry autotracker
-while executing---line 2513 of file biblatex.bst
-Too many commas in name 1 of "J. Maycock, T. Rohling, M. Schröder, M. Botsch, H. Ritter" for entry autotracker
-while executing---line 2513 of file biblatex.bst
-Too many commas in name 1 of "J. Maycock, T. Rohling, M. Schröder, M. Botsch, H. Ritter" for entry autotracker
-while executing---line 2513 of file biblatex.bst
-Too many commas in name 1 of "J. Maycock, T. Rohling, M. Schröder, M. Botsch, H. Ritter" for entry autotracker
-while executing---line 2513 of file biblatex.bst
-Too many commas in name 1 of "J. Maycock, T. Rohling, M. Schröder, M. Botsch, H. Ritter" for entry autotracker
-while executing---line 2513 of file biblatex.bst
-Too many commas in name 1 of "J. Maycock, T. Rohling, M. Schröder, M. Botsch, H. Ritter" for entry autotracker
-while executing---line 2513 of file biblatex.bst
-Too many commas in name 1 of "J. Maycock, T. Rohling, M. Schröder, M. Botsch, H. Ritter" for entry autotracker
-while executing---line 2513 of file biblatex.bst
-Too many commas in name 1 of "J. Maycock, T. Rohling, M. Schröder, M. Botsch, H. Ritter" for entry autotracker
-while executing---line 2513 of file biblatex.bst
-Too many commas in name 1 of "J. Maycock, T. Rohling, M. Schröder, M. Botsch, H. Ritter" for entry autotracker
-while executing---line 2513 of file biblatex.bst
-Too many commas in name 1 of "J. Maycock, T. Rohling, M. Schröder, M. Botsch, H. Ritter" for entry autotracker
-while executing---line 2513 of file biblatex.bst
-Too many commas in name 1 of "J. Maycock, T. Rohling, M. Schröder, M. Botsch, H. Ritter" for entry autotracker
-while executing---line 2513 of file biblatex.bst
-Too many commas in name 1 of "J. Maycock, T. Rohling, M. Schröder, M. Botsch, H. Ritter" for entry autotracker
-while executing---line 2513 of file biblatex.bst
-Too many commas in name 1 of "J. Maycock, T. Rohling, M. Schröder, M. Botsch, H. Ritter" for entry autotracker
-while executing---line 2513 of file biblatex.bst
-Too many commas in name 1 of "J. Maycock, T. Rohling, M. Schröder, M. Botsch, H. Ritter" for entry autotracker
-while executing---line 2513 of file biblatex.bst
-Too many commas in name 1 of "J. Maycock, T. Rohling, M. Schröder, M. Botsch, H. Ritter" for entry autotracker
-while executing---line 2513 of file biblatex.bst
-Too many commas in name 1 of "J. Maycock, T. Rohling, M. Schröder, M. Botsch, H. Ritter" for entry autotracker
-while executing---line 2513 of file biblatex.bst
-Too many commas in name 1 of "J. Maycock, T. Rohling, M. Schröder, M. Botsch, H. Ritter" for entry autotracker
-while executing---line 2513 of file biblatex.bst
-Too many commas in name 1 of "J. Maycock, T. Rohling, M. Schröder, M. Botsch, H. Ritter" for entry autotracker
-while executing---line 2513 of file biblatex.bst
-Too many commas in name 1 of "J. Maycock, T. Rohling, M. Schröder, M. Botsch, H. Ritter" for entry autotracker
-while executing---line 2513 of file biblatex.bst
-Too many commas in name 1 of "J. Maycock, T. Rohling, M. Schröder, M. Botsch, H. Ritter" for entry autotracker
-while executing---line 2513 of file biblatex.bst
-Name 1 in "A. Schneider, J. Sturm, and C. Stachniss" has a comma at the end for entry Schneider
-while executing---line 2513 of file biblatex.bst
-Name 1 in "A. Schneider, J. Sturm, and C. Stachniss" has a comma at the end for entry Schneider
-while executing---line 2513 of file biblatex.bst
-Name 1 in "A. Schneider, J. Sturm, and C. Stachniss" has a comma at the end for entry Schneider
-while executing---line 2513 of file biblatex.bst
-Name 1 in "A. Schneider, J. Sturm, and C. Stachniss" has a comma at the end for entry Schneider
-while executing---line 2513 of file biblatex.bst
-Too many commas in name 1 of "S. E. Navarro, N. Gorges, H. Wörn, J.Schill, T. Asfour and R. Dillmann" for entry Navarro
-while executing---line 2513 of file biblatex.bst
-Too many commas in name 1 of "S. E. Navarro, N. Gorges, H. Wörn, J.Schill, T. Asfour and R. Dillmann" for entry Navarro
-while executing---line 2513 of file biblatex.bst
-Too many commas in name 1 of "S. E. Navarro, N. Gorges, H. Wörn, J.Schill, T. Asfour and R. Dillmann" for entry Navarro
-while executing---line 2513 of file biblatex.bst
-Too many commas in name 1 of "S. E. Navarro, N. Gorges, H. Wörn, J.Schill, T. Asfour and R. Dillmann" for entry Navarro
-while executing---line 2513 of file biblatex.bst
-Too many commas in name 1 of "S. E. Navarro, N. Gorges, H. Wörn, J.Schill, T. Asfour and R. Dillmann" for entry Navarro
-while executing---line 2513 of file biblatex.bst
-Too many commas in name 1 of "S. E. Navarro, N. Gorges, H. Wörn, J.Schill, T. Asfour and R. Dillmann" for entry Navarro
-while executing---line 2513 of file biblatex.bst
-Too many commas in name 1 of "S. E. Navarro, N. Gorges, H. Wörn, J.Schill, T. Asfour and R. Dillmann" for entry Navarro
-while executing---line 2513 of file biblatex.bst
-Too many commas in name 1 of "S. E. Navarro, N. Gorges, H. Wörn, J.Schill, T. Asfour and R. Dillmann" for entry Navarro
-while executing---line 2513 of file biblatex.bst
-Name 1 in "E. Faldella, B. Fringuelli, D. Passeri, and L. Rosi" has a comma at the end for entry Faldella
-while executing---line 2513 of file biblatex.bst
-Name 1 in "E. Faldella, B. Fringuelli, D. Passeri, and L. Rosi" has a comma at the end for entry Faldella
-while executing---line 2513 of file biblatex.bst
-Name 1 in "E. Faldella, B. Fringuelli, D. Passeri, and L. Rosi" has a comma at the end for entry Faldella
-while executing---line 2513 of file biblatex.bst
-Name 1 in "E. Faldella, B. Fringuelli, D. Passeri, and L. Rosi" has a comma at the end for entry Faldella
-while executing---line 2513 of file biblatex.bst
-Name 1 in "Z. Pezzementi, E. Plaku, C. Reyda, and G. D. Hager" has a comma at the end for entry Pezzementi
-while executing---line 2513 of file biblatex.bst
-Name 1 in "Z. Pezzementi, E. Plaku, C. Reyda, and G. D. Hager" has a comma at the end for entry Pezzementi
-while executing---line 2513 of file biblatex.bst
-Name 1 in "Z. Pezzementi, E. Plaku, C. Reyda, and G. D. Hager" has a comma at the end for entry Pezzementi
-while executing---line 2513 of file biblatex.bst
-Name 1 in "Z. Pezzementi, E. Plaku, C. Reyda, and G. D. Hager" has a comma at the end for entry Pezzementi
-while executing---line 2513 of file biblatex.bst
-Name 1 in "N. Gorges, S. E. Navarro, D. Goger, and H. Worn" has a comma at the end for entry Gorges
-while executing---line 2513 of file biblatex.bst
-Name 1 in "N. Gorges, S. E. Navarro, D. Goger, and H. Worn" has a comma at the end for entry Gorges
-while executing---line 2513 of file biblatex.bst
-Name 1 in "N. Gorges, S. E. Navarro, D. Goger, and H. Worn" has a comma at the end for entry Gorges
-while executing---line 2513 of file biblatex.bst
-Name 1 in "N. Gorges, S. E. Navarro, D. Goger, and H. Worn" has a comma at the end for entry Gorges
-while executing---line 2513 of file biblatex.bst
-Name 1 in "R. L. Klatzky, S. J. Lederman, and C. L. Reed" has a comma at the end for entry EPs
+Name 3 in "E. Faldella and B. Fringuelli and D. Passeri, and L. Rosi" has a comma at the end for entry Faldella
 while executing---line 2517 of file biblatex.bst
-Too many commas in name 1 of "J. Maycock, T. Rohling, M. Schröder, M. Botsch, H. Ritter" for entry autotracker
-while executing---line 2517 of file biblatex.bst
-Too many commas in name 1 of "J. Maycock, T. Rohling, M. Schröder, M. Botsch, H. Ritter" for entry autotracker
-while executing---line 2517 of file biblatex.bst
-Too many commas in name 1 of "J. Maycock, T. Rohling, M. Schröder, M. Botsch, H. Ritter" for entry autotracker
-while executing---line 2517 of file biblatex.bst
-Too many commas in name 1 of "J. Maycock, T. Rohling, M. Schröder, M. Botsch, H. Ritter" for entry autotracker
-while executing---line 2517 of file biblatex.bst
-Too many commas in name 1 of "J. Maycock, T. Rohling, M. Schröder, M. Botsch, H. Ritter" for entry autotracker
-while executing---line 2517 of file biblatex.bst
-Too many commas in name 1 of "J. Maycock, T. Rohling, M. Schröder, M. Botsch, H. Ritter" for entry autotracker
-while executing---line 2517 of file biblatex.bst
-Name 1 in "A. Schneider, J. Sturm, and C. Stachniss" has a comma at the end for entry Schneider
-while executing---line 2517 of file biblatex.bst
-Too many commas in name 1 of "S. E. Navarro, N. Gorges, H. Wörn, J.Schill, T. Asfour and R. Dillmann" for entry Navarro
-while executing---line 2517 of file biblatex.bst
-Too many commas in name 1 of "S. E. Navarro, N. Gorges, H. Wörn, J.Schill, T. Asfour and R. Dillmann" for entry Navarro
-while executing---line 2517 of file biblatex.bst
-Name 1 in "E. Faldella, B. Fringuelli, D. Passeri, and L. Rosi" has a comma at the end for entry Faldella
-while executing---line 2517 of file biblatex.bst
-Name 1 in "Z. Pezzementi, E. Plaku, C. Reyda, and G. D. Hager" has a comma at the end for entry Pezzementi
-while executing---line 2517 of file biblatex.bst
-Name 1 in "N. Gorges, S. E. Navarro, D. Goger, and H. Worn" has a comma at the end for entry Gorges
-while executing---line 2517 of file biblatex.bst
-Name 1 in "A. Schneider, J. Sturm, and C. Stachniss" has a comma at the end for entry Schneider
+Name 3 in "E. Faldella and B. Fringuelli and D. Passeri, and L. Rosi" has a comma at the end for entry Faldella
 while executing---line 2523 of file biblatex.bst
-Name 1 in "E. Faldella, B. Fringuelli, D. Passeri, and L. Rosi" has a comma at the end for entry Faldella
-while executing---line 2523 of file biblatex.bst
-Too many commas in name 1 of "J. Maycock, T. Rohling, M. Schröder, M. Botsch, H. Ritter" for entry autotracker
-while executing---line 2523 of file biblatex.bst
-Too many commas in name 1 of "J. Maycock, T. Rohling, M. Schröder, M. Botsch, H. Ritter" for entry autotracker
-while executing---line 2523 of file biblatex.bst
-Too many commas in name 1 of "J. Maycock, T. Rohling, M. Schröder, M. Botsch, H. Ritter" for entry autotracker
-while executing---line 2523 of file biblatex.bst
-Too many commas in name 1 of "J. Maycock, T. Rohling, M. Schröder, M. Botsch, H. Ritter" for entry autotracker
-while executing---line 2523 of file biblatex.bst
-Too many commas in name 1 of "J. Maycock, T. Rohling, M. Schröder, M. Botsch, H. Ritter" for entry autotracker
-while executing---line 2523 of file biblatex.bst
-Too many commas in name 1 of "J. Maycock, T. Rohling, M. Schröder, M. Botsch, H. Ritter" for entry autotracker
-while executing---line 2523 of file biblatex.bst
-Name 1 in "N. Gorges, S. E. Navarro, D. Goger, and H. Worn" has a comma at the end for entry Gorges
-while executing---line 2523 of file biblatex.bst
-Name 1 in "R. L. Klatzky, S. J. Lederman, and C. L. Reed" has a comma at the end for entry EPs
-while executing---line 2523 of file biblatex.bst
-Too many commas in name 1 of "S. E. Navarro, N. Gorges, H. Wörn, J.Schill, T. Asfour and R. Dillmann" for entry Navarro
-while executing---line 2523 of file biblatex.bst
-Too many commas in name 1 of "S. E. Navarro, N. Gorges, H. Wörn, J.Schill, T. Asfour and R. Dillmann" for entry Navarro
-while executing---line 2523 of file biblatex.bst
-Name 1 in "Z. Pezzementi, E. Plaku, C. Reyda, and G. D. Hager" has a comma at the end for entry Pezzementi
-while executing---line 2523 of file biblatex.bst
-Name 1 in "Z. Pezzementi, E. Plaku, C. Reyda, and G. D. Hager" has a comma at the end for entry Pezzementi
+Name 3 in "E. Faldella and B. Fringuelli and D. Passeri, and L. Rosi" has a comma at the end for entry Faldella
 while executing---line 2527 of file biblatex.bst
-Name 1 in "Z. Pezzementi, E. Plaku, C. Reyda, and G. D. Hager" has a comma at the end for entry Pezzementi
+Name 3 in "E. Faldella and B. Fringuelli and D. Passeri, and L. Rosi" has a comma at the end for entry Faldella
 while executing---line 2527 of file biblatex.bst
-Too many commas in name 1 of "S. E. Navarro, N. Gorges, H. Wörn, J.Schill, T. Asfour and R. Dillmann" for entry Navarro
-while executing---line 2527 of file biblatex.bst
-Too many commas in name 1 of "S. E. Navarro, N. Gorges, H. Wörn, J.Schill, T. Asfour and R. Dillmann" for entry Navarro
-while executing---line 2527 of file biblatex.bst
-Too many commas in name 1 of "S. E. Navarro, N. Gorges, H. Wörn, J.Schill, T. Asfour and R. Dillmann" for entry Navarro
-while executing---line 2527 of file biblatex.bst
-Too many commas in name 1 of "S. E. Navarro, N. Gorges, H. Wörn, J.Schill, T. Asfour and R. Dillmann" for entry Navarro
-while executing---line 2527 of file biblatex.bst
-Name 1 in "R. L. Klatzky, S. J. Lederman, and C. L. Reed" has a comma at the end for entry EPs
-while executing---line 2527 of file biblatex.bst
-Name 1 in "R. L. Klatzky, S. J. Lederman, and C. L. Reed" has a comma at the end for entry EPs
-while executing---line 2527 of file biblatex.bst
-Name 1 in "N. Gorges, S. E. Navarro, D. Goger, and H. Worn" has a comma at the end for entry Gorges
-while executing---line 2527 of file biblatex.bst
-Name 1 in "N. Gorges, S. E. Navarro, D. Goger, and H. Worn" has a comma at the end for entry Gorges
-while executing---line 2527 of file biblatex.bst
-Too many commas in name 1 of "J. Maycock, T. Rohling, M. Schröder, M. Botsch, H. Ritter" for entry autotracker
-while executing---line 2527 of file biblatex.bst
-Too many commas in name 1 of "J. Maycock, T. Rohling, M. Schröder, M. Botsch, H. Ritter" for entry autotracker
-while executing---line 2527 of file biblatex.bst
-Too many commas in name 1 of "J. Maycock, T. Rohling, M. Schröder, M. Botsch, H. Ritter" for entry autotracker
-while executing---line 2527 of file biblatex.bst
-Too many commas in name 1 of "J. Maycock, T. Rohling, M. Schröder, M. Botsch, H. Ritter" for entry autotracker
-while executing---line 2527 of file biblatex.bst
-Too many commas in name 1 of "J. Maycock, T. Rohling, M. Schröder, M. Botsch, H. Ritter" for entry autotracker
-while executing---line 2527 of file biblatex.bst
-Too many commas in name 1 of "J. Maycock, T. Rohling, M. Schröder, M. Botsch, H. Ritter" for entry autotracker
-while executing---line 2527 of file biblatex.bst
-Too many commas in name 1 of "J. Maycock, T. Rohling, M. Schröder, M. Botsch, H. Ritter" for entry autotracker
-while executing---line 2527 of file biblatex.bst
-Too many commas in name 1 of "J. Maycock, T. Rohling, M. Schröder, M. Botsch, H. Ritter" for entry autotracker
-while executing---line 2527 of file biblatex.bst
-Too many commas in name 1 of "J. Maycock, T. Rohling, M. Schröder, M. Botsch, H. Ritter" for entry autotracker
-while executing---line 2527 of file biblatex.bst
-Too many commas in name 1 of "J. Maycock, T. Rohling, M. Schröder, M. Botsch, H. Ritter" for entry autotracker
-while executing---line 2527 of file biblatex.bst
-Too many commas in name 1 of "J. Maycock, T. Rohling, M. Schröder, M. Botsch, H. Ritter" for entry autotracker
-while executing---line 2527 of file biblatex.bst
-Too many commas in name 1 of "J. Maycock, T. Rohling, M. Schröder, M. Botsch, H. Ritter" for entry autotracker
-while executing---line 2527 of file biblatex.bst
-Name 1 in "E. Faldella, B. Fringuelli, D. Passeri, and L. Rosi" has a comma at the end for entry Faldella
-while executing---line 2527 of file biblatex.bst
-Name 1 in "E. Faldella, B. Fringuelli, D. Passeri, and L. Rosi" has a comma at the end for entry Faldella
-while executing---line 2527 of file biblatex.bst
-Name 1 in "A. Schneider, J. Sturm, and C. Stachniss" has a comma at the end for entry Schneider
-while executing---line 2527 of file biblatex.bst
-Name 1 in "A. Schneider, J. Sturm, and C. Stachniss" has a comma at the end for entry Schneider
-while executing---line 2527 of file biblatex.bst
-Name 1 in "A. Schneider, J. Sturm, and C. Stachniss" has a comma at the end for entry Schneider
+Name 3 in "E. Faldella and B. Fringuelli and D. Passeri, and L. Rosi" has a comma at the end for entry Faldella
 while executing---line 2531 of file biblatex.bst
-Name 1 in "E. Faldella, B. Fringuelli, D. Passeri, and L. Rosi" has a comma at the end for entry Faldella
-while executing---line 2531 of file biblatex.bst
-Too many commas in name 1 of "J. Maycock, T. Rohling, M. Schröder, M. Botsch, H. Ritter" for entry autotracker
-while executing---line 2531 of file biblatex.bst
-Too many commas in name 1 of "J. Maycock, T. Rohling, M. Schröder, M. Botsch, H. Ritter" for entry autotracker
-while executing---line 2531 of file biblatex.bst
-Too many commas in name 1 of "J. Maycock, T. Rohling, M. Schröder, M. Botsch, H. Ritter" for entry autotracker
-while executing---line 2531 of file biblatex.bst
-Too many commas in name 1 of "J. Maycock, T. Rohling, M. Schröder, M. Botsch, H. Ritter" for entry autotracker
-while executing---line 2531 of file biblatex.bst
-Too many commas in name 1 of "J. Maycock, T. Rohling, M. Schröder, M. Botsch, H. Ritter" for entry autotracker
-while executing---line 2531 of file biblatex.bst
-Too many commas in name 1 of "J. Maycock, T. Rohling, M. Schröder, M. Botsch, H. Ritter" for entry autotracker
-while executing---line 2531 of file biblatex.bst
-Name 1 in "N. Gorges, S. E. Navarro, D. Goger, and H. Worn" has a comma at the end for entry Gorges
-while executing---line 2531 of file biblatex.bst
-Name 1 in "R. L. Klatzky, S. J. Lederman, and C. L. Reed" has a comma at the end for entry EPs
-while executing---line 2531 of file biblatex.bst
-Too many commas in name 1 of "S. E. Navarro, N. Gorges, H. Wörn, J.Schill, T. Asfour and R. Dillmann" for entry Navarro
-while executing---line 2531 of file biblatex.bst
-Too many commas in name 1 of "S. E. Navarro, N. Gorges, H. Wörn, J.Schill, T. Asfour and R. Dillmann" for entry Navarro
-while executing---line 2531 of file biblatex.bst
-Name 1 in "Z. Pezzementi, E. Plaku, C. Reyda, and G. D. Hager" has a comma at the end for entry Pezzementi
-while executing---line 2531 of file biblatex.bst
-Name 1 in "A. Schneider, J. Sturm, and C. Stachniss" has a comma at the end for entry Schneider
+Name 3 in "E. Faldella and B. Fringuelli and D. Passeri, and L. Rosi" has a comma at the end for entry Faldella
 while executing---line 2537 of file biblatex.bst
-Name 1 in "E. Faldella, B. Fringuelli, D. Passeri, and L. Rosi" has a comma at the end for entry Faldella
-while executing---line 2537 of file biblatex.bst
-Too many commas in name 1 of "J. Maycock, T. Rohling, M. Schröder, M. Botsch, H. Ritter" for entry autotracker
-while executing---line 2537 of file biblatex.bst
-Too many commas in name 1 of "J. Maycock, T. Rohling, M. Schröder, M. Botsch, H. Ritter" for entry autotracker
-while executing---line 2537 of file biblatex.bst
-Too many commas in name 1 of "J. Maycock, T. Rohling, M. Schröder, M. Botsch, H. Ritter" for entry autotracker
-while executing---line 2537 of file biblatex.bst
-Too many commas in name 1 of "J. Maycock, T. Rohling, M. Schröder, M. Botsch, H. Ritter" for entry autotracker
-while executing---line 2537 of file biblatex.bst
-Too many commas in name 1 of "J. Maycock, T. Rohling, M. Schröder, M. Botsch, H. Ritter" for entry autotracker
-while executing---line 2537 of file biblatex.bst
-Too many commas in name 1 of "J. Maycock, T. Rohling, M. Schröder, M. Botsch, H. Ritter" for entry autotracker
-while executing---line 2537 of file biblatex.bst
-Name 1 in "N. Gorges, S. E. Navarro, D. Goger, and H. Worn" has a comma at the end for entry Gorges
-while executing---line 2537 of file biblatex.bst
-Name 1 in "R. L. Klatzky, S. J. Lederman, and C. L. Reed" has a comma at the end for entry EPs
-while executing---line 2537 of file biblatex.bst
-Too many commas in name 1 of "S. E. Navarro, N. Gorges, H. Wörn, J.Schill, T. Asfour and R. Dillmann" for entry Navarro
-while executing---line 2537 of file biblatex.bst
-Too many commas in name 1 of "S. E. Navarro, N. Gorges, H. Wörn, J.Schill, T. Asfour and R. Dillmann" for entry Navarro
-while executing---line 2537 of file biblatex.bst
-Name 1 in "Z. Pezzementi, E. Plaku, C. Reyda, and G. D. Hager" has a comma at the end for entry Pezzementi
-while executing---line 2537 of file biblatex.bst
-Name 1 in "Z. Pezzementi, E. Plaku, C. Reyda, and G. D. Hager" has a comma at the end for entry Pezzementi
+Name 3 in "E. Faldella and B. Fringuelli and D. Passeri, and L. Rosi" has a comma at the end for entry Faldella
 while executing---line 2541 of file biblatex.bst
-Name 1 in "Z. Pezzementi, E. Plaku, C. Reyda, and G. D. Hager" has a comma at the end for entry Pezzementi
+Name 3 in "E. Faldella and B. Fringuelli and D. Passeri, and L. Rosi" has a comma at the end for entry Faldella
 while executing---line 2541 of file biblatex.bst
-Too many commas in name 1 of "S. E. Navarro, N. Gorges, H. Wörn, J.Schill, T. Asfour and R. Dillmann" for entry Navarro
-while executing---line 2541 of file biblatex.bst
-Too many commas in name 1 of "S. E. Navarro, N. Gorges, H. Wörn, J.Schill, T. Asfour and R. Dillmann" for entry Navarro
-while executing---line 2541 of file biblatex.bst
-Too many commas in name 1 of "S. E. Navarro, N. Gorges, H. Wörn, J.Schill, T. Asfour and R. Dillmann" for entry Navarro
-while executing---line 2541 of file biblatex.bst
-Too many commas in name 1 of "S. E. Navarro, N. Gorges, H. Wörn, J.Schill, T. Asfour and R. Dillmann" for entry Navarro
-while executing---line 2541 of file biblatex.bst
-Name 1 in "R. L. Klatzky, S. J. Lederman, and C. L. Reed" has a comma at the end for entry EPs
-while executing---line 2541 of file biblatex.bst
-Name 1 in "R. L. Klatzky, S. J. Lederman, and C. L. Reed" has a comma at the end for entry EPs
-while executing---line 2541 of file biblatex.bst
-Name 1 in "N. Gorges, S. E. Navarro, D. Goger, and H. Worn" has a comma at the end for entry Gorges
-while executing---line 2541 of file biblatex.bst
-Name 1 in "N. Gorges, S. E. Navarro, D. Goger, and H. Worn" has a comma at the end for entry Gorges
-while executing---line 2541 of file biblatex.bst
-Too many commas in name 1 of "J. Maycock, T. Rohling, M. Schröder, M. Botsch, H. Ritter" for entry autotracker
-while executing---line 2541 of file biblatex.bst
-Too many commas in name 1 of "J. Maycock, T. Rohling, M. Schröder, M. Botsch, H. Ritter" for entry autotracker
-while executing---line 2541 of file biblatex.bst
-Too many commas in name 1 of "J. Maycock, T. Rohling, M. Schröder, M. Botsch, H. Ritter" for entry autotracker
-while executing---line 2541 of file biblatex.bst
-Too many commas in name 1 of "J. Maycock, T. Rohling, M. Schröder, M. Botsch, H. Ritter" for entry autotracker
-while executing---line 2541 of file biblatex.bst
-Too many commas in name 1 of "J. Maycock, T. Rohling, M. Schröder, M. Botsch, H. Ritter" for entry autotracker
-while executing---line 2541 of file biblatex.bst
-Too many commas in name 1 of "J. Maycock, T. Rohling, M. Schröder, M. Botsch, H. Ritter" for entry autotracker
-while executing---line 2541 of file biblatex.bst
-Too many commas in name 1 of "J. Maycock, T. Rohling, M. Schröder, M. Botsch, H. Ritter" for entry autotracker
-while executing---line 2541 of file biblatex.bst
-Too many commas in name 1 of "J. Maycock, T. Rohling, M. Schröder, M. Botsch, H. Ritter" for entry autotracker
-while executing---line 2541 of file biblatex.bst
-Too many commas in name 1 of "J. Maycock, T. Rohling, M. Schröder, M. Botsch, H. Ritter" for entry autotracker
-while executing---line 2541 of file biblatex.bst
-Too many commas in name 1 of "J. Maycock, T. Rohling, M. Schröder, M. Botsch, H. Ritter" for entry autotracker
-while executing---line 2541 of file biblatex.bst
-Too many commas in name 1 of "J. Maycock, T. Rohling, M. Schröder, M. Botsch, H. Ritter" for entry autotracker
-while executing---line 2541 of file biblatex.bst
-Too many commas in name 1 of "J. Maycock, T. Rohling, M. Schröder, M. Botsch, H. Ritter" for entry autotracker
-while executing---line 2541 of file biblatex.bst
-Name 1 in "E. Faldella, B. Fringuelli, D. Passeri, and L. Rosi" has a comma at the end for entry Faldella
-while executing---line 2541 of file biblatex.bst
-Name 1 in "E. Faldella, B. Fringuelli, D. Passeri, and L. Rosi" has a comma at the end for entry Faldella
-while executing---line 2541 of file biblatex.bst
-Name 1 in "A. Schneider, J. Sturm, and C. Stachniss" has a comma at the end for entry Schneider
-while executing---line 2541 of file biblatex.bst
-Name 1 in "A. Schneider, J. Sturm, and C. Stachniss" has a comma at the end for entry Schneider
-while executing---line 2541 of file biblatex.bst
-Name 1 in "R. L. Klatzky, S. J. Lederman, and C. L. Reed" has a comma at the end for entry EPs
-while executing---line 2595 of file biblatex.bst
-Too many commas in name 1 of "J. Maycock, T. Rohling, M. Schröder, M. Botsch, H. Ritter" for entry autotracker
-while executing---line 2595 of file biblatex.bst
-Too many commas in name 1 of "J. Maycock, T. Rohling, M. Schröder, M. Botsch, H. Ritter" for entry autotracker
-while executing---line 2595 of file biblatex.bst
-Too many commas in name 1 of "J. Maycock, T. Rohling, M. Schröder, M. Botsch, H. Ritter" for entry autotracker
-while executing---line 2595 of file biblatex.bst
-Too many commas in name 1 of "J. Maycock, T. Rohling, M. Schröder, M. Botsch, H. Ritter" for entry autotracker
-while executing---line 2595 of file biblatex.bst
-Too many commas in name 1 of "J. Maycock, T. Rohling, M. Schröder, M. Botsch, H. Ritter" for entry autotracker
-while executing---line 2595 of file biblatex.bst
-Too many commas in name 1 of "J. Maycock, T. Rohling, M. Schröder, M. Botsch, H. Ritter" for entry autotracker
-while executing---line 2595 of file biblatex.bst
-Name 1 in "A. Schneider, J. Sturm, and C. Stachniss" has a comma at the end for entry Schneider
-while executing---line 2595 of file biblatex.bst
-Too many commas in name 1 of "S. E. Navarro, N. Gorges, H. Wörn, J.Schill, T. Asfour and R. Dillmann" for entry Navarro
-while executing---line 2595 of file biblatex.bst
-Too many commas in name 1 of "S. E. Navarro, N. Gorges, H. Wörn, J.Schill, T. Asfour and R. Dillmann" for entry Navarro
-while executing---line 2595 of file biblatex.bst
-Name 1 in "E. Faldella, B. Fringuelli, D. Passeri, and L. Rosi" has a comma at the end for entry Faldella
-while executing---line 2595 of file biblatex.bst
-Name 1 in "Z. Pezzementi, E. Plaku, C. Reyda, and G. D. Hager" has a comma at the end for entry Pezzementi
-while executing---line 2595 of file biblatex.bst
-Name 1 in "N. Gorges, S. E. Navarro, D. Goger, and H. Worn" has a comma at the end for entry Gorges
-while executing---line 2595 of file biblatex.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
-Name 1 in "A. Schneider, J. Sturm, and C. Stachniss" has a comma at the end for entry Schneider
+Name 3 in "E. Faldella and B. Fringuelli and D. Passeri, and L. Rosi" has a comma at the end for entry Faldella
 while executing---line 2659 of file biblatex.bst
-Name 1 in "A. Schneider, J. Sturm, and C. Stachniss" has a comma at the end for entry Schneider
+Name 3 in "E. Faldella and B. Fringuelli and D. Passeri, and L. Rosi" has a comma at the end for entry Faldella
 while executing---line 2659 of file biblatex.bst
-Name 1 in "A. Schneider, J. Sturm, and C. Stachniss" has a comma at the end for entry Schneider
+Name 3 in "E. Faldella and B. Fringuelli and D. Passeri, and L. Rosi" has a comma at the end for entry Faldella
 while executing---line 2659 of file biblatex.bst
-Name 1 in "A. Schneider, J. Sturm, and C. Stachniss" has a comma at the end for entry Schneider
+Name 3 in "E. Faldella and B. Fringuelli and D. Passeri, and L. Rosi" has a comma at the end for entry Faldella
 while executing---line 2659 of file biblatex.bst
-Name 1 in "A. Schneider, J. Sturm, and C. Stachniss" has a comma at the end for entry Schneider
+Name 3 in "E. Faldella and B. Fringuelli and D. Passeri, and L. Rosi" has a comma at the end for entry Faldella
 while executing---line 2659 of file biblatex.bst
-Name 1 in "A. Schneider, J. Sturm, and C. Stachniss" has a comma at the end for entry Schneider
+Name 3 in "E. Faldella and B. Fringuelli and D. Passeri, and L. Rosi" has a comma at the end for entry Faldella
 while executing---line 2659 of file biblatex.bst
-Name 1 in "A. Schneider, J. Sturm, and C. Stachniss" has a comma at the end for entry Schneider
+Name 3 in "E. Faldella and B. Fringuelli and D. Passeri, and L. Rosi" has a comma at the end for entry Faldella
 while executing---line 2659 of file biblatex.bst
-Name 1 in "A. Schneider, J. Sturm, and C. Stachniss" has a comma at the end for entry Schneider
-while executing---line 2659 of file biblatex.bst
-Name 1 in "E. Faldella, B. Fringuelli, D. Passeri, and L. Rosi" has a comma at the end for entry Faldella
-while executing---line 2659 of file biblatex.bst
-Name 1 in "E. Faldella, B. Fringuelli, D. Passeri, and L. Rosi" has a comma at the end for entry Faldella
-while executing---line 2659 of file biblatex.bst
-Name 1 in "E. Faldella, B. Fringuelli, D. Passeri, and L. Rosi" has a comma at the end for entry Faldella
-while executing---line 2659 of file biblatex.bst
-Name 1 in "E. Faldella, B. Fringuelli, D. Passeri, and L. Rosi" has a comma at the end for entry Faldella
-while executing---line 2659 of file biblatex.bst
-Name 1 in "E. Faldella, B. Fringuelli, D. Passeri, and L. Rosi" has a comma at the end for entry Faldella
-while executing---line 2659 of file biblatex.bst
-Name 1 in "E. Faldella, B. Fringuelli, D. Passeri, and L. Rosi" has a comma at the end for entry Faldella
-while executing---line 2659 of file biblatex.bst
-Name 1 in "E. Faldella, B. Fringuelli, D. Passeri, and L. Rosi" has a comma at the end for entry Faldella
-while executing---line 2659 of file biblatex.bst
-Name 1 in "E. Faldella, B. Fringuelli, D. Passeri, and L. Rosi" has a comma at the end for entry Faldella
-while executing---line 2659 of file biblatex.bst
-Too many commas in name 1 of "J. Maycock, T. Rohling, M. Schröder, M. Botsch, H. Ritter" for entry autotracker
-while executing---line 2659 of file biblatex.bst
-Too many commas in name 1 of "J. Maycock, T. Rohling, M. Schröder, M. Botsch, H. Ritter" for entry autotracker
-while executing---line 2659 of file biblatex.bst
-Too many commas in name 1 of "J. Maycock, T. Rohling, M. Schröder, M. Botsch, H. Ritter" for entry autotracker
-while executing---line 2659 of file biblatex.bst
-Too many commas in name 1 of "J. Maycock, T. Rohling, M. Schröder, M. Botsch, H. Ritter" for entry autotracker
-while executing---line 2659 of file biblatex.bst
-Too many commas in name 1 of "J. Maycock, T. Rohling, M. Schröder, M. Botsch, H. Ritter" for entry autotracker
-while executing---line 2659 of file biblatex.bst
-Too many commas in name 1 of "J. Maycock, T. Rohling, M. Schröder, M. Botsch, H. Ritter" for entry autotracker
-while executing---line 2659 of file biblatex.bst
-Too many commas in name 1 of "J. Maycock, T. Rohling, M. Schröder, M. Botsch, H. Ritter" for entry autotracker
-while executing---line 2659 of file biblatex.bst
-Too many commas in name 1 of "J. Maycock, T. Rohling, M. Schröder, M. Botsch, H. Ritter" for entry autotracker
-while executing---line 2659 of file biblatex.bst
-Too many commas in name 1 of "J. Maycock, T. Rohling, M. Schröder, M. Botsch, H. Ritter" for entry autotracker
-while executing---line 2659 of file biblatex.bst
-Too many commas in name 1 of "J. Maycock, T. Rohling, M. Schröder, M. Botsch, H. Ritter" for entry autotracker
-while executing---line 2659 of file biblatex.bst
-Too many commas in name 1 of "J. Maycock, T. Rohling, M. Schröder, M. Botsch, H. Ritter" for entry autotracker
-while executing---line 2659 of file biblatex.bst
-Too many commas in name 1 of "J. Maycock, T. Rohling, M. Schröder, M. Botsch, H. Ritter" for entry autotracker
-while executing---line 2659 of file biblatex.bst
-Too many commas in name 1 of "J. Maycock, T. Rohling, M. Schröder, M. Botsch, H. Ritter" for entry autotracker
-while executing---line 2659 of file biblatex.bst
-Too many commas in name 1 of "J. Maycock, T. Rohling, M. Schröder, M. Botsch, H. Ritter" for entry autotracker
-while executing---line 2659 of file biblatex.bst
-Too many commas in name 1 of "J. Maycock, T. Rohling, M. Schröder, M. Botsch, H. Ritter" for entry autotracker
-while executing---line 2659 of file biblatex.bst
-Too many commas in name 1 of "J. Maycock, T. Rohling, M. Schröder, M. Botsch, H. Ritter" for entry autotracker
-while executing---line 2659 of file biblatex.bst
-Too many commas in name 1 of "J. Maycock, T. Rohling, M. Schröder, M. Botsch, H. Ritter" for entry autotracker
-while executing---line 2659 of file biblatex.bst
-Too many commas in name 1 of "J. Maycock, T. Rohling, M. Schröder, M. Botsch, H. Ritter" for entry autotracker
-while executing---line 2659 of file biblatex.bst
-Name 1 in "N. Gorges, S. E. Navarro, D. Goger, and H. Worn" has a comma at the end for entry Gorges
-while executing---line 2659 of file biblatex.bst
-Name 1 in "N. Gorges, S. E. Navarro, D. Goger, and H. Worn" has a comma at the end for entry Gorges
-while executing---line 2659 of file biblatex.bst
-Name 1 in "N. Gorges, S. E. Navarro, D. Goger, and H. Worn" has a comma at the end for entry Gorges
-while executing---line 2659 of file biblatex.bst
-Name 1 in "N. Gorges, S. E. Navarro, D. Goger, and H. Worn" has a comma at the end for entry Gorges
-while executing---line 2659 of file biblatex.bst
-Name 1 in "N. Gorges, S. E. Navarro, D. Goger, and H. Worn" has a comma at the end for entry Gorges
-while executing---line 2659 of file biblatex.bst
-Name 1 in "N. Gorges, S. E. Navarro, D. Goger, and H. Worn" has a comma at the end for entry Gorges
-while executing---line 2659 of file biblatex.bst
-Name 1 in "N. Gorges, S. E. Navarro, D. Goger, and H. Worn" has a comma at the end for entry Gorges
-while executing---line 2659 of file biblatex.bst
-Name 1 in "N. Gorges, S. E. Navarro, D. Goger, and H. Worn" has a comma at the end for entry Gorges
-while executing---line 2659 of file biblatex.bst
-Name 1 in "R. L. Klatzky, S. J. Lederman, and C. L. Reed" has a comma at the end for entry EPs
-while executing---line 2659 of file biblatex.bst
-Name 1 in "R. L. Klatzky, S. J. Lederman, and C. L. Reed" has a comma at the end for entry EPs
-while executing---line 2659 of file biblatex.bst
-Name 1 in "R. L. Klatzky, S. J. Lederman, and C. L. Reed" has a comma at the end for entry EPs
-while executing---line 2659 of file biblatex.bst
-Name 1 in "R. L. Klatzky, S. J. Lederman, and C. L. Reed" has a comma at the end for entry EPs
-while executing---line 2659 of file biblatex.bst
-Name 1 in "R. L. Klatzky, S. J. Lederman, and C. L. Reed" has a comma at the end for entry EPs
-while executing---line 2659 of file biblatex.bst
-Name 1 in "R. L. Klatzky, S. J. Lederman, and C. L. Reed" has a comma at the end for entry EPs
-while executing---line 2659 of file biblatex.bst
-Name 1 in "R. L. Klatzky, S. J. Lederman, and C. L. Reed" has a comma at the end for entry EPs
-while executing---line 2659 of file biblatex.bst
-Name 1 in "R. L. Klatzky, S. J. Lederman, and C. L. Reed" has a comma at the end for entry EPs
-while executing---line 2659 of file biblatex.bst
-Too many commas in name 1 of "S. E. Navarro, N. Gorges, H. Wörn, J.Schill, T. Asfour and R. Dillmann" for entry Navarro
-while executing---line 2659 of file biblatex.bst
-Too many commas in name 1 of "S. E. Navarro, N. Gorges, H. Wörn, J.Schill, T. Asfour and R. Dillmann" for entry Navarro
-while executing---line 2659 of file biblatex.bst
-Too many commas in name 1 of "S. E. Navarro, N. Gorges, H. Wörn, J.Schill, T. Asfour and R. Dillmann" for entry Navarro
-while executing---line 2659 of file biblatex.bst
-Too many commas in name 1 of "S. E. Navarro, N. Gorges, H. Wörn, J.Schill, T. Asfour and R. Dillmann" for entry Navarro
-while executing---line 2659 of file biblatex.bst
-Too many commas in name 1 of "S. E. Navarro, N. Gorges, H. Wörn, J.Schill, T. Asfour and R. Dillmann" for entry Navarro
-while executing---line 2659 of file biblatex.bst
-Too many commas in name 1 of "S. E. Navarro, N. Gorges, H. Wörn, J.Schill, T. Asfour and R. Dillmann" for entry Navarro
-while executing---line 2659 of file biblatex.bst
-Too many commas in name 1 of "S. E. Navarro, N. Gorges, H. Wörn, J.Schill, T. Asfour and R. Dillmann" for entry Navarro
-while executing---line 2659 of file biblatex.bst
-Too many commas in name 1 of "S. E. Navarro, N. Gorges, H. Wörn, J.Schill, T. Asfour and R. Dillmann" for entry Navarro
-while executing---line 2659 of file biblatex.bst
-Too many commas in name 1 of "S. E. Navarro, N. Gorges, H. Wörn, J.Schill, T. Asfour and R. Dillmann" for entry Navarro
-while executing---line 2659 of file biblatex.bst
-Too many commas in name 1 of "S. E. Navarro, N. Gorges, H. Wörn, J.Schill, T. Asfour and R. Dillmann" for entry Navarro
-while executing---line 2659 of file biblatex.bst
-Too many commas in name 1 of "S. E. Navarro, N. Gorges, H. Wörn, J.Schill, T. Asfour and R. Dillmann" for entry Navarro
-while executing---line 2659 of file biblatex.bst
-Too many commas in name 1 of "S. E. Navarro, N. Gorges, H. Wörn, J.Schill, T. Asfour and R. Dillmann" for entry Navarro
-while executing---line 2659 of file biblatex.bst
-Too many commas in name 1 of "S. E. Navarro, N. Gorges, H. Wörn, J.Schill, T. Asfour and R. Dillmann" for entry Navarro
-while executing---line 2659 of file biblatex.bst
-Too many commas in name 1 of "S. E. Navarro, N. Gorges, H. Wörn, J.Schill, T. Asfour and R. Dillmann" for entry Navarro
-while executing---line 2659 of file biblatex.bst
-Too many commas in name 1 of "S. E. Navarro, N. Gorges, H. Wörn, J.Schill, T. Asfour and R. Dillmann" for entry Navarro
-while executing---line 2659 of file biblatex.bst
-Too many commas in name 1 of "S. E. Navarro, N. Gorges, H. Wörn, J.Schill, T. Asfour and R. Dillmann" for entry Navarro
-while executing---line 2659 of file biblatex.bst
-Name 1 in "Z. Pezzementi, E. Plaku, C. Reyda, and G. D. Hager" has a comma at the end for entry Pezzementi
-while executing---line 2659 of file biblatex.bst
-Name 1 in "Z. Pezzementi, E. Plaku, C. Reyda, and G. D. Hager" has a comma at the end for entry Pezzementi
-while executing---line 2659 of file biblatex.bst
-Name 1 in "Z. Pezzementi, E. Plaku, C. Reyda, and G. D. Hager" has a comma at the end for entry Pezzementi
-while executing---line 2659 of file biblatex.bst
-Name 1 in "Z. Pezzementi, E. Plaku, C. Reyda, and G. D. Hager" has a comma at the end for entry Pezzementi
-while executing---line 2659 of file biblatex.bst
-Name 1 in "Z. Pezzementi, E. Plaku, C. Reyda, and G. D. Hager" has a comma at the end for entry Pezzementi
-while executing---line 2659 of file biblatex.bst
-Name 1 in "Z. Pezzementi, E. Plaku, C. Reyda, and G. D. Hager" has a comma at the end for entry Pezzementi
-while executing---line 2659 of file biblatex.bst
-Name 1 in "Z. Pezzementi, E. Plaku, C. Reyda, and G. D. Hager" has a comma at the end for entry Pezzementi
-while executing---line 2659 of file biblatex.bst
-Name 1 in "Z. Pezzementi, E. Plaku, C. Reyda, and G. D. Hager" has a comma at the end for entry Pezzementi
+Name 3 in "E. Faldella and B. Fringuelli and D. Passeri, and L. Rosi" has a comma at the end for entry Faldella
 while executing---line 2659 of file biblatex.bst
 You've used 13 entries,
             6047 wiz_defined-function locations,
-            1210 strings with 10503 characters,
-and the built_in function-call counts, 35544 in all, are:
-= -- 1170
-> -- 1222
-< -- 338
-+ -- 351
-- -- 471
-* -- 2697
-:= -- 2264
+            1211 strings with 10562 characters,
+and the built_in function-call counts, 40896 in all, are:
+= -- 1233
+> -- 2011
+< -- 299
++ -- 993
+- -- 1127
+* -- 3360
+:= -- 3103
 add.period$ -- 0
 call.type$ -- 13
-change.case$ -- 113
-chr.to.int$ -- 36
+change.case$ -- 88
+chr.to.int$ -- 58
 cite$ -- 24
-duplicate$ -- 4014
-empty$ -- 3862
-format.name$ -- 757
-if$ -- 8063
+duplicate$ -- 4317
+empty$ -- 3965
+format.name$ -- 1048
+if$ -- 8707
 int.to.chr$ -- 0
 int.to.str$ -- 24
 missing$ -- 0
-newline$ -- 290
-num.names$ -- 461
-pop$ -- 3930
+newline$ -- 373
+num.names$ -- 428
+pop$ -- 4014
 preamble$ -- 1
-purify$ -- 144
+purify$ -- 163
 quote$ -- 0
-skip$ -- 2109
+skip$ -- 2207
 stack$ -- 0
-substring$ -- 504
-swap$ -- 1304
-text.length$ -- 360
-text.prefix$ -- 12
+substring$ -- 531
+swap$ -- 1381
+text.length$ -- 348
+text.prefix$ -- 0
 top$ -- 1
 type$ -- 482
 warning$ -- 0
-while$ -- 251
+while$ -- 238
 width$ -- 0
-write$ -- 276
-(There were 243 error messages)
+write$ -- 359
+(There were 20 error messages)

@@ -36,4 +36,3 @@
 \contentsline {subsection}{\numberline {4.4.3}Classifying unseen Objects into Roles}{22}{subsection.62}
 \contentsline {chapter}{\numberline {5}Conclusion}{24}{chapter.64}
 \contentsline {chapter}{\numberline {A}Experimental Instructions}{26}{appendix.65}
-\contentsline {chapter}{Bibliography}{27}{appendix*.67}
