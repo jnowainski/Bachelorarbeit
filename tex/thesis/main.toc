@@ -33,6 +33,6 @@
 \contentsline {section}{\numberline {4.4}Results and Discussion}{18}{section.54}
 \contentsline {subsection}{\numberline {4.4.1}Classifying Data into Object Categories}{18}{subsection.55}
 \contentsline {subsection}{\numberline {4.4.2}Classifying a Single Object as Either Target or Distractor}{21}{subsection.60}
-\contentsline {subsection}{\numberline {4.4.3}Classifying unseen Objects into Roles}{22}{subsection.62}
+\contentsline {subsection}{\numberline {4.4.3}Classifying unknown Objects into Roles}{22}{subsection.62}
 \contentsline {chapter}{\numberline {5}Conclusion}{24}{chapter.64}
 \contentsline {chapter}{\numberline {A}Experimental Instructions}{26}{appendix.65}

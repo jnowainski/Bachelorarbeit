@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.22)  9 NOV 2017 13:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.22)  9 NOV 2017 16:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2354,7 +2354,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 55--59
  []
 
 [15] [16 <./Figures/Pipeline2_.png>]
-<Figures/Zip.png, id=359, 763.85374pt x 255.95625pt>
+<Figures/Zip.png, id=358, 763.85374pt x 255.95625pt>
 File: Figures/Zip.png Graphic file (type png)
  <use Figures/Zip.png>
 Package pdftex.def Info: Figures/Zip.png used on input line 77.
@@ -2520,7 +2520,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 289.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 289.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 289.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 5DC49FBE248B77304438F8616124D718;5378.
+(rerunfilecheck)             Checksum: 09B4D11CD3E7FE2314CA6025CA38B5F2;5383.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
@@ -2533,7 +2533,7 @@ Here is how much of TeX's memory you used:
  36256 multiletter control sequences out of 15000+600000
  46615 words of font info for 83 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,20n,77p,10377b,1855s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 57i,20n,77p,10377b,1853s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texm
 f-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
@@ -2552,7 +2552,7 @@ e/utopia/putr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr
 /share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (31 pages, 17852786 bytes).
+Output written on main.pdf (31 pages, 17852321 bytes).
 PDF statistics:
  548 PDF objects out of 1000 (max. 8388607)
  458 compressed objects within 5 object streams
