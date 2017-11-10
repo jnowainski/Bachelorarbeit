@@ -164,7 +164,7 @@
      {}{}%
      {}{}}%
     {{}%
-     {Schroder}{S.}%
+     {Schröder}{S.}%
      {M.}{M.}%
      {}{}%
      {}{}}%
@@ -234,8 +234,8 @@
      {}{}%
      {}{}}%
     {{}%
-     {J.Schill}{J.}%
-     {}{}%
+     {Schill}{S.}%
+     {J.}{J.}%
      {}{}%
      {}{}}%
     {{}%
@@ -250,7 +250,7 @@
      {}{}}%
   }
   \strng{namehash}{NSEGNWH+1}
-  \strng{fullhash}{NSEGNWHJATDR1}
+  \strng{fullhash}{NSEGNWHSJATDR1}
   \field{title}{Haptic object recognition for multi-fingered robot hands}
   \field{journaltitle}{Haptics Symposium (HAPTICS)}
   \field{year}{2012}

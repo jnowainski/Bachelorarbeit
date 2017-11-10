@@ -46,7 +46,7 @@ In the last step, the extracted data was concatenated and a low dimensional repr
 \begin{figure}[h]
 	%\includegraphics[scale]{Pipeline2}
 	\makebox[\textwidth][c]{\includegraphics[scale=0.53]{Pipeline2_}}
-	\caption{Schematic representation of the complete pipeline}
+	\caption{Schematic representation of the complete pipeline.}
 	\label{pipeline}
 \end{figure}
 
@@ -86,7 +86,7 @@ The solution was to zip the data for all trials as shown in Figure \ref{zip}. Sp
 Method & Specification \\
 \hline\hline
 PCA & 20 principal components \\
-Autoencoder & 2 encoding layers, 20 features, Optimization=Adadelta, Loss=MSE\\
+Autoencoder & 2 encoding layers, Optimization=Adadelta, Loss=MSE (20 features)\\
 Finger Values & Only finger sensors used (41 features) \\
 Sum Of Fingers & Sum of sensors for each finger (5 features) \\
 Max Of Fingers & Max value for each finger (5 features) \\
