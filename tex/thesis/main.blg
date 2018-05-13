@@ -66,14 +66,14 @@ Name 3 in "E. Faldella and B. Fringuelli and D. Passeri, and L. Rosi" has a comm
 while executing---line 2659 of file biblatex.bst
 You've used 13 entries,
             6047 wiz_defined-function locations,
-            1211 strings with 10562 characters,
-and the built_in function-call counts, 40896 in all, are:
+            1211 strings with 10564 characters,
+and the built_in function-call counts, 40900 in all, are:
 = -- 1233
 > -- 2011
 < -- 299
 + -- 993
 - -- 1127
-* -- 3360
+* -- 3364
 := -- 3103
 add.period$ -- 0
 call.type$ -- 13
@@ -89,14 +89,14 @@ int.to.str$ -- 24
 missing$ -- 0
 newline$ -- 373
 num.names$ -- 428
-pop$ -- 4014
+pop$ -- 4012
 preamble$ -- 1
 purify$ -- 163
 quote$ -- 0
 skip$ -- 2207
 stack$ -- 0
 substring$ -- 531
-swap$ -- 1381
+swap$ -- 1383
 text.length$ -- 348
 text.prefix$ -- 0
 top$ -- 1
